@@ -48,21 +48,21 @@ async function initAppPage() {
               <h2>Thông tin nhanh</h2>
             </div>
           </div>
-          <div class="content-block glass">
-            <div class="mini-grid">
-              <div class="mini-stat glass">
+          <div class="content-block glass quick-info-block">
+            <div class="mini-grid quick-info-grid">
+              <div class="mini-stat quick-info-card">
                 <strong>${escapeHTML(app.size)}</strong>
                 <span class="muted">Kích thước</span>
               </div>
-              <div class="mini-stat glass">
+              <div class="mini-stat quick-info-card">
                 <strong>${escapeHTML(app.os)}</strong>
                 <span class="muted">Hỗ trợ</span>
               </div>
-              <div class="mini-stat glass">
+              <div class="mini-stat quick-info-card">
                 <strong>${escapeHTML(app.support)}</strong>
                 <span class="muted">Cài đặt</span>
               </div>
-              <div class="mini-stat glass">
+              <div class="mini-stat quick-info-card">
                 <strong>${escapeHTML(app.rating)}</strong>
                 <span class="muted">Đánh giá</span>
               </div>
