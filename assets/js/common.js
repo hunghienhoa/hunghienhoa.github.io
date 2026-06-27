@@ -1,5 +1,5 @@
 const SITE = {
-  name: "AStore Glass",
+  name: "Tôi Share Mod",
   url: "https://yourusername.github.io/ios-store",
   description: "Kho ứng dụng tĩnh phong cách iOS 18 chạy hoàn toàn bằng HTML, CSS, JavaScript và JSON.",
   pages: {
@@ -84,6 +84,10 @@ function renderShell(page) {
   const header = document.getElementById("site-header");
   const mobileNav = document.getElementById("mobile-nav");
   const footer = document.getElementById("site-footer");
+  const toolLinks = [
+    { href: "#", label: "iPA Sign" },
+    { href: "#", label: "Công cụ 2" }
+  ];
   const mobileLinks = [
     {
       key: "home",
@@ -127,15 +131,36 @@ function renderShell(page) {
   if (header) {
     header.innerHTML = `
       <div class="topbar glass fade-up">
-        <a class="brand" href="index.html" aria-label="AStore Glass">
-          <img src="assets/img/logo-mark.svg" alt="AStore Glass" width="38" height="38" />
-          <span>AStore Glass</span>
+        <div class="topbar-tools" aria-label="Khu công cụ mở rộng">
+          <button class="topbar-icon-button" type="button" data-tools-toggle aria-label="Mở công cụ">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5ZM5 9.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5Zm14 0a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5ZM12 16.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5Z"/></svg>
+          </button>
+          <div class="topbar-tools-list" data-tools-menu>
+            ${toolLinks.map(link => `<a href="${link.href}" class="topbar-tool-link">${link.label}</a>`).join("")}
+          </div>
+        </div>
+        <a class="brand" href="index.html" aria-label="Tôi Share Mod">
+          <img src="assets/img/logo-mark.svg" alt="Tôi Share Mod" width="38" height="38" />
+          <span>Tôi Share Mod</span>
         </a>
         <nav class="desktop-nav" aria-label="Điều hướng chính">
           ${links.map(link => `<a href="${link.href}" class="${page === link.key ? "active" : ""}">${link.label}</a>`).join("")}
         </nav>
         <div class="topbar-actions">
-          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Đổi giao diện">🌙</button>
+          <button class="topbar-menu-button" type="button" data-mobile-menu-toggle aria-label="Mở menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v2H4zm0 6h16v2H4zm0 6h16v2H4z"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="topbar-mobile-panel glass" data-mobile-menu>
+        <div class="topbar-mobile-links">
+          ${links.map(link => `<a href="${link.href}" class="${page === link.key ? "active" : ""}">${link.label}</a>`).join("")}
+        </div>
+        <div class="topbar-mobile-tools">
+          <span class="topbar-mobile-tools-title">Công cụ</span>
+          <div class="topbar-mobile-tools-list">
+            ${toolLinks.map(link => `<a href="${link.href}" class="topbar-tool-link">${link.label}</a>`).join("")}
+          </div>
         </div>
       </div>
     `;
@@ -159,14 +184,35 @@ function renderShell(page) {
     footer.remove();
   }
 
-  const toggle = document.querySelector("[data-theme-toggle]");
-  if (toggle) {
-    toggle.textContent = (document.documentElement.getAttribute("data-theme") || "light") === "dark" ? "☀️" : "🌙";
-    toggle.addEventListener("click", () => {
-      const current = document.documentElement.getAttribute("data-theme") || "light";
-      setTheme(current === "dark" ? "light" : "dark");
+  const toolsToggle = document.querySelector("[data-tools-toggle]");
+  const toolsMenu = document.querySelector("[data-tools-menu]");
+  const mobileMenuToggle = document.querySelector("[data-mobile-menu-toggle]");
+  const mobileMenu = document.querySelector("[data-mobile-menu]");
+
+  if (toolsToggle && toolsMenu) {
+    toolsToggle.addEventListener("click", (event) => {
+      event.stopPropagation();
+      toolsMenu.classList.toggle("open");
     });
   }
+
+  if (mobileMenuToggle && mobileMenu) {
+    mobileMenuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("open");
+      mobileMenuToggle.classList.toggle("active");
+    });
+  }
+
+  document.addEventListener("click", (event) => {
+    if (toolsMenu && toolsToggle && !toolsMenu.contains(event.target) && !toolsToggle.contains(event.target)) {
+      toolsMenu.classList.remove("open");
+    }
+
+    if (mobileMenu && mobileMenuToggle && !mobileMenu.contains(event.target) && !mobileMenuToggle.contains(event.target)) {
+      mobileMenu.classList.remove("open");
+      mobileMenuToggle.classList.remove("active");
+    }
+  });
 }
 
 function appRowTemplate(app) {
