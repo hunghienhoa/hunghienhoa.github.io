@@ -4,6 +4,9 @@ const SITE = {
   description: "Kho ứng dụng tĩnh phong cách iOS 18 chạy hoàn toàn bằng HTML, CSS, JavaScript và JSON.",
   pages: {
     home: "index.html",
+    games: "games.html",
+    apps: "apps.html",
+    search: "search.html",
     app: "app.html",
     download: "download.html",
     blog: "blog.html",
@@ -81,8 +84,43 @@ function renderShell(page) {
   const header = document.getElementById("site-header");
   const mobileNav = document.getElementById("mobile-nav");
   const footer = document.getElementById("site-footer");
+  const mobileLinks = [
+    {
+      key: "home",
+      href: "index.html",
+      label: "Trang chủ",
+      icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-5.5h-5V21H5a1 1 0 0 1-1-1z"/></svg>`
+    },
+    {
+      key: "games",
+      href: "games.html",
+      label: "Trò chơi",
+      icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 8h9a4.5 4.5 0 0 1 4.43 5.3l-.62 3.41A3 3 0 0 1 17.36 19h-1.55a2 2 0 0 1-1.41-.59l-1.34-1.34a1.5 1.5 0 0 0-2.12 0L9.6 18.4A2 2 0 0 1 8.2 19H6.64a3 3 0 0 1-2.95-2.29l-.62-3.4A4.5 4.5 0 0 1 7.5 8Zm.5 2.5h-1.5V12H5v1.5h1.5V15H8v-1.5h1.5V12H8Zm8.25 1.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.75 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg>`
+    },
+    {
+      key: "apps",
+      href: "apps.html",
+      label: "Ứng dụng",
+      icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm8 0h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2ZM5 11h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2Zm8 4h8v2h-8z"/></svg>`
+    },
+    {
+      key: "search",
+      href: "search.html",
+      label: "Tìm kiếm",
+      icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13Zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm8.9 11.5 1.4 1.4-2 2-1.4-1.4-2.15-2.15 2-2z"/></svg>`
+    },
+    {
+      key: "blog",
+      href: "blog.html",
+      label: "Blog",
+      icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h9a3 3 0 0 1 3 3v13H8a4 4 0 0 0-2 .54A2.5 2.5 0 0 1 4 18.1V6a2 2 0 0 1 2-2Zm3 4v2h6V8Zm0 4v2h6v-2ZM6 8h1.5v1.5H6Zm0 4h1.5v1.5H6Z"/></svg>`
+    }
+  ];
   const links = [
     { key: "home", href: "index.html", label: "Trang chủ" },
+    { key: "games", href: "games.html", label: "Trò chơi" },
+    { key: "apps", href: "apps.html", label: "Ứng dụng" },
+    { key: "search", href: "search.html", label: "Tìm kiếm" },
     { key: "blog", href: "blog.html", label: "Blog" }
   ];
 
@@ -107,20 +145,18 @@ function renderShell(page) {
     mobileNav.className = "mobile-nav glass";
     mobileNav.innerHTML = `
       <nav aria-label="Điều hướng nhanh">
-        <a href="index.html" class="${page === "home" ? "active" : ""}">Khám phá</a>
-        <a href="blog.html" class="${page === "blog" ? "active" : ""}">Blog</a>
-        <a href="index.html#search" class="${page === "search" ? "active" : ""}">Tìm kiếm</a>
-        <a href="download.html?id=dragon-ball-legends" class="${page === "download" ? "active" : ""}">Tải về</a>
+        ${mobileLinks.map(link => `
+          <a href="${link.href}" class="${page === link.key ? "active" : ""}">
+            <span class="mobile-nav-icon">${link.icon}</span>
+            <span class="mobile-nav-label">${link.label}</span>
+          </a>
+        `).join("")}
       </nav>
     `;
   }
 
   if (footer) {
-    footer.className = "footer glass";
-    footer.innerHTML = `
-      <p>Thiết kế static iOS 18, chạy tốt trên GitHub Pages, không cần backend.</p>
-      <p>Dữ liệu được render từ <code>data/apps.json</code> và <code>data/posts.json</code>.</p>
-    `;
+    footer.remove();
   }
 
   const toggle = document.querySelector("[data-theme-toggle]");
@@ -153,6 +189,22 @@ function appRowTemplate(app) {
       </div>
     </article>
   `;
+}
+
+function categoryIntro(type) {
+  return type === "game"
+    ? {
+        page: "games",
+        title: "Trò chơi",
+        description: "Toàn bộ trò chơi được lọc riêng để người dùng điện thoại duyệt nhanh hơn.",
+        lead: "Danh sách game tối ưu cho thao tác chạm, hiển thị gọn và không bị khuyết nội dung."
+      }
+    : {
+        page: "apps",
+        title: "Ứng dụng",
+        description: "Toàn bộ ứng dụng utility, productivity và media trong một màn hình riêng.",
+        lead: "Danh sách app được trình bày riêng để người dùng tìm đúng nội dung nhanh hơn trên điện thoại."
+      };
 }
 
 function featureCardTemplate(app) {

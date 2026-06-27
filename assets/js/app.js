@@ -24,11 +24,10 @@ async function initAppPage() {
             <p class="detail-subtitle">${escapeHTML(app.subtitle)}</p>
             <div class="detail-actions">
               <a class="btn btn-primary" href="download.html?id=${encodeURIComponent(app.id)}">Tải xuống</a>
-              <a class="btn btn-secondary" href="blog.html">Xem blog</a>
             </div>
           </div>
         </div>
-        <div class="stat-grid" style="margin-top:22px;">
+        <div class="stat-grid app-stat-row" style="margin-top:22px;">
           <div class="stat-card glass">
             <strong>${escapeHTML(app.version)}</strong>
             <span class="muted">Phiên bản</span>
@@ -46,11 +45,28 @@ async function initAppPage() {
         <section class="section">
           <div class="section-head">
             <div>
-              <h2>Mô tả ứng dụng</h2>
+              <h2>Thông tin nhanh</h2>
             </div>
           </div>
           <div class="content-block glass">
-            <p class="article-lead">${escapeHTML(app.description)}</p>
+            <div class="mini-grid">
+              <div class="mini-stat glass">
+                <strong>${escapeHTML(app.size)}</strong>
+                <span class="muted">Kích thước</span>
+              </div>
+              <div class="mini-stat glass">
+                <strong>${escapeHTML(app.os)}</strong>
+                <span class="muted">Hỗ trợ</span>
+              </div>
+              <div class="mini-stat glass">
+                <strong>${escapeHTML(app.support)}</strong>
+                <span class="muted">Cài đặt</span>
+              </div>
+              <div class="mini-stat glass">
+                <strong>${escapeHTML(app.rating)}</strong>
+                <span class="muted">Đánh giá</span>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -64,6 +80,17 @@ async function initAppPage() {
             <ul class="feature-list">
               ${app.features.map((feature) => `<li>${escapeHTML(feature)}</li>`).join("")}
             </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2>Mô tả ứng dụng</h2>
+            </div>
+          </div>
+          <div class="content-block glass">
+            <p class="article-lead">${escapeHTML(app.description)}</p>
           </div>
         </section>
 
@@ -87,31 +114,6 @@ async function initAppPage() {
       </section>
 
       <aside class="side-stack">
-        <section class="detail-card glass fade-up">
-          <div class="section-head">
-            <div>
-              <h2>Thông tin nhanh</h2>
-            </div>
-          </div>
-          <div class="mini-grid">
-            <div class="mini-stat glass">
-              <strong>${escapeHTML(app.size)}</strong>
-              <span class="muted">Kích thước</span>
-            </div>
-            <div class="mini-stat glass">
-              <strong>${escapeHTML(app.os)}</strong>
-              <span class="muted">Hỗ trợ</span>
-            </div>
-            <div class="mini-stat glass">
-              <strong>${escapeHTML(app.support)}</strong>
-              <span class="muted">Cài đặt</span>
-            </div>
-            <div class="mini-stat glass">
-              <strong>${escapeHTML(app.rating)}</strong>
-              <span class="muted">Đánh giá</span>
-            </div>
-          </div>
-        </section>
         <section class="detail-card glass fade-up">
           <div class="section-head">
             <div>

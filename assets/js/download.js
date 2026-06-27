@@ -15,6 +15,9 @@ async function initDownloadPage() {
   root.innerHTML = `
     <div class="download-grid">
       <section class="download-card glass fade-up">
+        <div class="page-backbar">
+          <a class="back-link" href="app.html?id=${encodeURIComponent(app.id)}">← Quay lại chi tiết</a>
+        </div>
         <div class="download-head">
           <img src="${app.icon}" alt="${escapeHTML(app.name)}" width="96" height="96" />
           <div>
@@ -47,7 +50,6 @@ async function initDownloadPage() {
           </div>
           <div class="download-actions">
             <button class="btn btn-primary" id="download-button" type="button">Download IPA</button>
-            <a class="btn btn-secondary" href="app.html?id=${encodeURIComponent(app.id)}">Quay lại chi tiết</a>
           </div>
           <div class="progress" aria-label="Tiến trình tải">
             <span id="progress-bar"></span>

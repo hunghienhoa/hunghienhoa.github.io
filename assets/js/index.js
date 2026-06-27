@@ -53,27 +53,7 @@ async function initHome() {
     .join("");
 
   const list = document.getElementById("app-list");
-  const count = document.getElementById("search-count");
-  const searchInput = document.getElementById("search-input");
-
-  const renderList = (keyword = "") => {
-    const query = keyword.trim().toLowerCase();
-    const filtered = apps.filter((app) => {
-      return [app.name, app.subtitle, app.version, app.category, app.developer]
-        .join(" ")
-        .toLowerCase()
-        .includes(query);
-    });
-
-    list.innerHTML = filtered.length
-      ? filtered.map(appRowTemplate).join("")
-      : `<div class="empty-state glass">Không tìm thấy ứng dụng phù hợp với từ khóa "${escapeHTML(keyword)}".</div>`;
-
-    count.textContent = `${filtered.length} ứng dụng`;
-  };
-
-  renderList();
-  searchInput.addEventListener("input", (event) => renderList(event.target.value));
+  list.innerHTML = apps.map(appRowTemplate).join("");
 
   const homeBlog = document.getElementById("home-blog");
   homeBlog.innerHTML = posts.slice(0, 3).map(blogCardTemplate).join("");
