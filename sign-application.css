@@ -22,6 +22,19 @@ body.sa-standalone{
   padding:28px 0 34px;
   display:grid;
   gap:18px;
+  font-family: inherit;
+}
+
+.sa-signer button,
+.sa-signer input,
+.sa-signer label,
+.sa-signer h1,
+.sa-signer h2,
+.sa-signer p,
+.sa-signer a,
+.sa-signer span,
+.sa-signer div{
+  font-family: inherit;
 }
 
 .sa-card,
