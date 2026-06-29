@@ -216,27 +216,43 @@ function renderShell(page) {
 
 function appRowTemplate(app, options = {}) {
   const showCounters = options.showCounters !== false;
+  const compact = options.compact === true;
   return `
-    <article class="app-row glass fade-up" aria-label="${escapeHTML(app.name)}">
+    <article class="app-row glass fade-up ${compact ? "app-row-compact" : ""}" aria-label="${escapeHTML(app.name)}">
       <a href="app.html?id=${encodeURIComponent(app.id)}" aria-label="${escapeHTML(app.name)}">
         <img src="${app.icon}" alt="${escapeHTML(app.name)}" width="74" height="74" loading="lazy" />
       </a>
       <div>
-        <a class="title" href="app.html?id=${encodeURIComponent(app.id)}">${escapeHTML(app.name)}</a>
-        <div class="meta">${escapeHTML(app.subtitle)}</div>
-        <div class="meta-line">
-          <span>v${escapeHTML(app.version)}</span>
-          <span>${escapeHTML(app.size)}</span>
-          <span>${escapeHTML(app.os)}</span>
-        </div>
-        ${showCounters ? `
-        <div class="meta-line app-counter-line">
-          <span><span data-counter-field="views" data-app-id="${escapeHTML(app.id)}">${escapeHTML(app.views || "0")}</span> lượt xem</span>
-          <span><span data-counter-field="downloads" data-app-id="${escapeHTML(app.id)}">0</span> lượt tải</span>
-        </div>` : ""}
+        ${compact ? `
+          <div class="compact-copy">
+            <a class="compact-title" href="app.html?id=${encodeURIComponent(app.id)}">${escapeHTML(app.name)}</a>
+            <strong class="compact-size-value">${escapeHTML(app.size)}</strong>
+          </div>
+        ` : `
+          <a class="title" href="app.html?id=${encodeURIComponent(app.id)}">${escapeHTML(app.name)}</a>
+          <div class="meta">${escapeHTML(app.subtitle)}</div>
+          <div class="meta-line">
+            <span>v${escapeHTML(app.version)}</span>
+            <span>${escapeHTML(app.size)}</span>
+            <span>${escapeHTML(app.os)}</span>
+          </div>
+          ${showCounters ? `
+          <div class="meta-line app-counter-line">
+            <span><span data-counter-field="views" data-app-id="${escapeHTML(app.id)}">${escapeHTML(app.views || "0")}</span> lượt xem</span>
+            <span><span data-counter-field="downloads" data-app-id="${escapeHTML(app.id)}">0</span> lượt tải</span>
+          </div>` : ""}
+        `}
       </div>
       <div class="card-actions">
-        <a class="btn btn-primary btn-download-compact" href="download.html?id=${encodeURIComponent(app.id)}">Tải xuống</a>
+        <a class="btn btn-primary btn-download-compact" href="download.html?id=${encodeURIComponent(app.id)}" aria-label="Tải xuống ${escapeHTML(app.name)}">
+          <span class="btn-download-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 4v10" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" />
+              <path d="m7.5 10.5 4.5 4.5 4.5-4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M5 19h14" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" />
+            </svg>
+          </span>
+        </a>
       </div>
     </article>
   `;

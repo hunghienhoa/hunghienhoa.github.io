@@ -597,15 +597,45 @@ input {
   border-radius: 28px;
 }
 
+.app-row-compact {
+  gap: 14px;
+  padding: 14px 16px;
+}
+
 .app-row img {
   width: 74px;
   height: 74px;
   border-radius: 22px;
 }
 
+.app-row-compact img {
+  width: 88px;
+  height: 88px;
+  border-radius: 24px;
+}
+
 .app-row .title {
   font-size: 1.08rem;
   font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.compact-copy {
+  display: grid;
+  gap: 4px;
+  align-content: center;
+}
+
+.compact-title {
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.compact-size-value {
+  font-size: 1.02rem;
   letter-spacing: -0.03em;
 }
 
@@ -616,6 +646,20 @@ input {
   justify-content: flex-end;
 }
 
+.app-row-compact .card-actions .btn-download-compact {
+  width: 54px;
+  min-width: 54px;
+  height: 54px;
+  padding: 0;
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 26px rgba(10, 132, 255, 0.22);
+  position: relative;
+  overflow: hidden;
+}
+
 .btn-download-compact {
   height: 38px;
   padding: 0 14px;
@@ -623,6 +667,41 @@ input {
   border-radius: 999px;
   box-shadow: 0 10px 22px rgba(10, 132, 255, 0.18);
   white-space: nowrap;
+}
+
+.btn-download-icon {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  transition: transform 180ms ease;
+}
+
+.btn-download-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-download-compact:hover .btn-download-icon {
+  transform: translateY(2px) scale(1.08);
+}
+
+.btn-download-compact:active .btn-download-icon {
+  transform: translateY(3px) scale(0.96);
+}
+
+.btn-download-compact::after {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(circle, rgba(255,255,255,0.22), transparent 55%);
+  transform: scale(0.5);
+  opacity: 0;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.btn-download-compact:hover::after {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .meta-line {
@@ -1334,10 +1413,20 @@ input {
     border-radius: 24px;
   }
 
+  .app-row-compact {
+    grid-template-columns: 88px minmax(0, 1fr) auto;
+  }
+
   .app-row img {
     width: 64px;
     height: 64px;
     border-radius: 18px;
+  }
+
+  .app-row-compact img {
+    width: 88px;
+    height: 88px;
+    border-radius: 22px;
   }
 
   .app-row .title {
@@ -1670,5 +1759,13 @@ input {
     height: 34px;
     padding: 0 12px;
     font-size: 0.78rem;
+  }
+
+  .compact-title {
+    font-size: 0.96rem;
+  }
+
+  .compact-size-value {
+    font-size: 0.92rem;
   }
 }
