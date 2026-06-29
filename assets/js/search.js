@@ -49,6 +49,10 @@ async function initSearchPage() {
     results.innerHTML = filtered.length
       ? filtered.map(appRowTemplate).join("")
       : `<div class="empty-state glass">Không tìm thấy kết quả phù hợp với từ khóa "${escapeHTML(keyword)}".</div>`;
+
+    if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
+      window.RtdbCounters.bindCounterElements(results);
+    }
   };
 
   renderResults();

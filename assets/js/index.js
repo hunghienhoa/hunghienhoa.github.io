@@ -32,6 +32,10 @@ async function initHome() {
 
   const homeBlog = document.getElementById("home-blog");
   homeBlog.innerHTML = posts.slice(0, 3).map(blogCardTemplate).join("");
+
+  if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
+    window.RtdbCounters.bindCounterElements(document);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", initHome);

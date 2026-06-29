@@ -36,6 +36,10 @@ async function initCategoryPage() {
       </div>
     </section>
   `;
+
+  if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
+    window.RtdbCounters.bindCounterElements(root);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", initCategoryPage);

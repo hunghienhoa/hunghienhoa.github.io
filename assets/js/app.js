@@ -37,8 +37,12 @@ async function initAppPage() {
             <span class="muted">Ngày cập nhật</span>
           </div>
           <div class="stat-card glass">
-            <strong>${escapeHTML(app.views)}</strong>
+            <strong id="rtdb-views">${escapeHTML(app.views)}</strong>
             <span class="muted">Lượt xem</span>
+          </div>
+          <div class="stat-card glass">
+            <strong id="rtdb-downloads">0</strong>
+            <span class="muted">Lượt tải</span>
           </div>
         </div>
 
@@ -135,6 +139,16 @@ async function initAppPage() {
       track.scrollBy({ left: direction * 320, behavior: "smooth" });
     });
   });
+
+  // Firebase RTDB counters (nếu cấu hình)
+  if (window.RtdbCounters) {
+    if (window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
+      window.RtdbCounters.incrementView(app.id);
+      window.RtdbCounters.watchViews(app.id, "rtdb-views");
+      window.RtdbCounters.watchDownloads(app.id, "rtdb-downloads");
+      window.RtdbCounters.bindCounterElements(root);
+    }
+  }
 }
 
 document.addEventListener("DOMContentLoaded", initAppPage);

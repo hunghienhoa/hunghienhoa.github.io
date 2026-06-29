@@ -337,20 +337,20 @@ input {
   gap: 8px;
   padding: 8px 12px;
   border-radius: 999px;
-  /* Giảm "chói" một chút nhưng vẫn nổi bật */
+  /* Làm nhạt thêm nhưng vẫn đủ nổi */
   background: linear-gradient(
     135deg,
-    color-mix(in srgb, var(--primary) 86%, transparent),
-    color-mix(in srgb, var(--primary-2) 86%, transparent)
+    color-mix(in srgb, var(--primary) 50%, transparent),
+    color-mix(in srgb, var(--primary-2) 50%, transparent)
   );
-  color: #fff;
+  color: rgba(255, 255, 255, 0.92);
   font-size: 0.88rem;
   font-weight: 800;
   letter-spacing: -0.01em;
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow:
-    0 10px 22px rgba(10, 132, 255, 0.16),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    0 7px 16px rgba(10, 132, 255, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 .hero-title {
@@ -634,6 +634,12 @@ input {
   margin-top: 8px;
 }
 
+.app-counter-line {
+  margin-top: 6px;
+  font-size: 0.86rem;
+  gap: 8px 12px;
+}
+
 .pill {
   display: inline-flex;
   align-items: center;
@@ -737,7 +743,8 @@ input {
 }
 
 .app-stat-row {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* 4 ô (phiên bản, cập nhật, lượt xem, lượt tải) -> 2 cột cho cân */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -1202,7 +1209,7 @@ input {
   }
 
   .app-stat-row {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
 
@@ -1542,7 +1549,7 @@ input {
   }
 
   .app-stat-row {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .app-stat-row .stat-card:last-child {

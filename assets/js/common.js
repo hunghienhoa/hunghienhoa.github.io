@@ -228,6 +228,10 @@ function appRowTemplate(app) {
           <span>${escapeHTML(app.size)}</span>
           <span>${escapeHTML(app.os)}</span>
         </div>
+        <div class="meta-line app-counter-line">
+          <span><span data-counter-field="views" data-app-id="${escapeHTML(app.id)}">${escapeHTML(app.views || "0")}</span> lượt xem</span>
+          <span><span data-counter-field="downloads" data-app-id="${escapeHTML(app.id)}">0</span> lượt tải</span>
+        </div>
       </div>
       <div class="card-actions">
         <a class="btn btn-primary btn-download-compact" href="download.html?id=${encodeURIComponent(app.id)}">Tải xuống</a>

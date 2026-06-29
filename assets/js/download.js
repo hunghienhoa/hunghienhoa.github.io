@@ -89,7 +89,10 @@ async function initDownloadPage() {
                 <div class="meta">${escapeHTML(app.developer)}</div>
                 <div class="meta-line">
                   <span>${escapeHTML(app.updated)}</span>
-                  <span>${escapeHTML(app.views)}</span>
+                  <span><span id="rtdb-views">${escapeHTML(app.views)}</span> lượt xem</span>
+                </div>
+                <div class="meta-line">
+                  <span><span id="rtdb-downloads">0</span> lượt tải</span>
                 </div>
               </div>
             </article>
@@ -135,6 +138,9 @@ async function initDownloadPage() {
       if (progress >= 100) {
         window.clearInterval(timer);
         text.textContent = "Hoàn tất. Đang mở liên kết tải mẫu.";
+        if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
+          window.RtdbCounters.incrementDownload(app.id);
+        }
         window.open(app.downloadUrl, "_blank", "noopener");
         button.disabled = false;
         setTimeout(() => {
@@ -144,6 +150,13 @@ async function initDownloadPage() {
       }
     }, 180);
   });
+
+  // Firebase RTDB counters (nếu cấu hình)
+  if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
+    window.RtdbCounters.watchViews(app.id, "rtdb-views");
+    window.RtdbCounters.watchDownloads(app.id, "rtdb-downloads");
+    window.RtdbCounters.bindCounterElements(root);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", initDownloadPage);
