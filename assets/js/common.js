@@ -85,7 +85,7 @@ function renderShell(page) {
   const mobileNav = document.getElementById("mobile-nav");
   const footer = document.getElementById("site-footer");
   const toolLinks = [
-    { href: "https://hunghienhoa.github.io/sign-application.html", label: "iPA Sign" },
+    { href: "./sign-application.html", label: "iPA Sign" },
     { href: "#", label: "Công cụ 2" }
   ];
   const mobileLinks = [
