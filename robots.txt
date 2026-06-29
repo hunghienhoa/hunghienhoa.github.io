@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourusername.github.io/ios-store/sitemap.xml
+Sitemap: https://toisharemod.github.io/sitemap.xml

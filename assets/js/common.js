@@ -1,6 +1,6 @@
 const SITE = {
   name: "Tôi Share Mod",
-  url: "https://yourusername.github.io/ios-store",
+  url: "https://toisharemod.github.io",
   description: "Kho ứng dụng tĩnh phong cách iOS 18 chạy hoàn toàn bằng HTML, CSS, JavaScript và JSON.",
   pages: {
     home: "index.html",
