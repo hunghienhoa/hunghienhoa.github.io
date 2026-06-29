@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hướng dẫn chỉnh sửa website | Tôi Share Mod</title>
+    <meta
+      name="description"
+      content="Hướng dẫn chỉnh sửa từng mục trong website Tôi Share Mod: trò chơi nổi bật, ứng dụng nổi bật, blog và cách thêm công cụ vào thanh công cụ."
+    />
+    <meta property="og:title" content="Hướng dẫn chỉnh sửa website | Tôi Share Mod" />
+    <meta
+      property="og:description"
+      content="Trò chơi nổi bật, ứng dụng nổi bật, đăng bài blog, thêm công cụ (iPA Sign) và cách mở rộng menu."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="assets/img/logo-mark.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <style>
+      .guide {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      .guide .card {
+        padding: 22px 20px;
+        border-radius: 28px;
+        margin-bottom: 14px;
+      }
+      .guide h1 {
+        margin: 10px 0 8px;
+        letter-spacing: -0.05em;
+        line-height: 1;
+        font-size: clamp(2rem, 6vw, 3.2rem);
+      }
+      .guide h2 {
+        margin: 0 0 8px;
+        letter-spacing: -0.04em;
+        font-size: 1.35rem;
+      }
+      .guide h3 {
+        margin: 18px 0 8px;
+        letter-spacing: -0.03em;
+        font-size: 1.05rem;
+      }
+      .guide p,
+      .guide li {
+        line-height: 1.8;
+      }
+      .guide code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.95em;
+      }
+      .guide pre {
+        margin: 14px 0 0;
+        padding: 16px;
+        overflow: auto;
+        border-radius: 20px;
+        background: rgba(15, 23, 42, 0.92);
+        color: #e2e8f0;
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        line-height: 1.65;
+        font-size: 0.92rem;
+      }
+      .guide .two {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+      @media (max-width: 768px) {
+        .guide .two {
+          grid-template-columns: 1fr;
+        }
+      }
+      .guide .k {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body data-page="tool">
+    <div class="page-shell guide">
+      <header id="site-header"></header>
+      <main>
+        <section class="hero-card fade-up" style="min-height: unset;">
+          <span class="hero-tag">Tài liệu quản trị</span>
+          <h1>Hướng dẫn chỉnh sửa website</h1>
+          <p class="hero-text">
+            Website này chạy 100% tĩnh (GitHub Pages). Bạn chỉ cần sửa file JSON và vài đoạn cấu hình ở
+            <code>assets/js/common.js</code> là có thể thay đổi toàn bộ nội dung.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Cấu trúc dữ liệu</h2>
+            <div class="two">
+              <div class="glass card" style="margin: 0;">
+                <h3>Ứng dụng và trò chơi</h3>
+                <p class="k"><code>data/apps.json</code> là nguồn dữ liệu duy nhất cho app/game.</p>
+                <ul>
+                  <li>Một app = một object trong mảng JSON.</li>
+                  <li>Dùng <code>category</code> để phân loại: <code>game</code> hoặc <code>app</code>.</li>
+                </ul>
+              </div>
+              <div class="glass card" style="margin: 0;">
+                <h3>Bài blog</h3>
+                <p class="k"><code>data/posts.json</code> là nguồn dữ liệu cho blog và bài viết.</p>
+                <ul>
+                  <li>Trang blog đọc danh sách bài.</li>
+                  <li>Trang bài viết mở theo URL <code>article.html?id=...</code>.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Trò chơi nổi bật</h2>
+            <p>
+              Mục <code>Trò chơi nổi bật</code> (trang chủ) và tab <code>Trò chơi</code> được lấy từ các app có:
+              <code>"category": "game"</code>.
+            </p>
+            <h3>Cách chọn game “nổi bật”</h3>
+            <p>
+              Trang chủ đang render mục “Trò chơi nổi bật” từ các app có <code>"featuredGame": true</code>.
+              Bạn chỉ cần bật/tắt cờ này trong <code>data/apps.json</code>.
+            </p>
+            <pre><code>{
+  "id": "ten-game",
+  "category": "game",
+  "featuredGame": true
+}</code></pre>
+            <p class="k">Gợi ý: nếu muốn game nào lên trước, hãy đưa object đó lên trên trong file JSON.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Ứng dụng nổi bật</h2>
+            <p>
+              Mục <code>Ứng dụng nổi bật</code> được lấy từ các app có <code>"featuredApp": true</code> và
+              <code>"category": "app"</code>.
+            </p>
+            <pre><code>{
+  "id": "ten-app",
+  "category": "app",
+  "featuredApp": true
+}</code></pre>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Có gì mới</h2>
+            <p>Mục <code>Có gì mới</code> lấy theo cờ <code>"isNew": true</code> trong <code>data/apps.json</code>.</p>
+            <pre><code>{
+  "id": "ten-app",
+  "isNew": true,
+  "updated": "29/06/2026",
+  "version": "1.0.1"
+}</code></pre>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Đăng bài blog</h2>
+            <p>
+              Bạn thêm bài mới bằng cách thêm một object vào <code>data/posts.json</code>. Sau đó mở:
+              <code>blog.html</code> để thấy bài mới và <code>article.html?id=slug</code> để xem trang chi tiết.
+            </p>
+            <h3>Mẫu object bài viết</h3>
+            <pre><code>{
+  "id": "huong-dan-cai-ipa",
+  "title": "Hướng dẫn cài IPA",
+  "excerpt": "Mô tả ngắn hiển thị ở trang blog.",
+  "date": "29/06/2026",
+  "dateIso": "2026-06-29",
+  "thumbnail": "assets/img/ten-anh-thumb.jpg",
+  "cover": "assets/img/ten-anh-cover.jpg",
+  "author": "Admin",
+  "readTime": "5 phút đọc",
+  "category": "Hướng dẫn",
+  "related": ["seo-github-pages"],
+  "content": "\\n&lt;p&gt;Nội dung HTML của bài viết.&lt;/p&gt;\\n&lt;h2&gt;Mục 1&lt;/h2&gt;\\n&lt;p&gt;...&lt;/p&gt;\\n"
+}</code></pre>
+            <h3>Ảnh thumbnail/cover</h3>
+            <ul>
+              <li>Chép ảnh vào <code>assets/img/</code></li>
+              <li>Điền đường dẫn vào <code>thumbnail</code> và <code>cover</code></li>
+            </ul>
+            <p class="k">Bạn có thể xem thêm file: <code>huong-dan-dang-bai-viet.html</code> nếu cần chi tiết hơn.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Thêm công cụ trên thanh công cụ</h2>
+            <p>
+              Menu công cụ ở topbar đang được cấu hình trong <code>assets/js/common.js</code> (biến
+              <code>toolLinks</code>). Bạn chỉ cần thêm/sửa link trong mảng này.
+            </p>
+            <pre><code>const toolLinks = [
+  { href: "sign-application.html", label: "iPA Sign" },
+  { href: "#", label: "Công cụ 2" }
+];</code></pre>
+            <h3>Cách thêm trang công cụ mới</h3>
+            <ol>
+              <li>Tạo file mới, ví dụ: <code>tool-xyz.html</code> (đặt ở thư mục gốc).</li>
+              <li>Nếu có CSS riêng, tạo <code>tool-xyz.css</code>.</li>
+              <li>Thêm vào <code>toolLinks</code> để hiện trong menu.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Gắn giao diện web chính cho công cụ</h2>
+            <p>
+              Với các trang công cụ (ví dụ <code>sign-application.html</code>), bạn nên giữ đủ giao diện web chính:
+              header (topbar) và thanh điều hướng dưới (mobile nav). Website đang dùng <code>renderShell()</code> để
+              tự render phần này.
+            </p>
+            <h3>Mẫu khung chuẩn nên dùng</h3>
+            <pre><code>&lt;link rel="stylesheet" href="assets/css/styles.css" /&gt;
+&lt;!-- CSS riêng của công cụ --&gt;
+&lt;link rel="stylesheet" href="tool-xyz.css" /&gt;
+
+&lt;body data-page="tool"&gt;
+  &lt;div class="page-shell"&gt;
+    &lt;header id="site-header"&gt;&lt;/header&gt;
+    &lt;main&gt;... nội dung công cụ ...&lt;/main&gt;
+    &lt;footer id="site-footer"&gt;&lt;/footer&gt;
+  &lt;/div&gt;
+  &lt;div id="mobile-nav"&gt;&lt;/div&gt;
+  &lt;script src="assets/js/common.js"&gt;&lt;/script&gt;
+  &lt;script&gt;document.addEventListener("DOMContentLoaded", () =&gt; renderShell("tool"));&lt;/script&gt;
+&lt;/body&gt;</code></pre>
+            <p class="k">
+              Mình đã áp dụng đúng khung này cho <code>sign-application.html</code> để khi mở công cụ vẫn có đủ header
+              và thanh dưới như trang chủ.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="card glass">
+            <h2>Cập nhật sitemap</h2>
+            <p>
+              Nếu bạn muốn SEO tốt hơn, khi thêm trang mới (ví dụ <code>sign-application.html</code> hoặc blog mới) bạn
+              có thể thêm URL vào <code>sitemap.xml</code>.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer id="site-footer"></footer>
+    </div>
+    <div id="mobile-nav"></div>
+    <script src="assets/js/common.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        renderShell("tool");
+      });
+    </script>
+  </body>
+</html>
+

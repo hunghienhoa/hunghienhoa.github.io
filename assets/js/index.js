@@ -10,33 +10,6 @@ async function initHome() {
     image: featured.icon
   });
 
-  const hero = document.getElementById("home-hero");
-  hero.innerHTML = `
-    <section class="hero-card fade-up">
-      <span class="hero-tag">${escapeHTML(featured.heroTag)} • v${escapeHTML(featured.version)}</span>
-      <h1 class="hero-title">${escapeHTML(featured.name)}</h1>
-      <p class="hero-text">${escapeHTML(featured.description)}</p>
-      <div class="hero-actions">
-        <a class="btn btn-secondary" href="app.html?id=${encodeURIComponent(featured.id)}">Chi tiết ứng dụng</a>
-        <a class="btn btn-primary" href="download.html?id=${encodeURIComponent(featured.id)}">Tải IPA</a>
-      </div>
-      <div class="hero-meta">
-        <div class="meta-item">
-          <strong>${escapeHTML(featured.size)}</strong>
-          <span>Kích thước</span>
-        </div>
-        <div class="meta-item">
-          <strong>${escapeHTML(featured.updatedRelative)}</strong>
-          <span>Cập nhật</span>
-        </div>
-        <div class="meta-item">
-          <strong>${escapeHTML(featured.views)}</strong>
-          <span>Lượt xem</span>
-        </div>
-      </div>
-    </section>
-  `;
-
   document.getElementById("featured-games").innerHTML = apps
     .filter((app) => app.featuredGame)
     .map(featureCardTemplate)

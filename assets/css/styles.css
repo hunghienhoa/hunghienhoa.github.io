@@ -625,9 +625,9 @@ input {
   align-items: center;
 }
 
-.detail-head>div,
-.download-head>div,
-.app-row>div,
+.detail-head > div,
+.download-head > div,
+.app-row > div,
 .content-block,
 .mini-stat,
 .stat-card,
@@ -997,7 +997,6 @@ input {
     opacity: 0;
     transform: translateY(12px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1005,7 +1004,6 @@ input {
 }
 
 @media (max-width: 1023px) {
-
   .detail-grid,
   .download-grid {
     grid-template-columns: 1fr;
@@ -1194,7 +1192,7 @@ input {
     scroll-snap-type: x mandatory;
   }
 
-  .shelf>* {
+  .shelf > * {
     scroll-snap-align: start;
   }
 
