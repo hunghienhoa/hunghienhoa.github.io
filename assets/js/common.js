@@ -85,8 +85,7 @@ function renderShell(page) {
   const mobileNav = document.getElementById("mobile-nav");
   const footer = document.getElementById("site-footer");
   const toolLinks = [
-    { href: "sign-application.html", label: "iPA Sign" },
-    { href: "#", label: "Công cụ 2" }
+    { href: "sign-application.html", label: "iPA Sign" }
   ];
   const mobileLinks = [
     {
@@ -231,7 +230,7 @@ function appRowTemplate(app) {
         </div>
       </div>
       <div class="card-actions">
-        <a class="btn btn-primary" href="download.html?id=${encodeURIComponent(app.id)}">Tải xuống</a>
+        <a class="btn btn-primary btn-download-compact" href="download.html?id=${encodeURIComponent(app.id)}">Tải xuống</a>
       </div>
     </article>
   `;
@@ -261,7 +260,7 @@ function featureCardTemplate(app) {
         <h3 style="margin: 16px 0 8px; font-size: 1.4rem;">${escapeHTML(app.name)}</h3>
         <p>${escapeHTML(app.subtitle)}</p>
       </div>
-      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+      <div class="feature-card-foot">
         <img src="${app.icon}" alt="${escapeHTML(app.name)}" width="68" height="68" loading="lazy" />
         <a class="btn btn-secondary" href="app.html?id=${encodeURIComponent(app.id)}">Xem chi tiết</a>
       </div>

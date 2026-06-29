@@ -317,8 +317,8 @@ input {
   filter: blur(16px);
 }
 
-.hero-tag,
-.chip {
+/* Badge/Chip */
+.hero-tag {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -328,6 +328,29 @@ input {
   color: inherit;
   font-size: 0.88rem;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Làm chip nổi bật hơn (áp dụng cho tất cả chip như Game nổi bật, Tiện ích...) */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  /* Giảm "chói" một chút nhưng vẫn nổi bật */
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--primary) 86%, transparent),
+    color-mix(in srgb, var(--primary-2) 86%, transparent)
+  );
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    0 10px 22px rgba(10, 132, 255, 0.16),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
 .hero-title {
@@ -465,8 +488,18 @@ input {
   grid-auto-columns: minmax(260px, 320px);
   gap: 16px;
   overflow-x: auto;
-  padding-bottom: 4px;
+  overflow-y: visible;
+  padding: 8px 4px 18px;
   scrollbar-width: none;
+}
+
+.shelf-grid {
+  grid-auto-flow: row;
+  grid-auto-columns: initial;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  overflow: visible;
+  padding: 4px 0 0;
 }
 
 .shelf::-webkit-scrollbar {
@@ -485,11 +518,37 @@ input {
   padding: 18px;
 }
 
+/* Fix Safari/iOS: backdrop-filter + overflow container can cause clipped corners.
+   Keep blur/shadow inside rounded cards, but avoid clipping dropdowns in topbar. */
+.feature-card.glass,
+.related-card.glass,
+.blog-card.glass,
+.install-card.glass,
+.faq-item.glass,
+.content-block.glass,
+.download-card.glass,
+.empty-state.glass,
+.detail-card.glass,
+.app-row.glass,
+.category-hero.glass,
+.search-screen.glass {
+  overflow: hidden;
+  /* iOS/Safari fix: force backdrop-filter to respect border-radius */
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
 .feature-card {
   min-height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.feature-card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .feature-card img {
@@ -523,6 +582,12 @@ input {
   gap: 14px;
 }
 
+.section-actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
 .app-row {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -546,6 +611,18 @@ input {
 
 .app-row .card-actions {
   margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-download-compact {
+  height: 38px;
+  padding: 0 14px;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  box-shadow: 0 10px 22px rgba(10, 132, 255, 0.18);
+  white-space: nowrap;
 }
 
 .meta-line {
@@ -1012,6 +1089,10 @@ input {
   .blog-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .shelf-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 767px) {
@@ -1212,6 +1293,11 @@ input {
     min-height: 196px;
   }
 
+  .shelf-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
   .category-hero,
   .search-screen {
     padding: 18px 16px;
@@ -1234,9 +1320,9 @@ input {
   }
 
   .app-row {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 64px minmax(0, 1fr) auto;
     gap: 12px;
-    align-items: start;
+    align-items: center;
     padding: 14px;
     border-radius: 24px;
   }
@@ -1263,15 +1349,14 @@ input {
   }
 
   .app-row .card-actions {
-    grid-template-columns: 1fr;
-    grid-column: 1 / -1;
-    width: 100%;
-    margin-top: 12px;
+    grid-column: auto;
+    width: auto;
+    margin-top: 0;
   }
 
   .app-row .card-actions .btn {
-    width: 100%;
-    min-height: 48px;
+    width: auto;
+    min-height: 38px;
   }
 
   .detail-head,
@@ -1356,8 +1441,37 @@ input {
   }
 
   .blog-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .blog-card {
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  .blog-card img {
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  .blog-card h3 {
+    font-size: 1rem !important;
+    line-height: 1.25;
+  }
+
+  .blog-card p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  .blog-card .chip {
+    padding: 6px 10px;
+    font-size: 0.76rem;
   }
 
   .page-backbar {
@@ -1473,6 +1587,36 @@ input {
     grid-auto-columns: minmax(86vw, 86vw);
   }
 
+  .shelf-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .blog-card {
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .blog-card h3 {
+    font-size: 0.92rem !important;
+    margin: 10px 0 8px !important;
+  }
+
+  .blog-card p {
+    font-size: 0.82rem;
+    -webkit-line-clamp: 2;
+  }
+
+  .blog-card .meta-line {
+    gap: 6px;
+    font-size: 0.76rem;
+    margin-top: 6px;
+  }
+
   .detail-head,
   .download-head {
     grid-template-columns: 1fr;
@@ -1513,5 +1657,11 @@ input {
   .mobile-nav-icon svg {
     width: 16px;
     height: 16px;
+  }
+
+  .btn-download-compact {
+    height: 34px;
+    padding: 0 12px;
+    font-size: 0.78rem;
   }
 }

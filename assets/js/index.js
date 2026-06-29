@@ -11,13 +11,15 @@ async function initHome() {
   });
 
   document.getElementById("featured-games").innerHTML = apps
-    .filter((app) => app.featuredGame)
-    .map(featureCardTemplate)
+    .filter((app) => app.category === "game")
+    .slice(0, 6)
+    .map(appRowTemplate)
     .join("");
 
   document.getElementById("featured-apps").innerHTML = apps
-    .filter((app) => app.featuredApp)
-    .map(featureCardTemplate)
+    .filter((app) => app.category === "app")
+    .slice(0, 6)
+    .map(appRowTemplate)
     .join("");
 
   document.getElementById("whats-new").innerHTML = apps
@@ -26,7 +28,7 @@ async function initHome() {
     .join("");
 
   const list = document.getElementById("app-list");
-  list.innerHTML = apps.map(appRowTemplate).join("");
+  list.innerHTML = apps.slice(0, 6).map(appRowTemplate).join("");
 
   const homeBlog = document.getElementById("home-blog");
   homeBlog.innerHTML = posts.slice(0, 3).map(blogCardTemplate).join("");
