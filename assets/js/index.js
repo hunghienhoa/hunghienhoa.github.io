@@ -5,7 +5,7 @@ async function initHome() {
   const featured = apps.find((app) => app.featuredGame) || apps[0];
 
   setMeta({
-    title: "AStore Glass | Kho ứng dụng tĩnh phong cách iOS 18",
+    title: "Tôi Share Mod | Kho ứng dụng tĩnh phong cách iOS 18",
     description: "Website static HTML, CSS, JS và JSON mô phỏng App Store/iOSGods với dark mode, blog, download page và thiết kế responsive.",
     image: featured.icon
   });

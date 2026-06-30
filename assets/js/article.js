@@ -6,7 +6,7 @@ async function initArticlePage() {
   const related = posts.filter((item) => post.related.includes(item.id));
 
   setMeta({
-    title: `${post.title} | AStore Glass Blog`,
+    title: `${post.title} | Tôi Share Mod Blog`,
     description: post.excerpt,
     image: post.cover,
     type: "article"

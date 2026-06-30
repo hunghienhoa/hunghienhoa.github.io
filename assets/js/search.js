@@ -3,7 +3,7 @@ async function initSearchPage() {
   const apps = await fetchJSON("data/apps.json");
 
   setMeta({
-    title: "Tìm kiếm | AStore Glass",
+    title: "Tìm kiếm | Tôi Share Mod",
     description: "Tìm kiếm ứng dụng và trò chơi trong một giao diện riêng tối ưu cho điện thoại.",
     image: apps[0]?.icon
   });

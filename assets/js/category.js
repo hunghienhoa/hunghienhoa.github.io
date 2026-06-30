@@ -7,7 +7,7 @@ async function initCategoryPage() {
   const filtered = apps.filter((app) => app.category === type);
 
   setMeta({
-    title: `${intro.title} | AStore Glass`,
+    title: `${intro.title} | Tôi Share Mod`,
     description: intro.description,
     image: filtered[0]?.icon
   });
