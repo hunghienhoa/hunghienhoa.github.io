@@ -241,46 +241,47 @@
     ]
   },
   {
-    "id": "stream-vault",
-    "name": "Stream Vault",
-    "subtitle": "Ứng dụng media với danh sách liên quan và trang tải chi tiết.",
-    "version": "5.0.7",
-    "size": "72.3 MB",
-    "updated": "01/06/2026",
-    "updatedRelative": "1 tháng trước",
-    "updatedIso": "2026-06-01",
-    "views": "164.0K",
+    "id": "youtube",
+    "name": "YouTube",
+    "subtitle": "Xem video, Shorts, livestream và theo dõi các kênh yêu thích trên iPhone/iPad.",
+    "version": "21.26.5",
+    "size": "356.8 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "15.8M",
     "category": "app",
-    "badge": "Pro",
+    "badge": "Video",
     "featuredGame": false,
     "featuredApp": true,
-    "isNew": false,
-    "rating": "4.7",
-    "os": "iOS 14.0+",
-    "support": "Sideloadly / TrollStore",
-    "developer": "Vault Works",
-    "icon": "assets/img/stream-vault.svg",
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Google LLC",
+    "icon": "assets/img/youtube.png",
     "screenshots": [
-      "assets/img/vault-1.svg",
-      "assets/img/vault-2.svg",
-      "assets/img/vault-3.svg"
+      "assets/img/youtube-1.png",
+      "assets/img/youtube-2.png",
+      "assets/img/youtube-3.png"
     ],
-    "heroTag": "Media",
-    "description": "Mẫu app media cho thấy cách dựng trang tải riêng với progress bar, FAQ và hướng dẫn cài đặt mà vẫn giữ thiết kế nhất quán.",
+    "heroTag": "Video",
+    "description": "YouTube là nền tảng chia sẻ video lớn nhất thế giới, cho phép người dùng xem video, YouTube Shorts, livestream, đăng ký kênh yêu thích và tải lên nội dung của riêng mình. Ứng dụng hỗ trợ phát video chất lượng cao cùng hệ thống đề xuất thông minh.",
     "features": [
-      "Khối tải xuống riêng biệt.",
-      "FAQ dạng accordion.",
-      "Danh sách ứng dụng liên quan dễ mở rộng."
+      "Xem hàng triệu video và YouTube Shorts.",
+      "Theo dõi kênh, tạo danh sách phát và quản lý lịch sử xem.",
+      "Livestream, bình luận và tương tác với cộng đồng.",
+      "Hỗ trợ phát video chất lượng cao và chế độ toàn màn hình."
     ],
-    "downloadUrl": "https://example.com/files/stream-vault.ipa",
+    "downloadUrl": "https://example.com/files/youtube.ipa",
     "faq": [
       {
-        "q": "Có thể dùng ảnh PNG/JPG thật không?",
-        "a": "Có, chỉ cần thay đường dẫn icon hoặc screenshot trong JSON."
+        "q": "Có cần đăng nhập để xem YouTube không?",
+        "a": "Không. Bạn có thể xem hầu hết các video mà không cần đăng nhập. Tuy nhiên, cần đăng nhập để đăng ký kênh, bình luận, tạo playlist và đồng bộ dữ liệu."
       },
       {
-        "q": "GitHub Pages có đọc JSON được không?",
-        "a": "Có, chỉ cần giữ đúng cấu trúc thư mục data/."
+        "q": "Có thể cài file IPA bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Ứng dụng có thể được cài đặt thông qua AltStore, Sideloadly hoặc TrollStore tùy theo thiết bị và phiên bản iOS."
       }
     ]
   }
