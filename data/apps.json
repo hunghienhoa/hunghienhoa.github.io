@@ -289,11 +289,11 @@
     "os": "iOS 14.0+",
     "support": "Sideloadly / TrollStore",
     "developer": "Vault Works",
-    "icon": "assets/img/tik-tok-plus.svg",
+    "icon": "assets/img/tik-tok.png",
     "screenshots": [
-      "assets/img/tik-tok-plus-1.svg",
-      "assets/img/tik-tok-plus-2.svg",
-      "assets/img/tik-tok-plus-3.svg"
+      "assets/img/tik-tok-1.png",
+      "assets/img/tik-tok-2.png",
+      "assets/img/tik-tok-3.png"
     ],
     "heroTag": "Media",
     "description": "Mẫu app media cho thấy cách dựng trang tải riêng với progress bar, FAQ và hướng dẫn cài đặt mà vẫn giữ thiết kế nhất quán.",
