@@ -100,46 +100,53 @@
     ]
   },
   {
-    "id": "car-parking-multiplayer-2",
-    "name": "Car Parking Multiplayer 2",
-    "subtitle": "Trang app có bố cục thông tin gọn, rõ và tối ưu chuyển đổi tải IPA.",
-    "version": "2.9.5",
-    "size": "322.1 MB",
-    "updated": "15/06/2026",
-    "updatedRelative": "3 tuần trước",
-    "updatedIso": "2026-06-15",
-    "views": "301.8K",
+    "id": "nulls-brawl",
+    "name": "Null’s Brawl",
+    "subtitle": "Private Server, Unlimited Gems, mở khóa toàn bộ Brawler trên iPhone/iPad.",
+    "version": "62.264",
+    "size": "426.4 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "984.6K",
     "category": "game",
-    "badge": "Mới",
+    "badge": "Miễn phí",
     "featuredGame": true,
     "featuredApp": false,
     "isNew": true,
-    "rating": "4.7",
-    "os": "iOS 15.0+",
-    "support": "Sideloadly",
-    "developer": "Street Labs",
-    "icon": "assets/img/car-parking.svg",
+    "rating": "4.9",
+    "os": "iOS 14.0+",
+    "support": "Không cần jailbreak",
+    "developer": "Null's gg",
+    "icon": "assets/img/nulls-brawl.png",
     "screenshots": [
-      "assets/img/car-1.svg",
-      "assets/img/car-2.svg",
-      "assets/img/car-3.svg"
+      "assets/img/nulls-brawl-1.png",
+      "assets/img/nulls-brawl-2.png",
+      "assets/img/nulls-brawl-3.png"
     ],
-    "heroTag": "Đua xe",
-    "description": "Thiết kế đậm chất iOS 18 với thẻ bo tròn lớn, bóng mềm và hiệu ứng kính mờ cho phần tải xuống cũng như danh sách bản cập nhật.",
+    "heroTag": "Private Server",
+    "description": "Null's Brawl là phiên bản máy chủ riêng lấy cảm hứng từ lối chơi MOBA hành động 3v3 quen thuộc. Người chơi có thể mở khóa toàn bộ nhân vật, trải nghiệm nhiều chế độ chơi và sử dụng tài nguyên không giới hạn. Phiên bản IPA được tối ưu cho iPhone và iPad, cài đặt nhanh mà không cần jailbreak.",
     "features": [
-      "Thông số kích thước, phiên bản và hỗ trợ OS hiển thị trực quan.",
-      "Nút hành động đủ lớn trên điện thoại.",
-      "Tốc độ tải trang cao nhờ tài nguyên SVG nhẹ."
+      "Unlimited Gems và Coins trên Private Server.",
+      "Mở khóa toàn bộ Brawler ngay từ đầu.",
+      "Unlock tất cả Skin và Pin.",
+      "Instant Upgrade cho Brawler.",
+      "Hỗ trợ nhiều chế độ chơi và sự kiện.",
+      "Tương thích iPhone/iPad, không cần jailbreak."
     ],
-    "downloadUrl": "https://example.com/files/car-parking-multiplayer-2.ipa",
+    "downloadUrl": "https://example.com/files/nulls-brawl.ipa",
     "faq": [
       {
-        "q": "Có cần backend không?",
-        "a": "Không, website này hoạt động hoàn toàn tĩnh."
+        "q": "Có cần jailbreak để cài đặt không?",
+        "a": "Không. Bạn có thể cài đặt bằng AltStore, SideStore, Sideloadly hoặc các công cụ ký IPA khác."
       },
       {
-        "q": "Có thể thêm game mới không?",
-        "a": "Chỉ cần thêm object mới vào apps.json."
+        "q": "Đây có phải máy chủ chính thức không?",
+        "a": "Không. Null's Brawl hoạt động trên máy chủ riêng (Private Server) và không liên kết với máy chủ chính thức."
+      },
+      {
+        "q": "Có thể đăng nhập tài khoản chính thức không?",
+        "a": "Không. Phiên bản này sử dụng dữ liệu riêng và không hỗ trợ tài khoản chính thức."
       }
     ]
   },
