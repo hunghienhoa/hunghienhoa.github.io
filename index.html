@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>AStore Glass | Kho ứng dụng tĩnh iOS 18</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kho ứng dụng tĩnh phong cách iOS 18 chạy bằng HTML5, CSS3, JavaScript thuần và JSON." />
+  <meta name="theme-color" content="#0a84ff" />
+  <meta property="og:title" content="AStore Glass" />
+  <meta property="og:description" content="Website static mô phỏng App Store/iOSGods với dark mode, glassmorphism và dữ liệu JSON." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/logo-mark.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AStore Glass" />
+  <meta name="twitter:description" content="Website static mô phỏng App Store/iOSGods với dark mode, glassmorphism và dữ liệu JSON." />
+  <meta name="twitter:image" content="assets/img/logo-mark.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
+<body data-page="home">
+  <div class="page-shell">
+    <header id="site-header"></header>
+    <main>
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Có gì mới</h2>
+            <p>Bản mới và cập nhật gần đây được ưu tiên hiển thị trước.</p>
+          </div>
+        </div>
+        <div class="listing" id="whats-new"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Trò chơi nổi bật</h2>
+            <p>Giao diện theo cảm hứng App Store và iOSGods, bo góc lớn và thẻ kính mờ.</p>
+          </div>
+        </div>
+        <div class="listing" id="featured-games"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Ứng dụng nổi bật</h2>
+            <p>Danh sách app utility, productivity và media với bố cục hiện đại.</p>
+          </div>
+        </div>
+        <div class="listing" id="featured-apps"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Tất cả ứng dụng</h2>
+            <p>JavaScript sẽ tự đọc dữ liệu từ file JSON và render danh sách card.</p>
+          </div>
+        </div>
+        <div class="listing" id="app-list"></div>
+        <div class="section-actions">
+          <a class="btn btn-secondary" href="apps.html">Xem thêm</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Từ blog</h2>
+            <p>Nội dung chuẩn SEO, dùng làm landing hỗ trợ traffic cho kho ứng dụng.</p>
+          </div>
+          <a class="icon-link" href="blog.html">Xem tất cả</a>
+        </div>
+        <div class="blog-grid" id="home-blog"></div>
+      </section>
+    </main>
+    <footer id="site-footer"></footer>
+  </div>
+  <div id="mobile-nav"></div>
+  <script src="assets/js/common.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+  <script src="assets/js/firebase-config.js"></script>
+  <script src="assets/js/firebase-counters.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

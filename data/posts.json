@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ios-18-design-trends",
+    "title": "Xu hướng giao diện iOS 18 cho kho ứng dụng tĩnh",
+    "excerpt": "Glassmorphism, bo góc lớn và khoảng trắng rộng là 3 yếu tố giúp giao diện giống App Store hiện đại hơn.",
+    "date": "25/06/2026",
+    "dateIso": "2026-06-25",
+    "thumbnail": "assets/img/blog-design.svg",
+    "cover": "assets/img/blog-design.svg",
+    "author": "TRAE Studio",
+    "readTime": "6 phút đọc",
+    "category": "Thiết kế",
+    "related": [
+      "seo-github-pages",
+      "json-content-structure"
+    ],
+    "content": "\n<p>Thiết kế kho ứng dụng tĩnh hiện nay không còn chỉ là danh sách card đơn giản. Người dùng kỳ vọng trải nghiệm gần với App Store: chuyển động mềm, nền sáng tối tự nhiên, block thông tin rõ ràng và cảm giác chạm thoải mái trên điện thoại.</p>\n<p>Phong cách iOS 18 thường nổi bật ở lớp nền dịu, kính mờ, độ bo lớn và typography rõ ràng. Khi áp dụng cho website tĩnh, bạn nên ưu tiên các section lớn, chiều cao nút đủ rộng và card có nhịp thở tốt để không bị dày đặc như layout Android cũ.</p>\n<h2>Những điểm nên giữ</h2>\n<p>Sử dụng hero block lớn ở đầu trang, shelf ngang cho nội dung nổi bật, danh sách card gọn ở phần nội dung chính và bottom navigation trên mobile. Cách này giúp người dùng nhận ra ngay cảm hứng App Store mà vẫn giữ được khả năng mở rộng cho blog, bài viết và trang tải IPA.</p>\n<h2>Tối ưu cho GitHub Pages</h2>\n<p>Không có backend không phải là hạn chế lớn. Bạn có thể lưu dữ liệu bằng JSON, dùng JavaScript thuần để render và vẫn đạt hiệu ứng cao cấp nếu xây dựng tốt hệ thống biến màu, animation và thành phần tái sử dụng.</p>\n"
+  },
+  {
+    "id": "seo-github-pages",
+    "title": "Tối ưu SEO cho website static trên GitHub Pages",
+    "excerpt": "Meta title, description, Open Graph, sitemap.xml và robots.txt là bộ tối thiểu để website tĩnh có nền tảng SEO sạch.",
+    "date": "22/06/2026",
+    "dateIso": "2026-06-22",
+    "thumbnail": "assets/img/blog-seo.svg",
+    "cover": "assets/img/blog-seo.svg",
+    "author": "TRAE Studio",
+    "readTime": "5 phút đọc",
+    "category": "SEO",
+    "related": [
+      "ios-18-design-trends",
+      "json-content-structure"
+    ],
+    "content": "\n<p>Với website static, SEO tốt bắt đầu từ HTML semantic rõ ràng. Mỗi trang cần có title riêng, meta description cô đọng, heading hợp lý và liên kết nội bộ được tổ chức sạch.</p>\n<p>Open Graph hỗ trợ hiển thị đẹp hơn khi chia sẻ lên mạng xã hội. Dù nội dung được render bằng JavaScript, bạn vẫn nên đặt OG mặc định cho từng trang và cập nhật thêm bằng script khi cần.</p>\n<h2>Danh sách cần có</h2>\n<p>Sitemap.xml, robots.txt, ảnh đại diện cho social, URL thân thiện, lazy load ảnh không ảnh hưởng nội dung chính và tốc độ tải tốt trên di động. Đó là nền tảng phù hợp để triển khai kho ứng dụng tĩnh.</p>\n"
+  },
+  {
+    "id": "json-content-structure",
+    "title": "Cách tổ chức dữ liệu JSON để render app và blog",
+    "excerpt": "Chia dữ liệu thành apps.json và posts.json giúp dễ mở rộng, bảo trì và triển khai trên GitHub Pages.",
+    "date": "18/06/2026",
+    "dateIso": "2026-06-18",
+    "thumbnail": "assets/img/blog-json.svg",
+    "cover": "assets/img/blog-json.svg",
+    "author": "TRAE Studio",
+    "readTime": "7 phút đọc",
+    "category": "Dữ liệu",
+    "related": [
+      "seo-github-pages",
+      "ios-18-design-trends"
+    ],
+    "content": "\n<p>Dữ liệu JSON tĩnh đặc biệt phù hợp cho các website giới thiệu ứng dụng. Mỗi app có thể bao gồm icon, tên, phiên bản, kích thước, mô tả, tính năng, ảnh chụp màn hình, liên kết tải và FAQ.</p>\n<p>Với blog, bạn chỉ cần title, excerpt, thumbnail, ngày đăng, nội dung HTML và mảng bài viết liên quan. Từ đó, JavaScript thuần có thể render danh sách và trang chi tiết mà không cần framework.</p>\n<h2>Mẹo thực tế</h2>\n<p>Giữ slug ngắn, nhất quán và dùng query string như <code>app.html?id=dragon-ball-legends</code> hoặc <code>article.html?id=seo-github-pages</code>. Cách này dễ deploy, không cần cấu hình rewrite đặc biệt.</p>\n"
+  }
+]
