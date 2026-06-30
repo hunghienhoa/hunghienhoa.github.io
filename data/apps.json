@@ -151,8 +151,8 @@
     ]
   },
   {
-    "id": "tiktok-ads-vibe",
-    "name": "TikTok ADS+Vibe",
+    "id": "tiktok-asd-vibe",
+    "name": "TikTok ASD+Vibe",
     "subtitle": "Phiên bản TikTok dành cho iPhone/iPad, xem video ngắn, livestream và chia sẻ nội dung.",
     "version": "40.3.0",
     "size": "428.5 MB",
@@ -169,11 +169,11 @@
     "os": "iOS 15.0+",
     "support": "AltStore / Sideloadly / TrollStore",
     "developer": "TikTok Ltd.",
-    "icon": "assets/img/tiktok-ads-vibe.png",
+    "icon": "assets/img/tiktok-asd-vibe.png",
     "screenshots": [
-      "assets/img/tiktok-ads-vibe-1.png",
-      "assets/img/tiktok-ads-vibe-2.png",
-      "assets/img/tiktok-ads-vibe-3.png"
+      "assets/img/tiktok-asd-vibe-1.png",
+      "assets/img/tiktok-asd-vibe-2.png",
+      "assets/img/tiktok-asd-vibe-3.png"
     ],
     "heroTag": "Mạng xã hội",
     "description": "TikTok là nền tảng video ngắn phổ biến, cho phép người dùng khám phá nội dung theo sở thích, xem livestream, sáng tạo video với hàng nghìn hiệu ứng và chia sẻ với cộng đồng trên toàn thế giới.",
@@ -183,7 +183,7 @@
       "Livestream, nhắn tin và tương tác với cộng đồng.",
       "Đăng tải, lưu và chia sẻ video chất lượng cao."
     ],
-    "downloadUrl": "https://example.com/files/tiktok-ads-vibe.ipa",
+    "downloadUrl": "https://example.com/files/tiktok-asd-vibe.ipa",
     "faq": [
       {
         "q": "Ứng dụng có cần đăng nhập để sử dụng không?",
