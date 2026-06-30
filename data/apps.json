@@ -196,46 +196,47 @@
     ]
   },
   {
-    "id": "notes-air",
-    "name": "Notes Air",
-    "subtitle": "Ứng dụng ghi chú với giao diện mềm, sạch và chuẩn App Store mini.",
-    "version": "1.4.2",
-    "size": "28.6 MB",
-    "updated": "08/06/2026",
-    "updatedRelative": "1 tháng trước",
-    "updatedIso": "2026-06-08",
-    "views": "88.4K",
+    "id": "facebook",
+    "name": "Facebook",
+    "subtitle": "Ứng dụng mạng xã hội kết nối bạn bè, chia sẻ bài viết, ảnh, video và theo dõi cộng đồng.",
+    "version": "565.0.0",
+    "size": "254.7 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "12.4M",
     "category": "app",
-    "badge": "New",
+    "badge": "Social",
     "featuredGame": false,
     "featuredApp": true,
     "isNew": true,
-    "rating": "4.5",
+    "rating": "4.7",
     "os": "iOS 15.0+",
-    "support": "Tương thích iPhone và iPad",
-    "developer": "Air Flow",
-    "icon": "assets/img/notes-air.svg",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Meta Platforms, Inc.",
+    "icon": "assets/img/facebook.png",
     "screenshots": [
-      "assets/img/notes-1.svg",
-      "assets/img/notes-2.svg",
-      "assets/img/notes-3.svg"
+      "assets/img/facebook-1.png",
+      "assets/img/facebook-2.png",
+      "assets/img/facebook-3.png"
     ],
-    "heroTag": "Ghi chú",
-    "description": "Bản demo ứng dụng productivity giúp hoàn thiện cảm giác giống App Store nhưng vẫn nhẹ và dễ tùy biến khi triển khai lên GitHub Pages.",
+    "heroTag": "Mạng xã hội",
+    "description": "Facebook là nền tảng mạng xã hội phổ biến giúp bạn kết nối với bạn bè, gia đình và cộng đồng. Chia sẻ trạng thái, hình ảnh, video, tham gia nhóm, xem Reels, Marketplace và theo dõi các trang yêu thích ngay trên iPhone và iPad.",
     "features": [
-      "Typography rõ ràng.",
-      "Khoảng trắng rộng, đậm phong cách iOS 18.",
-      "SEO metadata sẵn trong từng trang."
+      "Chia sẻ bài viết, ảnh và video với bạn bè.",
+      "Xem Reels, Stories và livestream.",
+      "Tham gia nhóm, theo dõi Fanpage và cộng đồng.",
+      "Nhắn tin qua Messenger và nhận thông báo theo thời gian thực."
     ],
-    "downloadUrl": "https://example.com/files/notes-air.ipa",
+    "downloadUrl": "https://example.com/files/facebook.ipa",
     "faq": [
       {
-        "q": "Có lazy load ảnh không?",
-        "a": "Có, toàn bộ ảnh danh sách và bài viết đều dùng loading='lazy'."
+        "q": "Có thể sử dụng Facebook mà không cần đăng nhập không?",
+        "a": "Một số nội dung công khai có thể xem mà không cần đăng nhập, nhưng bạn cần đăng nhập để đăng bài, bình luận, nhắn tin và sử dụng đầy đủ các tính năng."
       },
       {
-        "q": "Có dark mode tự động không?",
-        "a": "Có, website nhận theme hệ thống và cho phép đổi thủ công."
+        "q": "Có thể cài IPA bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA bằng AltStore, Sideloadly hoặc TrollStore tùy thuộc vào thiết bị và phiên bản iOS của mình."
       }
     ]
   },
