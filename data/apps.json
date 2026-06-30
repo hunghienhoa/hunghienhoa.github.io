@@ -284,5 +284,50 @@
         "a": "Có. Ứng dụng có thể được cài đặt thông qua AltStore, Sideloadly hoặc TrollStore tùy theo thiết bị và phiên bản iOS."
       }
     ]
+  },
+  {
+    "id": "youtube-music",
+    "name": "YouTube Music",
+    "subtitle": "Nghe nhạc trực tuyến, khám phá playlist và thưởng thức hàng triệu bài hát trên iPhone/iPad.",
+    "version": "9.24.3",
+    "size": "89.8 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "3.9M",
+    "category": "app",
+    "badge": "Music",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.8",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Google LLC",
+    "icon": "assets/img/youtube-music.png",
+    "screenshots": [
+      "assets/img/youtube-music-1.png",
+      "assets/img/youtube-music-2.png",
+      "assets/img/youtube-music-3.png"
+    ],
+    "heroTag": "Âm nhạc",
+    "description": "YouTube Music là dịch vụ phát nhạc trực tuyến của Google, cung cấp hàng triệu bài hát, album, playlist và MV chính thức. Ứng dụng giúp khám phá âm nhạc theo sở thích, nghe podcast, tạo danh sách phát cá nhân và đồng bộ thư viện trên nhiều thiết bị.",
+    "features": [
+      "Nghe hàng triệu bài hát và MV chất lượng cao.",
+      "Khám phá playlist và đề xuất theo sở thích.",
+      "Tạo và đồng bộ danh sách phát cá nhân.",
+      "Hỗ trợ phát nhạc nền với YouTube Premium."
+    ],
+    "downloadUrl": "https://example.com/files/youtube-music.ipa",
+    "faq": [
+      {
+        "q": "Có cần đăng nhập để sử dụng YouTube Music không?",
+        "a": "Bạn có thể nghe một số nội dung mà không cần đăng nhập, nhưng cần đăng nhập để lưu playlist, đồng bộ thư viện và sử dụng đầy đủ các tính năng."
+      },
+      {
+        "q": "Có thể cài file IPA bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt YouTube Music IPA thông qua AltStore, Sideloadly hoặc TrollStore tùy theo thiết bị và phiên bản iOS."
+      }
+    ]
   }
 ]
