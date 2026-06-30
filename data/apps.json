@@ -151,46 +151,47 @@
     ]
   },
   {
-    "id": "igame-helper",
-    "name": "iGame Helper",
-    "subtitle": "Ứng dụng tiện ích với giao diện card, changelog và khối blog liên quan.",
-    "version": "3.1.0",
-    "size": "54.2 MB",
-    "updated": "11/06/2026",
-    "updatedRelative": "1 tháng trước",
-    "updatedIso": "2026-06-11",
-    "views": "209.7K",
+    "id": "tiktok-ads-vibe",
+    "name": "TikTok ADS+Vibe",
+    "subtitle": "Phiên bản TikTok dành cho iPhone/iPad, xem video ngắn, livestream và chia sẻ nội dung.",
+    "version": "40.3.0",
+    "size": "428.5 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "8.7M",
     "category": "app",
-    "badge": "Tool",
+    "badge": "Social",
     "featuredGame": false,
     "featuredApp": true,
-    "isNew": false,
-    "rating": "4.6",
-    "os": "iOS 14.0+",
-    "support": "AltStore / Sideloadly",
-    "developer": "iGame Studio",
-    "icon": "assets/img/igame-helper.svg",
+    "isNew": true,
+    "rating": "4.8",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "TikTok Ltd.",
+    "icon": "assets/img/tiktok-ads-vibe.png",
     "screenshots": [
-      "assets/img/helper-1.svg",
-      "assets/img/helper-2.svg",
-      "assets/img/helper-3.svg"
+      "assets/img/tiktok-ads-vibe-1.png",
+      "assets/img/tiktok-ads-vibe-2.png",
+      "assets/img/tiktok-ads-vibe-3.png"
     ],
-    "heroTag": "Tiện ích",
-    "description": "Mẫu ứng dụng tiện ích dành cho kho app tĩnh, phù hợp khi bạn muốn phân nhóm ứng dụng ngoài game và trình bày rõ khả năng cài đặt.",
+    "heroTag": "Mạng xã hội",
+    "description": "TikTok là nền tảng video ngắn phổ biến, cho phép người dùng khám phá nội dung theo sở thích, xem livestream, sáng tạo video với hàng nghìn hiệu ứng và chia sẻ với cộng đồng trên toàn thế giới.",
     "features": [
-      "Phân nhóm featured app riêng.",
-      "Phần chi tiết hỗ trợ bullet list và metadata.",
-      "Chuyển trang nhanh bằng query string."
+      "Xem video ngắn được đề xuất theo sở thích.",
+      "Tạo và chỉnh sửa video với nhiều hiệu ứng, bộ lọc và âm thanh.",
+      "Livestream, nhắn tin và tương tác với cộng đồng.",
+      "Đăng tải, lưu và chia sẻ video chất lượng cao."
     ],
-    "downloadUrl": "https://example.com/files/igame-helper.ipa",
+    "downloadUrl": "https://example.com/files/tiktok-ads-vibe.ipa",
     "faq": [
       {
-        "q": "Tìm kiếm hoạt động thế nào?",
-        "a": "JavaScript sẽ lọc dữ liệu app theo tên, phiên bản và mô tả."
+        "q": "Ứng dụng có cần đăng nhập để sử dụng không?",
+        "a": "Bạn có thể xem video mà không cần đăng nhập, tuy nhiên cần đăng nhập để đăng video, bình luận, nhắn tin và sử dụng đầy đủ tính năng."
       },
       {
-        "q": "Có thể đổi logo không?",
-        "a": "Thay file assets/img/logo-mark.svg và tên thương hiệu trong common.js."
+        "q": "Có thể cài bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài file IPA thông qua AltStore, Sideloadly hoặc TrollStore tùy thiết bị và phiên bản iOS đang sử dụng."
       }
     ]
   },
