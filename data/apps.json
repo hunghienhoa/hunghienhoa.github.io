@@ -241,8 +241,8 @@
     ]
   },
   {
-    "id": "youtube",
-    "name": "YouTube",
+    "id": "youtube-plus",
+    "name": "YouTube Plus",
     "subtitle": "Xem video, Shorts, livestream và theo dõi các kênh yêu thích trên iPhone/iPad.",
     "version": "21.26.5",
     "size": "356.8 MB",
@@ -259,24 +259,24 @@
     "os": "iOS 15.0+",
     "support": "AltStore / Sideloadly / TrollStore",
     "developer": "Google LLC",
-    "icon": "assets/img/youtube.png",
+    "icon": "assets/img/youtube-plus.png",
     "screenshots": [
-      "assets/img/youtube-1.png",
-      "assets/img/youtube-2.png",
-      "assets/img/youtube-3.png"
+      "assets/img/youtube-plus-1.png",
+      "assets/img/youtube-plus-2.png",
+      "assets/img/youtube-plus-3.png"
     ],
     "heroTag": "Video",
-    "description": "YouTube là nền tảng chia sẻ video lớn nhất thế giới, cho phép người dùng xem video, YouTube Shorts, livestream, đăng ký kênh yêu thích và tải lên nội dung của riêng mình. Ứng dụng hỗ trợ phát video chất lượng cao cùng hệ thống đề xuất thông minh.",
+    "description": "YouTube Plus là nền tảng chia sẻ video lớn nhất thế giới, cho phép người dùng xem video, YouTube Shorts, livestream, đăng ký kênh yêu thích và tải lên nội dung của riêng mình. Ứng dụng hỗ trợ phát video chất lượng cao cùng hệ thống đề xuất thông minh.",
     "features": [
       "Xem hàng triệu video và YouTube Shorts.",
       "Theo dõi kênh, tạo danh sách phát và quản lý lịch sử xem.",
       "Livestream, bình luận và tương tác với cộng đồng.",
       "Hỗ trợ phát video chất lượng cao và chế độ toàn màn hình."
     ],
-    "downloadUrl": "https://example.com/files/youtube.ipa",
+    "downloadUrl": "https://example.com/files/youtube-plus.ipa",
     "faq": [
       {
-        "q": "Có cần đăng nhập để xem YouTube không?",
+        "q": "Có cần đăng nhập để xem YouTube Plus không?",
         "a": "Không. Bạn có thể xem hầu hết các video mà không cần đăng nhập. Tuy nhiên, cần đăng nhập để đăng ký kênh, bình luận, tạo playlist và đồng bộ dữ liệu."
       },
       {
