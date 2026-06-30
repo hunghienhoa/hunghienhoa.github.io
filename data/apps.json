@@ -329,5 +329,50 @@
         "a": "Có. Bạn có thể cài đặt YouTube Music IPA thông qua AltStore, Sideloadly hoặc TrollStore tùy theo thiết bị và phiên bản iOS."
       }
     ]
+  },
+  {
+    "id": "zalo",
+    "name": "Zalo",
+    "subtitle": "Ứng dụng nhắn tin, gọi điện miễn phí và kết nối bạn bè trên iPhone/iPad.",
+    "version": "25.06.02",
+    "size": "267.4 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "6.5M",
+    "category": "app",
+    "badge": "Messaging",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.8",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "VNG Corporation",
+    "icon": "assets/img/zalo.png",
+    "screenshots": [
+      "assets/img/zalo-1.png",
+      "assets/img/zalo-2.png",
+      "assets/img/zalo-3.png"
+    ],
+    "heroTag": "Nhắn tin",
+    "description": "Zalo là ứng dụng nhắn tin và gọi điện phổ biến tại Việt Nam, cho phép người dùng gửi tin nhắn, gọi thoại, gọi video chất lượng cao, chia sẻ hình ảnh, tài liệu và kết nối với bạn bè, gia đình cũng như các tài khoản Zalo Official Account.",
+    "features": [
+      "Nhắn tin và gọi thoại, gọi video miễn phí.",
+      "Gửi hình ảnh, video, tài liệu và vị trí nhanh chóng.",
+      "Đồng bộ danh bạ và tin nhắn trên nhiều thiết bị.",
+      "Theo dõi Zalo Official Account và sử dụng các tiện ích tích hợp."
+    ],
+    "downloadUrl": "https://example.com/files/zalo.ipa",
+    "faq": [
+      {
+        "q": "Có cần số điện thoại để đăng ký Zalo không?",
+        "a": "Có. Zalo yêu cầu số điện thoại để tạo tài khoản và xác minh danh tính khi đăng ký."
+      },
+      {
+        "q": "Có thể cài file IPA bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA của Zalo bằng AltStore, Sideloadly hoặc TrollStore tùy theo thiết bị và phiên bản iOS."
+      }
+    ]
   }
 ]
