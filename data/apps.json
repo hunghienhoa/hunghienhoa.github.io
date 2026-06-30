@@ -269,5 +269,49 @@
         "a": "Có, chỉ cần giữ đúng cấu trúc thư mục data/."
       }
     ]
+  },
+  {
+    "id": "tik-tok-plus",
+    "name": "TikTok Plus",
+    "subtitle": "Ứng dụng social media với tính năng nâng cao.",
+    "version": "5.0.7",
+    "size": "72.3 MB",
+    "updated": "01/06/2026",
+    "updatedRelative": "1 tháng trước",
+    "updatedIso": "2026-06-01",
+    "views": "164.0K",
+    "category": "app",
+    "badge": "Pro",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": false,
+    "rating": "4.7",
+    "os": "iOS 14.0+",
+    "support": "Sideloadly / TrollStore",
+    "developer": "Vault Works",
+    "icon": "assets/img/tik-tok-plus.svg",
+    "screenshots": [
+      "assets/img/tik-tok-plus-1.svg",
+      "assets/img/tik-tok-plus-2.svg",
+      "assets/img/tik-tok-plus-3.svg"
+    ],
+    "heroTag": "Media",
+    "description": "Mẫu app media cho thấy cách dựng trang tải riêng với progress bar, FAQ và hướng dẫn cài đặt mà vẫn giữ thiết kế nhất quán.",
+    "features": [
+      "Khối tải xuống riêng biệt.",
+      "FAQ dạng accordion.",
+      "Danh sách ứng dụng liên quan dễ mở rộng."
+    ],
+    "downloadUrl": "https://example.com/files/tik-tok-plus.ipa",
+    "faq": [
+      {
+        "q": "Có thể dùng ảnh PNG/JPG thật không?",
+        "a": "Có, chỉ cần thay đường dẫn icon hoặc screenshot trong JSON."
+      },
+      {
+        "q": "GitHub Pages có đọc JSON được không?",
+        "a": "Có, chỉ cần giữ đúng cấu trúc thư mục data/."
+      }
+    ]
   }
 ]
