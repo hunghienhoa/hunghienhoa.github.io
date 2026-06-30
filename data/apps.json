@@ -17,7 +17,7 @@
     "rating": "4.9",
     "os": "iOS 14.0+",
     "support": "Không cần jailbreak",
-    "developer": "AlyssaX64",
+    "developer": "Null's gg",
     "icon": "assets/img/nulls-clash.png",
     "screenshots": [
       "assets/img/nulls-1.png",
@@ -50,47 +50,52 @@
     ]
   },
   {
-    "id": "bullet-echo",
-    "name": "Bullet Echo",
-    "subtitle": "PvP coop shooter với thẻ nổi bật và danh sách kiểu App Store.",
-    "version": "8.2.1",
-    "size": "198.4 MB",
-    "updated": "20/06/2026",
-    "updatedRelative": "2 tuần trước",
-    "updatedIso": "2026-06-20",
-    "views": "512.3K",
+    "id": "nulls-royale",
+    "name": "Null's Royale",
+    "subtitle": "Private Server, Unlimited Gems, trải nghiệm chiến đấu thẻ bài nâng cao trên iPhone/iPad.",
+    "version": "15.535.13",
+    "size": "729.7 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "1.3M",
     "category": "game",
-    "badge": "Hot",
+    "badge": "Miễn phí",
     "featuredGame": true,
     "featuredApp": false,
-    "isNew": false,
-    "rating": "4.8",
+    "isNew": true,
+    "rating": "4.9",
     "os": "iOS 14.0+",
-    "support": "Sideloadly / AltStore",
-    "developer": "Shadow Lab",
-    "icon": "assets/img/bullet-echo.svg",
+    "support": "Không cần jailbreak",
+    "developer": "Null's gg",
+    "icon": "assets/img/nulls-royale.png",
     "screenshots": [
-      "assets/img/bullet-1.svg",
-      "assets/img/bullet-2.svg",
-      "assets/img/bullet-3.svg"
+      "assets/img/royale-1.png",
+      "assets/img/royale-2.png",
+      "assets/img/royale-3.png"
     ],
-    "heroTag": "PvP nổi bật",
-    "description": "Giao diện chi tiết mô phỏng kho ứng dụng iOS hiện đại với phần mô tả rõ ràng, thống kê nhanh, ảnh chụp màn hình và khối ứng dụng liên quan.",
+    "heroTag": "Card Battle",
+    "description": "Null's Royale là phiên bản máy chủ riêng mang đến trải nghiệm chiến đấu thẻ bài mở rộng với tài nguyên không giới hạn. Giao diện tối ưu cho iOS, cài đặt nhanh, hiển thị tốt trên cả iPhone và iPad.",
     "features": [
-      "Card ngang tối ưu thao tác chạm.",
-      "Nút tải xuống nổi bật theo phong cách iOS.",
-      "Ảnh chụp màn hình có slider kéo mượt.",
-      "Dark mode đồng bộ toàn bộ hệ thống."
+      "Unlimited Gems trên Private Server.",
+      "Unlock toàn bộ thẻ bài nhanh chóng.",
+      "Instant upgrade cho quân và tháp.",
+      "Không giới hạn chiến đấu PvP.",
+      "Tối ưu hiệu năng cho thiết bị iOS."
     ],
-    "downloadUrl": "https://example.com/files/bullet-echo.ipa",
+    "downloadUrl": "https://1024terabox.com/s/1ILomLu6UCWWYjQbE8W86KA",
     "faq": [
       {
-        "q": "Có chỉnh được màu không?",
-        "a": "Có, chỉ cần đổi biến màu trong assets/css/styles.css."
+        "q": "Có cần jailbreak không?",
+        "a": "Không. Có thể cài bằng AltStore, Sideloadly hoặc công cụ ký IPA."
       },
       {
-        "q": "Dữ liệu nằm ở đâu?",
-        "a": "Tất cả app được quản lý trong data/apps.json."
+        "q": "Đây có phải game chính thức của Supercell không?",
+        "a": "Không. Đây là phiên bản Private Server không liên quan đến Supercell."
+      },
+      {
+        "q": "Có dùng Supercell ID không?",
+        "a": "Không hỗ trợ để đảm bảo tách biệt dữ liệu."
       }
     ]
   },
