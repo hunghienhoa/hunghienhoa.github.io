@@ -45,7 +45,6 @@ async function initDownloadPage() {
           <div class="section-head">
             <div>
               <h2>Tải xuống</h2>
-              <p>Nút tải sẽ mô phỏng tiến trình rồi mở liên kết IPA mẫu từ JSON.</p>
             </div>
           </div>
           <div class="download-actions">

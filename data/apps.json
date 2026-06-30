@@ -40,12 +40,12 @@
         "a": "Không. Mẫu website này hiển thị rõ trạng thái hỗ trợ cài đặt không cần jailbreak."
       },
       {
-        "q": "Có thể đổi liên kết IPA ở đâu?",
-        "a": "Chỉ cần sửa trường downloadUrl trong file data/apps.json."
+        "q": "Lỗi không thể tải xuống được iPA?",
+        "a": "Kiểm tra lại đường truyền mạng và thử tải lại. Nếu vẫn không được, hãy liên hệ với quản trị viên."
       },
       {
-        "q": "Website chạy trên GitHub Pages được không?",
-        "a": "Được. Toàn bộ dữ liệu đang được đọc từ JSON tĩnh bằng JavaScript thuần."
+        "q": "Làm thế nào để cài đặt iPA?",
+        "a": "Mua chứng chỉ Apple hoặc sử dụng các công cụ như Sideloadly, AltStore để cài đặt IPA trên thiết bị iOS."
       }
     ]
   },
