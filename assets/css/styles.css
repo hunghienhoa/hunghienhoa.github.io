@@ -1681,6 +1681,15 @@ body[data-page="search"] .app-row .card-actions {
   display: none !important;
 }
 
+/* Trang chi tiết: ẩn nút tải xuống ở mục ứng dụng liên quan */
+body[data-page="app"] .side-stack .app-row .card-actions {
+  display: none !important;
+}
+
+body[data-page="app"] .side-stack .app-row {
+  grid-template-columns: auto 1fr;
+}
+
 /* Loại bỏ mô tả (subtitle) ở danh sách: Trang chủ/Ứng dụng/Trò chơi/Tìm kiếm */
 body[data-page="home"] .app-row .meta,
 body[data-page="apps"] .app-row .meta,

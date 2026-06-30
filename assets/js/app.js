@@ -27,24 +27,6 @@ async function initAppPage() {
             </div>
           </div>
         </div>
-        <div class="stat-grid app-stat-row" style="margin-top:22px;">
-          <div class="stat-card glass">
-            <strong>${escapeHTML(app.version)}</strong>
-            <span class="muted">Phiên bản</span>
-          </div>
-          <div class="stat-card glass">
-            <strong>${escapeHTML(app.updated)}</strong>
-            <span class="muted">Ngày cập nhật</span>
-          </div>
-          <div class="stat-card glass">
-            <strong id="rtdb-views">${escapeHTML(app.views)}</strong>
-            <span class="muted">Lượt xem</span>
-          </div>
-          <div class="stat-card glass">
-            <strong id="rtdb-downloads">0</strong>
-            <span class="muted">Lượt tải</span>
-          </div>
-        </div>
 
         <section class="section">
           <div class="section-head">
@@ -54,6 +36,14 @@ async function initAppPage() {
           </div>
           <div class="content-block glass quick-info-block">
             <div class="mini-grid quick-info-grid">
+              <div class="mini-stat quick-info-card">
+                <strong>v${escapeHTML(app.version)}</strong>
+                <span class="muted">Phiên bản</span>
+              </div>
+              <div class="mini-stat quick-info-card">
+                <strong>${escapeHTML(app.updated)}</strong>
+                <span class="muted">Cập nhật</span>
+              </div>
               <div class="mini-stat quick-info-card">
                 <strong>${escapeHTML(app.size)}</strong>
                 <span class="muted">Kích thước</span>
@@ -144,8 +134,6 @@ async function initAppPage() {
   if (window.RtdbCounters) {
     if (window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
       window.RtdbCounters.incrementView(app.id);
-      window.RtdbCounters.watchViews(app.id, "rtdb-views");
-      window.RtdbCounters.watchDownloads(app.id, "rtdb-downloads");
       window.RtdbCounters.bindCounterElements(root);
     }
   }

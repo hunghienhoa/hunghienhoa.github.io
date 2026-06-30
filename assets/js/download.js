@@ -89,10 +89,6 @@ async function initDownloadPage() {
                 <div class="meta">${escapeHTML(app.developer)}</div>
                 <div class="meta-line">
                   <span>${escapeHTML(app.updated)}</span>
-                  <span><span id="rtdb-views">${escapeHTML(app.views)}</span> lượt xem</span>
-                </div>
-                <div class="meta-line">
-                  <span><span id="rtdb-downloads">0</span> lượt tải</span>
                 </div>
               </div>
             </article>
@@ -153,8 +149,6 @@ async function initDownloadPage() {
 
   // Firebase RTDB counters (nếu cấu hình)
   if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
-    window.RtdbCounters.watchViews(app.id, "rtdb-views");
-    window.RtdbCounters.watchDownloads(app.id, "rtdb-downloads");
     window.RtdbCounters.bindCounterElements(root);
   }
 }
