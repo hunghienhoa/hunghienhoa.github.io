@@ -92,7 +92,7 @@ async function initAppPage() {
           <div class="section-head">
             <div>
               <h2>Ảnh chụp màn hình</h2>
-              <p>Kéo ngang hoặc dùng nút điều khiển để xem thêm.</p>
+              <p>Vuốt sang trái/phải hoặc nhấn nút điều khiển để xem thêm.</p>
             </div>
           </div>
           <div class="slider-shell content-block glass">
