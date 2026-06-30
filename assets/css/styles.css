@@ -1676,7 +1676,8 @@ input {
 /* Trang chủ + Ứng dụng + Trò chơi: ẩn nút tải xuống + tối ưu layout mobile theo style card */
 body[data-page="home"] .app-row .card-actions,
 body[data-page="apps"] .app-row .card-actions,
-body[data-page="games"] .app-row .card-actions {
+body[data-page="games"] .app-row .card-actions,
+body[data-page="search"] .app-row .card-actions {
   display: none !important;
 }
 
