@@ -32,6 +32,41 @@ Cổng thông tin, hướng dẫn sideload và chia sẻ tệp tin **.IPA** mod 
 
 ---
 
+## ▶️ Cách Chạy Project
+
+Đây là website tĩnh, không có bước build hay `package.json`. Bạn chỉ cần mở bằng web server local, không nên mở trực tiếp bằng `file://` vì các file JSON sẽ dễ bị lỗi.
+
+### Chạy thường
+
+```bash
+cd /home/megumin/Documents/dev/toisharemod.github.io
+python3 -m http.server 8000
+```
+
+Sau đó mở:
+
+```text
+http://localhost:8000
+```
+
+### Chạy live reload
+
+Nếu muốn tự reload khi sửa file, dùng một trong hai cách sau:
+
+```bash
+cd /home/megumin/Documents/dev/toisharemod.github.io
+npx live-server .
+```
+
+Hoặc mở thư mục project trong VS Code rồi dùng extension `Live Server` cho file [index.html](index.html).
+
+### Lưu ý
+
+* `assets/js/firebase-config.js` đang để placeholder, nên phần counters/realtime chỉ chạy khi bạn điền config Firebase thật.
+* Nội dung chính của site nằm trong `data/apps.json` và `data/posts.json`.
+
+---
+
 ## 🤝 Hỗ Trợ & Báo Lỗi Chứng Chỉ
 
 Nếu gặp lỗi `Không thể xác minh ứng dụng` (App bị thu hồi), vui lòng thông báo cho đội ngũ quản trị viên tại:

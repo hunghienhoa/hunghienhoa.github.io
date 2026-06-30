@@ -258,6 +258,28 @@ function appRowTemplate(app, options = {}) {
   `;
 }
 
+function appGridTemplate(app) {
+  return `
+    <article class="app-grid-card glass fade-up" aria-label="${escapeHTML(app.name)}">
+      <a class="app-grid-icon" href="app.html?id=${encodeURIComponent(app.id)}" aria-label="${escapeHTML(app.name)}">
+        <img src="${app.icon}" alt="${escapeHTML(app.name)}" width="128" height="128" loading="lazy" />
+      </a>
+      <div class="app-grid-copy">
+        <a class="app-grid-title" href="app.html?id=${encodeURIComponent(app.id)}">${escapeHTML(app.name)}</a>
+        <div class="app-grid-meta">
+          <span>v${escapeHTML(app.version)}</span>
+          <span>${escapeHTML(app.size)}</span>
+        </div>
+      </div>
+      <div class="card-actions app-grid-actions">
+        <a class="btn btn-primary btn-download-grid" href="download.html?id=${encodeURIComponent(app.id)}" aria-label="Tải xuống ${escapeHTML(app.name)}">
+          Tải xuống
+        </a>
+      </div>
+    </article>
+  `;
+}
+
 function categoryIntro(type) {
   return type === "game"
     ? {

@@ -582,6 +582,66 @@ input {
   gap: 14px;
 }
 
+.home-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.app-grid-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 28px;
+  height: 100%;
+}
+
+.app-grid-icon {
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.app-grid-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-grid-copy {
+  display: grid;
+  gap: 6px;
+  flex: 1;
+  align-content: start;
+}
+
+.app-grid-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+.app-grid-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.app-grid-actions {
+  margin-top: auto;
+}
+
+.btn-download-grid {
+  width: 100%;
+  min-height: 46px;
+  border-radius: 18px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
 .section-actions {
   margin-top: 16px;
   display: flex;
@@ -1026,6 +1086,19 @@ input {
   align-items: start;
 }
 
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.blog-card h3 a {
+  display: block;
+  min-width: 0;
+}
+
 .blog-card img,
 .article-cover img {
   width: 100%;
@@ -1405,6 +1478,37 @@ input {
     gap: 12px;
   }
 
+  .home-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .app-grid-card {
+    padding: 8px;
+    gap: 6px;
+    border-radius: 16px;
+  }
+
+  .app-grid-icon {
+    border-radius: 16px;
+  }
+
+  .app-grid-title {
+    font-size: 0.74rem;
+    line-height: 1.14;
+  }
+
+  .app-grid-meta {
+    gap: 3px 6px;
+    font-size: 0.66rem;
+  }
+
+  .btn-download-grid {
+    min-height: 30px;
+    border-radius: 10px;
+    font-size: 0.68rem;
+  }
+
   .app-row {
     grid-template-columns: 64px minmax(0, 1fr) auto;
     gap: 12px;
@@ -1537,7 +1641,7 @@ input {
   }
 
   .blog-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 12px;
   }
 
@@ -1688,7 +1792,7 @@ input {
   }
 
   .blog-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 
