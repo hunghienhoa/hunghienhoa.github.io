@@ -1,51 +1,51 @@
 [
   {
-    "id": "dragon-ball-legends",
-    "name": "DRAGON BALL LEGENDS",
-    "subtitle": "No cooldown, auto complete challenge, tối ưu cho iPhone/iPad.",
-    "version": "6.24.0",
-    "size": "141.7 MB",
-    "updated": "26/06/2026",
-    "updatedRelative": "1 tháng trước",
-    "updatedIso": "2026-06-26",
-    "views": "876.1K",
+    "id": "nulls-clash",
+    "name": "Null’s Clash",
+    "subtitle": "Private Server, Unlimited Gems, trải nghiệm Clash of Clans mở rộng trên iPhone/iPad.",
+    "version": "18.400.7",
+    "size": "442.3 MB",
+    "updated": "30/06/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-06-30",
+    "views": "1.5M",
     "category": "game",
     "badge": "Miễn phí",
     "featuredGame": true,
     "featuredApp": false,
     "isNew": true,
     "rating": "4.9",
-    "os": "iOS 13.0+",
+    "os": "iOS 14.0+",
     "support": "Không cần jailbreak",
     "developer": "AlyssaX64",
-    "icon": "assets/img/dragon-ball.svg",
+    "icon": "assets/img/nulls-clash.png",
     "screenshots": [
-      "assets/img/dragon-1.svg",
-      "assets/img/dragon-2.svg",
-      "assets/img/dragon-3.svg"
+      "assets/img/nulls-1.png",
+      "assets/img/nulls-2.png",
+      "assets/img/nulls-3.png"
     ],
-    "heroTag": "Game nổi bật",
-    "description": "Bản mod IPA cho DRAGON BALL LEGENDS được thiết kế theo phong cách phân phối hiện đại trên iOS, giao diện rõ ràng, thao tác cài đặt nhanh và phần mô tả tối ưu SEO. Trang chi tiết tập trung vào khả năng đọc tốt trên màn hình điện thoại, iPad và desktop.",
+    "heroTag": "Private Server",
+    "description": "Null’s Clash là phiên bản máy chủ riêng mang đến trải nghiệm xây dựng, nâng cấp và chiến đấu không giới hạn tài nguyên. Tối ưu cho iOS, giao diện nhẹ, cài đặt nhanh và phù hợp hiển thị trên mọi thiết bị.",
     "features": [
-      "Enemies don't attack trong nhiều tình huống giao tranh.",
-      "No vanish cooldown để né đòn liên tục.",
-      "No swap cooldown giúp đổi nhân vật tức thì.",
-      "Auto complete challenge và phần thưởng được tối ưu hiển thị.",
-      "Bố cục cài đặt IPA thân thiện, phù hợp GitHub Pages."
+      "Unlimited Gems, Gold và Elixir trên Private Server.",
+      "Instant Build và nâng cấp công trình.",
+      "Train quân nhanh không giới hạn thời gian.",
+      "Mở khóa toàn bộ troop và spell.",
+      "Tối ưu trải nghiệm chiến đấu PvP trên server riêng."
     ],
-    "downloadUrl": "https://example.com/files/dragon-ball-legends.ipa",
+    "downloadUrl": "https://1024terabox.com/s/15AGijyS5iXrGj8_7FAw75A",
     "faq": [
       {
         "q": "Có cần jailbreak không?",
-        "a": "Không. Mẫu website này hiển thị rõ trạng thái hỗ trợ cài đặt không cần jailbreak."
+        "a": "Không. Có thể cài bằng AltStore, Sideloadly hoặc các công cụ ký IPA."
       },
       {
-        "q": "Lỗi không thể tải xuống được iPA?",
-        "a": "Kiểm tra lại đường truyền mạng và thử tải lại. Nếu vẫn không được, hãy liên hệ với quản trị viên."
+        "q": "Null’s Clash có phải game chính thức không?",
+        "a": "Không. Đây là Private Server, không thuộc Supercell."
       },
       {
-        "q": "Làm thế nào để cài đặt iPA?",
-        "a": "Mua chứng chỉ Apple hoặc sử dụng các công cụ như Sideloadly, AltStore để cài đặt IPA trên thiết bị iOS."
+        "q": "Có đăng nhập Supercell ID không?",
+        "a": "Không hỗ trợ để đảm bảo dữ liệu an toàn và tách biệt."
       }
     ]
   },
