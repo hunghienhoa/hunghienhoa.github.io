@@ -13,7 +13,7 @@ async function initSearchPage() {
     <section class="search-screen glass fade-up">
       <span class="chip">Tìm kiếm nhanh</span>
       <h1 class="detail-title">Tìm ứng dụng và trò chơi</h1>
-      <p class="article-lead">Màn hình này chỉ tập trung vào tìm kiếm và kết quả để người dùng điện thoại thao tác nhanh hơn.</p>
+      <p class="article-lead"></p>
       <label class="search-wrap glass search-screen-input" for="full-search-input">
         <span aria-hidden="true">⌕</span>
         <input id="full-search-input" type="search" placeholder="Nhập tên ứng dụng, game hoặc phiên bản..." aria-label="Tìm kiếm ứng dụng và trò chơi" />

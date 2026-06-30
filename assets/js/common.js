@@ -244,13 +244,13 @@ function categoryIntro(type) {
       page: "games",
       title: "Trò chơi",
       description: "Toàn bộ trò chơi được lọc riêng để người dùng điện thoại duyệt nhanh hơn.",
-      lead: "Danh sách game tối ưu cho thao tác chạm, hiển thị gọn và không bị khuyết nội dung."
+      lead: ""
     }
     : {
       page: "apps",
       title: "Ứng dụng",
       description: "Toàn bộ ứng dụng utility, productivity và media trong một màn hình riêng.",
-      lead: "Danh sách app được trình bày riêng để người dùng tìm đúng nội dung nhanh hơn trên điện thoại."
+      lead: ""
     };
 }
 
