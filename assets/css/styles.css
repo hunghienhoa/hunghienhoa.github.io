@@ -637,7 +637,7 @@ input {
 .btn-download-grid {
   width: 100%;
   min-height: 46px;
-  border-radius: 18px;
+  border-radius: 999px;
   font-size: 0.95rem;
   font-weight: 700;
 }
@@ -711,7 +711,7 @@ input {
   min-width: 54px;
   height: 54px;
   padding: 0;
-  border-radius: 18px;
+  border-radius: 22px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1505,7 +1505,7 @@ input {
 
   .btn-download-grid {
     min-height: 30px;
-    border-radius: 10px;
+    border-radius: 999px;
     font-size: 0.68rem;
   }
 
@@ -1863,6 +1863,7 @@ input {
     height: 34px;
     padding: 0 12px;
     font-size: 0.78rem;
+    border-radius: 999px;
   }
 
   .compact-title {
