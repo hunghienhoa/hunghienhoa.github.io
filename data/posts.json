@@ -1,5 +1,23 @@
 [
   {
+    "id": "ky-file-ipa-bang-esign",
+    "title": "Cách Ký File IPA Bằng ESign Trên iPhone Không Cần Máy Tính",
+    "excerpt": "Hướng dẫn ký file IPA bằng ESign trên iPhone giúp cài đặt ứng dụng ngoài App Store nhanh chóng, không cần jailbreak hay máy tính.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-sign-esign.png",
+    "cover": "assets/img/blog-sign-esign.png",
+    "author": "TRAE Studio",
+    "readTime": "6 phút đọc",
+    "category": "Hướng dẫn",
+    "related": [
+      "esign-3utools-guide",
+      "shadowrocket-3utools-guide",
+      "install-3utools-windows"
+    ],
+    "content": "<p>ESign là một ứng dụng ký file IPA phổ biến trên iOS, cho phép người dùng cài đặt ứng dụng ngoài App Store mà không cần jailbreak. Điểm mạnh của ESign là có thể ký và cài trực tiếp trên iPhone mà không cần sử dụng máy tính.</p><p>Trong bài viết này, bạn sẽ được hướng dẫn cách ký file IPA bằng ESign một cách chi tiết và dễ hiểu nhất.</p><h2>Chuẩn bị trước khi ký IPA</h2><ul><li>iPhone đã cài sẵn ứng dụng ESign.</li><li>File IPA bạn muốn cài đặt.</li><li>Kết nối Internet ổn định.</li><li>Chứng chỉ ký (certificate) hợp lệ trong ESign.</li></ul><h2>Bước 1: Mở ứng dụng ESign</h2><p>Trên iPhone, mở ứng dụng ESign. Tại giao diện chính, bạn sẽ thấy các mục quản lý file và chứng chỉ ký ứng dụng.</p><h2>Bước 2: Thêm file IPA</h2><p>Nhấn vào biểu tượng <strong>Import</strong> hoặc dấu <strong>+</strong>, sau đó chọn file IPA từ Tệp (Files), iCloud hoặc bộ nhớ thiết bị.</p><p>Sau khi thêm thành công, file IPA sẽ hiển thị trong danh sách ứng dụng chờ ký.</p><h2>Bước 3: Chọn file để ký</h2><p>Nhấn vào file IPA bạn vừa thêm, sau đó chọn <strong>Sign</strong> hoặc <strong>Ký ứng dụng</strong>. ESign sẽ yêu cầu bạn chọn chứng chỉ để ký.</p><h2>Bước 4: Chọn chứng chỉ ký</h2><p>Chọn một chứng chỉ hợp lệ đã được thêm vào ESign. Nếu chưa có chứng chỉ, bạn cần import file certificate (.p12) và provisioning profile trước.</p><p>Chứng chỉ sẽ quyết định thời gian hoạt động của ứng dụng sau khi cài đặt.</p><h2>Bước 5: Tiến hành ký IPA</h2><p>Sau khi chọn chứng chỉ, nhấn <strong>Start Signing</strong>. ESign sẽ tự động ký lại file IPA và tạo ra phiên bản đã được ký hợp lệ.</p><p>Quá trình này có thể mất từ 1 đến 3 phút tùy vào dung lượng ứng dụng.</p><h2>Bước 6: Cài đặt ứng dụng</h2><p>Sau khi ký xong, nhấn <strong>Install</strong> để cài đặt ứng dụng lên iPhone. Nếu hệ thống yêu cầu, hãy vào <strong>Cài đặt &gt; VPN &amp; Quản lý thiết bị</strong> và tin cậy chứng chỉ.</p><h2>Lưu ý quan trọng</h2><ul><li>Chứng chỉ có thể bị thu hồi bất kỳ lúc nào.</li><li>Không nên ký nhiều ứng dụng cùng lúc để tránh lỗi.</li><li>Luôn dùng file IPA từ nguồn an toàn.</li><li>Nếu app bị crash, hãy thử ký lại bằng chứng chỉ khác.</li></ul><h2>Kết luận</h2><p>Việc ký file IPA bằng ESign giúp bạn dễ dàng cài đặt ứng dụng ngoài App Store mà không cần máy tính hay jailbreak. Đây là phương pháp đơn giản, nhanh chóng và phù hợp với hầu hết người dùng iOS hiện nay.</p>"
+  },
+  {
     "id": "esign-3utools-guide",
     "title": "Hướng Dẫn Cài Đặt ESign Bằng 3uTools Trên iPhone Chi Tiết",
     "excerpt": "Hướng dẫn cài đặt ESign trên iPhone thông qua 3uTools, giúp ký và cài file IPA trực tiếp mà không cần App Store.",
