@@ -1,5 +1,41 @@
 [
   {
+    "id": "shadowrocket-import-config",
+    "title": "Cách Import Cấu Hình Vào Shadowrocket Trên iPhone",
+    "excerpt": "Hướng dẫn nhập cấu hình vào Shadowrocket bằng Subscription URL, mã QR, tệp cấu hình hoặc nhập thủ công.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-shadowrocket-import.png",
+    "cover": "assets/img/blog-shadowrocket-import.png",
+    "author": "Tôi Share Mod",
+    "readTime": "7 phút đọc",
+    "category": "Hướng dẫn",
+    "related": [
+      "shadowrocket-user-guide",
+      "shadowrocket-3utools-guide",
+      "install-3utools-ios"
+    ],
+    "content": "<p>Sau khi cài đặt Shadowrocket, bước tiếp theo là nhập cấu hình (Configuration) hoặc danh sách máy chủ do nhà cung cấp dịch vụ cung cấp. Shadowrocket hỗ trợ nhiều phương thức nhập khác nhau như Subscription URL, mã QR, tệp cấu hình hoặc nhập thủ công.</p><h2>Phương pháp 1: Import bằng Subscription URL</h2><ol><li>Mở Shadowrocket.</li><li>Nhấn biểu tượng <strong>+</strong>.</li><li>Chọn <strong>Add Subscription</strong> hoặc <strong>Subscribe</strong>.</li><li>Dán Subscription URL được nhà cung cấp cấp.</li><li>Đặt tên nếu muốn.</li><li>Nhấn <strong>Done</strong>.</li><li>Danh sách máy chủ sẽ được tải về tự động.</li></ol><h2>Phương pháp 2: Quét mã QR</h2><ol><li>Nhấn biểu tượng <strong>+</strong>.</li><li>Chọn <strong>Scan QR Code</strong>.</li><li>Quét mã QR do nhà cung cấp cung cấp.</li><li>Xác nhận để nhập cấu hình.</li></ol><h2>Phương pháp 3: Import từ tệp</h2><ol><li>Nhấn <strong>+</strong>.</li><li>Chọn <strong>Import from File</strong>.</li><li>Chọn tệp cấu hình từ ứng dụng Tệp hoặc iCloud Drive.</li><li>Nhấn <strong>Import</strong>.</li></ol><h2>Phương pháp 4: Nhập thủ công</h2><ol><li>Nhấn <strong>+</strong>.</li><li>Chọn đúng loại giao thức (ví dụ: Shadowsocks, VLESS, VMess, Trojan hoặc WireGuard).</li><li>Điền các thông tin do nhà cung cấp cung cấp như địa chỉ máy chủ, cổng, khóa hoặc UUID, mật khẩu và các thông số liên quan.</li><li>Lưu cấu hình.</li></ol><h2>Cập nhật Subscription</h2><p>Nếu sử dụng Subscription URL, bạn chỉ cần kéo xuống hoặc nhấn <strong>Update</strong> để đồng bộ danh sách máy chủ mới mà không cần nhập lại từ đầu.</p><h2>Khắc phục lỗi thường gặp</h2><ul><li>Kiểm tra lại Subscription URL nếu không thể tải cấu hình.</li><li>Đảm bảo thiết bị có kết nối Internet.</li><li>Nếu nhập từ tệp, hãy kiểm tra định dạng tệp có được Shadowrocket hỗ trợ.</li><li>Nếu cấu hình không hoạt động, hãy liên hệ nhà cung cấp dịch vụ để xác nhận thông tin.</li></ul><h2>Kết luận</h2><p>Shadowrocket hỗ trợ nhiều cách nhập cấu hình, từ liên kết đăng ký, mã QR đến tệp cấu hình hoặc nhập thủ công. Bạn chỉ cần chọn phương thức phù hợp với thông tin được nhà cung cấp cung cấp để bắt đầu sử dụng.</p>"
+  },
+  {
+    "id": "shadowrocket-user-guide",
+    "title": "Hướng Dẫn Cài Đặt Và Sử Dụng Shadowrocket Cho Người Mới",
+    "excerpt": "Hướng dẫn cài đặt và sử dụng Shadowrocket trên iPhone từ A-Z, bao gồm cách thêm máy chủ, bật VPN và quản lý cấu hình.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-shadowrocket-guide.png",
+    "cover": "assets/img/blog-shadowrocket-guide.png",
+    "author": "Tôi Share Mod",
+    "readTime": "8 phút đọc",
+    "category": "Hướng dẫn",
+    "related": [
+      "shadowrocket-import-config",
+      "shadowrocket-3utools-guide",
+      "ky-file-ipa-bang-esign"
+    ],
+    "content": "<p>Shadowrocket là một ứng dụng trên iPhone giúp quản lý cấu hình proxy và VPN, hỗ trợ nhiều giao thức phổ biến như Shadowsocks, VLESS, VMess, Trojan, WireGuard và SOCKS5. Sau khi cài đặt ứng dụng, bạn có thể nhập cấu hình do nhà cung cấp dịch vụ cấp để kết nối mạng theo nhu cầu của mình.</p><h2>Cài đặt Shadowrocket</h2><ol><li>Cài đặt Shadowrocket trên iPhone.</li><li>Mở ứng dụng sau khi cài đặt hoàn tất.</li><li>Cho phép ứng dụng thêm cấu hình VPN khi được hệ thống yêu cầu.</li></ol><h2>Giao diện chính</h2><p>Màn hình chính hiển thị danh sách máy chủ, nút kết nối, cấu hình đang sử dụng và trạng thái VPN. Bạn có thể thêm hoặc chỉnh sửa cấu hình bất cứ lúc nào.</p><h2>Thêm máy chủ</h2><p>Nhấn biểu tượng <strong>+</strong> ở góc trên bên phải và chọn phương thức thêm cấu hình như nhập thủ công, quét mã QR, nhập từ tệp hoặc từ liên kết đăng ký (subscription). Shadowrocket hỗ trợ nhiều hình thức nhập cấu hình khác nhau.</p><h2>Kết nối VPN</h2><p>Sau khi đã có ít nhất một máy chủ, chọn máy chủ mong muốn rồi bật công tắc kết nối trên màn hình chính. Lần đầu sử dụng, iPhone sẽ yêu cầu cấp quyền tạo cấu hình VPN. Chỉ cần chọn <strong>Cho phép</strong> và xác thực bằng Face ID, Touch ID hoặc mật khẩu thiết bị.</p><h2>Quản lý máy chủ</h2><ul><li>Đổi tên máy chủ.</li><li>Xóa máy chủ không sử dụng.</li><li>Sắp xếp lại danh sách.</li><li>Cập nhật subscription.</li></ul><h2>Cập nhật cấu hình</h2><p>Nếu bạn sử dụng subscription URL, Shadowrocket có thể cập nhật danh sách máy chủ chỉ bằng thao tác <strong>Update</strong>, giúp đồng bộ các thay đổi từ nhà cung cấp dịch vụ.</p><h2>Một số lưu ý</h2><ul><li>Chỉ nhập cấu hình từ nguồn đáng tin cậy.</li><li>Cập nhật subscription định kỳ để nhận máy chủ mới.</li><li>Nếu không kết nối được, hãy kiểm tra kết nối Internet hoặc thử máy chủ khác.</li></ul><h2>Kết luận</h2><p>Shadowrocket là công cụ mạnh mẽ giúp quản lý cấu hình proxy và VPN trên iPhone. Chỉ cần nhập đúng cấu hình và cấp quyền VPN, bạn có thể sử dụng ứng dụng một cách thuận tiện cho các mục đích kết nối hợp pháp.</p>"
+  },
+  {
     "id": "delay-ota-ios-guide",
     "title": "Hướng Dẫn Delay OTA iOS Cho Các Phiên Bản Được Hỗ Trợ",
     "excerpt": "Tìm hiểu Delay OTA là gì, các phiên bản iOS được hỗ trợ và cách cập nhật iPhone lên phiên bản mong muốn bằng phương pháp Delay OTA.",
