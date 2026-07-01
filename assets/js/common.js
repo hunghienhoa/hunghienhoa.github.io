@@ -85,9 +85,7 @@ function renderShell(page) {
   const mobileNav = document.getElementById("mobile-nav");
   const footer = document.getElementById("site-footer");
   const toolLinks = [
-    { href: "sign-application.html", label: "iPA Sign" },
-    { href: "post-generator.html", label: "Tạo bài viết" },
-    { href: "app-generator.html", label: "Tạo app/game" }
+    { href: "sign-application.html", label: "iPA Sign" }
   ];
   const mobileLinks = [
     {
@@ -182,7 +180,55 @@ function renderShell(page) {
   }
 
   if (footer) {
-    footer.remove();
+    footer.className = "footer glass fade-up";
+    footer.innerHTML = `
+      <div class="footer-grid">
+        <div class="footer-brand footer-highlight">
+          <span class="footer-badge">Kho ứng dụng & bài viết</span>
+          <a class="brand footer-brand-link" href="index.html" aria-label="Tôi Share Mod">
+            <img src="assets/img/logo-mark.svg" alt="Tôi Share Mod" width="38" height="38" />
+            <span>Tôi Share Mod</span>
+          </a>
+          <p>Chia sẻ ứng dụng, game, file IPA và bài viết hướng dẫn cài đặt dành cho người dùng iPhone, iPad trên giao diện tối ưu cho điện thoại.</p>
+          <div class="footer-pills">
+            <span class="pill footer-pill">Giao diện mobile-first</span>
+            <span class="pill footer-pill">Cập nhật bài viết thường xuyên</span>
+            <span class="pill footer-pill">Tối ưu trải nghiệm iPhone</span>
+          </div>
+          <div class="footer-stats">
+            <div class="footer-stat">
+              <strong>App & Game</strong>
+              <span>Kho nội dung được sắp xếp rõ ràng theo từng mục.</span>
+            </div>
+            <div class="footer-stat">
+              <strong>Blog thủ thuật</strong>
+              <span>Hướng dẫn cài IPA, ký ứng dụng và mẹo sử dụng thực tế.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-nav-block">
+          <h3 class="footer-title">Điều hướng</h3>
+          <div class="footer-links">
+            ${links.map(link => `<a href="${link.href}">${link.label}</a>`).join("")}
+          </div>
+        </div>
+
+        <div class="footer-nav-block">
+          <h3 class="footer-title">Truy cập nhanh</h3>
+          <div class="footer-links">
+            <a href="collection.html?section=featured-games">Trò chơi nổi bật</a>
+            <a href="collection.html?section=featured-apps">Ứng dụng nổi bật</a>
+            <a href="collection.html?section=whats-new">Có gì mới</a>
+            <a href="blog.html">Blog thủ thuật</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Tôi Share Mod. Giao diện chia sẻ nội dung, ứng dụng và hướng dẫn được cập nhật thường xuyên.</p>
+      </div>
+    `;
   }
 
   const toolsToggle = document.querySelector("[data-tools-toggle]");

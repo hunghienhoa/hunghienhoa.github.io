@@ -582,10 +582,22 @@ input {
   gap: 14px;
 }
 
+.listing-compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .section-actions {
   margin-top: 16px;
   display: flex;
   justify-content: center;
+}
+
+.listing-compact .app-row .card-actions {
+  display: none !important;
+}
+
+.listing-compact .app-row .meta {
+  display: none !important;
 }
 
 .app-row {
@@ -667,6 +679,9 @@ input {
 
 .category-hero,
 .search-screen {
+  display: grid;
+  align-items: start;
+  gap: 16px;
   padding: 22px;
   border-radius: 32px;
 }
@@ -681,6 +696,9 @@ input {
 }
 
 .chip-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-height: 40px;
   padding: 0 14px;
   border: 1px solid var(--line);
@@ -688,6 +706,9 @@ input {
   color: var(--text);
   border-radius: 999px;
   cursor: pointer;
+  line-height: 1.25;
+  max-width: 100%;
+  text-align: center;
 }
 
 .detail-grid {
@@ -943,8 +964,32 @@ input {
 }
 
 .blog-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   align-items: start;
+}
+
+body[data-page="home"] .blog-grid,
+body[data-page="blog"] .blog-grid {
+  grid-template-columns: 1fr;
+}
+
+body[data-page="home"] .blog-card,
+body[data-page="blog"] .blog-card {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+body[data-page="home"] .blog-card > a,
+body[data-page="blog"] .blog-card > a {
+  height: 100%;
+}
+
+body[data-page="home"] .blog-card img,
+body[data-page="blog"] .blog-card img {
+  height: 100%;
+  min-height: 220px;
 }
 
 .blog-card img,
@@ -994,15 +1039,154 @@ input {
   margin-top: 44px;
   padding: 24px;
   border-radius: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
+  display: grid;
+  gap: 24px;
 }
 
 .footer p {
   margin: 0;
   color: var(--muted);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) repeat(2, minmax(180px, 0.7fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.footer-brand {
+  display: grid;
+  gap: 14px;
+}
+
+.footer-highlight {
+  position: relative;
+  padding: 24px;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top left, rgba(90, 176, 255, 0.22), transparent 36%),
+    linear-gradient(135deg, color-mix(in srgb, var(--primary) 16%, var(--surface-strong)), color-mix(in srgb, var(--primary-2) 14%, var(--surface)));
+  border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--line));
+  overflow: hidden;
+}
+
+.footer-highlight::after {
+  content: "";
+  position: absolute;
+  right: -48px;
+  top: -48px;
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  filter: blur(8px);
+}
+
+.footer-brand-link {
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-badge {
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text);
+  font-size: 0.84rem;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-title {
+  margin: 0 0 14px;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.footer-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-pill {
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--text);
+}
+
+.footer-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-stat,
+.footer-nav-block {
+  padding: 18px;
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--surface-strong) 88%, transparent);
+  border: 1px solid var(--line);
+}
+
+.footer-stat strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.footer-stat span {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: grid;
+  gap: 10px;
+}
+
+.footer-links a,
+.footer-bottom a {
+  color: var(--muted);
+}
+
+.footer-links a:hover,
+.footer-bottom a:hover {
+  color: var(--text);
+}
+
+.footer-bottom {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer-bottom p {
+  width: 100%;
+  text-align: center;
+}
+
+.article-category-link {
+  display: inline-flex;
+}
+
+.chip-action.active {
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  color: #fff;
+  border-color: transparent;
 }
 
 .mobile-nav {
@@ -1094,8 +1278,17 @@ input {
   }
 
   .blog-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
 
   .shelf-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1322,8 +1515,23 @@ input {
     max-width: 100%;
   }
 
+  .category-summary {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+  }
+
+  .search-chips {
+    width: 100%;
+  }
+
   .listing {
     gap: 12px;
+  }
+
+  .listing-compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .app-row {
@@ -1364,6 +1572,41 @@ input {
   .app-row .card-actions .btn {
     width: auto;
     min-height: 38px;
+  }
+
+  .listing-compact .app-row {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 12px;
+    align-items: center;
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  .listing-compact .app-row img {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    object-fit: cover;
+  }
+
+  .listing-compact .app-row .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.98rem;
+    line-height: 1.2;
+  }
+
+  .listing-compact .app-row .meta-line {
+    margin-top: 4px;
+    gap: 8px;
+    font-size: 0.82rem;
+  }
+
+  .listing-compact .app-row .meta-line span:nth-child(3) {
+    display: none;
   }
 
   .detail-head,
@@ -1448,8 +1691,24 @@ input {
   }
 
   .blog-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  body[data-page="home"] .blog-grid,
+  body[data-page="blog"] .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-page="home"] .blog-card,
+  body[data-page="blog"] .blog-card {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  body[data-page="home"] .blog-card img,
+  body[data-page="blog"] .blog-card img {
+    min-height: 0;
   }
 
   .blog-card {
@@ -1515,9 +1774,27 @@ input {
   }
 
   .footer {
-    flex-direction: column;
-    align-items: start;
     padding-bottom: 90px;
+  }
+
+  .footer-highlight,
+  .footer-nav-block {
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .footer-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid,
+  .footer-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    display: grid;
+    justify-content: initial;
   }
 }
 
@@ -1573,6 +1850,10 @@ input {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .category-summary {
+    grid-template-columns: 1fr;
+  }
+
   .quick-info-block {
     padding: 10px;
   }
@@ -1594,13 +1875,22 @@ input {
     grid-auto-columns: minmax(86vw, 86vw);
   }
 
+  .listing-compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .shelf-grid {
     grid-template-columns: 1fr;
   }
 
   .blog-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  body[data-page="home"] .blog-grid,
+  body[data-page="blog"] .blog-grid {
+    grid-template-columns: 1fr;
   }
 
   .blog-card {
@@ -1673,11 +1963,12 @@ input {
   }
 }
 
-/* Trang chủ + Ứng dụng + Trò chơi: ẩn nút tải xuống + tối ưu layout mobile theo style card */
+/* Trang danh sách: ẩn nút tải xuống + tối ưu layout card gọn */
 body[data-page="home"] .app-row .card-actions,
 body[data-page="apps"] .app-row .card-actions,
 body[data-page="games"] .app-row .card-actions,
-body[data-page="search"] .app-row .card-actions {
+body[data-page="search"] .app-row .card-actions,
+body[data-page="collection"] .app-row .card-actions {
   display: none !important;
 }
 
@@ -1690,25 +1981,29 @@ body[data-page="app"] .side-stack .app-row {
   grid-template-columns: auto 1fr;
 }
 
-/* Loại bỏ mô tả (subtitle) ở danh sách: Trang chủ/Ứng dụng/Trò chơi/Tìm kiếm */
+/* Loại bỏ mô tả (subtitle) ở danh sách */
 body[data-page="home"] .app-row .meta,
 body[data-page="apps"] .app-row .meta,
 body[data-page="games"] .app-row .meta,
-body[data-page="search"] .app-row .meta {
+body[data-page="search"] .app-row .meta,
+body[data-page="collection"] .app-row .meta {
   display: none !important;
 }
 
-/* Desktop/tablet: danh sách dạng lưới rộng, card vẫn gọn */
-body[data-page="home"] .listing,
+/* Desktop/tablet: các trang danh sách thường dùng lưới co giãn */
 body[data-page="apps"] .listing,
 body[data-page="games"] .listing,
 body[data-page="search"] .listing {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-/* Mobile: ưu tiên đọc tiêu đề (2 thẻ / 1 hàng, thẻ ngang gọn) */
+@media (max-width: 360px) {
+  .listing-compact {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 520px) {
-  body[data-page="home"] .listing,
   body[data-page="apps"] .listing,
   body[data-page="games"] .listing,
   body[data-page="search"] .listing {
@@ -1716,7 +2011,6 @@ body[data-page="search"] .listing {
     gap: 12px;
   }
 
-  body[data-page="home"] .app-row,
   body[data-page="apps"] .app-row,
   body[data-page="games"] .app-row,
   body[data-page="search"] .app-row {
@@ -1724,18 +2018,10 @@ body[data-page="search"] .listing {
     grid-template-columns: 60px minmax(0, 1fr);
     gap: 12px;
     align-items: center;
-    padding: 12px 12px;
+    padding: 12px;
     border-radius: 20px;
   }
 
-  body[data-page="home"] .app-row > a:first-child,
-  body[data-page="apps"] .app-row > a:first-child,
-  body[data-page="games"] .app-row > a:first-child,
-  body[data-page="search"] .app-row > a:first-child {
-    display: block;
-  }
-
-  body[data-page="home"] .app-row img,
   body[data-page="apps"] .app-row img,
   body[data-page="games"] .app-row img,
   body[data-page="search"] .app-row img {
@@ -1745,7 +2031,6 @@ body[data-page="search"] .listing {
     object-fit: cover;
   }
 
-  body[data-page="home"] .app-row .title,
   body[data-page="apps"] .app-row .title,
   body[data-page="games"] .app-row .title,
   body[data-page="search"] .app-row .title {
@@ -1757,7 +2042,6 @@ body[data-page="search"] .listing {
     line-height: 1.2;
   }
 
-  body[data-page="home"] .app-row .meta-line,
   body[data-page="apps"] .app-row .meta-line,
   body[data-page="games"] .app-row .meta-line,
   body[data-page="search"] .app-row .meta-line {
@@ -1766,19 +2050,9 @@ body[data-page="search"] .listing {
     font-size: 0.82rem;
   }
 
-  body[data-page="home"] .app-row .meta-line span:nth-child(3),
   body[data-page="apps"] .app-row .meta-line span:nth-child(3),
   body[data-page="games"] .app-row .meta-line span:nth-child(3),
   body[data-page="search"] .app-row .meta-line span:nth-child(3) {
     display: none;
-  }
-}
-
-@media (max-width: 360px) {
-  body[data-page="home"] .listing,
-  body[data-page="apps"] .listing,
-  body[data-page="games"] .listing,
-  body[data-page="search"] .listing {
-    grid-template-columns: 1fr;
   }
 }
