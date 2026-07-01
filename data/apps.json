@@ -247,6 +247,57 @@
     ]
   },
   {
+    "id": "my-hot-pot-story-mod",
+    "name": "My Hot Pot Story Mod",
+    "subtitle": "Unlimited Diamonds & Gold, trải nghiệm quản lý nhà hàng tối ưu cho iPhone/iPad.",
+    "version": "5.6.1",
+    "size": "764.4 MB",
+    "updated": "12/06/2026",
+    "updatedRelative": "2 tuần trước",
+    "updatedIso": "2026-06-12",
+    "views": "742.8K",
+    "category": "game",
+    "badge": "Miễn phí",
+    "featuredGame": true,
+    "featuredApp": false,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 13.0+",
+    "support": "Không cần jailbreak",
+    "developer": "AlyssaX64",
+    "icon": "assets/img/my-hot-pot-story.png",
+    "screenshots": [
+      "assets/img/hotpot-1.png",
+      "assets/img/hotpot-2.png",
+      "assets/img/hotpot-3.png"
+    ],
+    "heroTag": "Game nổi bật",
+    "description": "My Hot Pot Story Mod IPA mang đến trải nghiệm quản lý nhà hàng lẩu với nhiều tính năng mở rộng giúp bạn phát triển cửa hàng nhanh hơn. Phiên bản được tối ưu cho iPhone và iPad, giao diện thân thiện, cài đặt nhanh và không cần jailbreak.",
+    "features": [
+      "Unlimited Diamonds để mua vật phẩm và nâng cấp.",
+      "Unlimited Gold giúp mở rộng nhà hàng nhanh chóng.",
+      "Unlimited Cash để nâng cấp nội thất.",
+      "Mở khóa nhiều vật phẩm và trang trí.",
+      "Tăng tốc xây dựng và phát triển nhà hàng.",
+      "Tương thích iPhone/iPad, không cần jailbreak."
+    ],
+    "downloadUrl": "https://example.com/files/my-hot-pot-story-mod.ipa",
+    "faq": [
+      {
+        "q": "Có cần jailbreak để cài đặt không?",
+        "a": "Không. Bạn có thể cài đặt bằng AltStore, SideStore, Sideloadly hoặc các công cụ ký IPA khác."
+      },
+      {
+        "q": "Game có hỗ trợ iPhone và iPad không?",
+        "a": "Có. Phiên bản tương thích với hầu hết các thiết bị chạy iOS 13.0 trở lên."
+      },
+      {
+        "q": "Nếu IPA không cài đặt được thì phải làm sao?",
+        "a": "Hãy kiểm tra chứng chỉ ký IPA hoặc ký lại ứng dụng trước khi cài đặt."
+      }
+    ]
+  },
+  {
     "id": "tiktok-asd-vibe",
     "name": "TikTok ASD+Vibe",
     "subtitle": "Phiên bản TikTok dành cho iPhone/iPad, xem video ngắn, livestream và chia sẻ nội dung.",
