@@ -46,7 +46,6 @@ async function initCollectionPage() {
     </div>
 
     <section class="category-hero glass fade-up">
-      <span class="chip">${escapeHTML(config.title)}</span>
       <h1 class="detail-title">${escapeHTML(config.title)}</h1>
       <p class="article-lead">${escapeHTML(config.lead)}</p>
       <div class="category-summary">
