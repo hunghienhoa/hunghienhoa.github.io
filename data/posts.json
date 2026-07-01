@@ -1,5 +1,23 @@
 [
   {
+    "id": "esign-3utools-guide",
+    "title": "Hướng Dẫn Cài Đặt ESign Bằng 3uTools Trên iPhone Chi Tiết",
+    "excerpt": "Hướng dẫn cài đặt ESign trên iPhone thông qua 3uTools, giúp ký và cài file IPA trực tiếp mà không cần App Store.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-esign-3utools.png",
+    "cover": "assets/img/blog-esign-3utools.png",
+    "author": "TRAE Studio",
+    "readTime": "7 phút đọc",
+    "category": "Hướng dẫn",
+    "related": [
+      "install-3utools-windows",
+      "shadowrocket-3utools-guide",
+      "install-3utools-ios"
+    ],
+    "content": "<p>ESign là một trong những ứng dụng ký file IPA phổ biến nhất trên iOS, cho phép người dùng cài đặt ứng dụng bên ngoài App Store mà không cần jailbreak. Khi kết hợp với 3uTools trên máy tính, việc cài đặt ESign trở nên đơn giản và nhanh chóng hơn rất nhiều.</p><p>Trong bài viết này, bạn sẽ được hướng dẫn cách cài đặt ESign bằng 3uTools từng bước chi tiết.</p><h2>Chuẩn bị trước khi cài đặt</h2><ul><li>Máy tính Windows đã cài 3uTools.</li><li>iPhone hoặc iPad có cáp kết nối.</li><li>Kết nối Internet ổn định.</li><li>Phiên bản ESign IPA hoặc công cụ cài đặt từ 3uTools.</li></ul><h2>Bước 1: Kết nối iPhone với 3uTools</h2><p>Mở phần mềm 3uTools trên máy tính và kết nối iPhone bằng cáp Lightning hoặc USB-C. Khi trên iPhone xuất hiện thông báo <strong>Tin cậy máy tính này</strong>, hãy chọn <strong>Tin cậy</strong> để tiếp tục.</p><p>Sau khi kết nối thành công, 3uTools sẽ hiển thị thông tin chi tiết về thiết bị như phiên bản iOS, dung lượng pin và bộ nhớ.</p><h2>Bước 2: Truy cập mục cài đặt ứng dụng</h2><p>Trên giao diện chính của 3uTools, chọn mục <strong>Apps</strong> hoặc <strong>Toolbox</strong>. Đây là nơi bạn có thể cài đặt các ứng dụng IPA trực tiếp lên thiết bị iOS.</p><h2>Bước 3: Tìm và cài đặt ESign</h2><p>Tại mục cài đặt ứng dụng, tìm kiếm <strong>ESign</strong>. Nếu có sẵn trong danh sách ứng dụng hỗ trợ, bạn chỉ cần nhấn <strong>Install</strong> để bắt đầu cài đặt.</p><p>Nếu bạn có file IPA của ESign, hãy chọn <strong>Import IPA</strong> và tải file từ máy tính lên để cài đặt.</p><h2>Bước 4: Quá trình cài đặt</h2><p>3uTools sẽ tiến hành ký ứng dụng và cài đặt vào iPhone. Quá trình này thường mất từ 1 đến 5 phút tùy theo thiết bị và phiên bản iOS.</p><p>Không nên ngắt kết nối trong quá trình cài đặt để tránh lỗi ứng dụng.</p><h2>Bước 5: Tin cậy ứng dụng trên iPhone</h2><p>Sau khi cài đặt xong, bạn cần vào <strong>Cài đặt &gt; Cài đặt chung &gt; VPN &amp; Quản lý thiết bị</strong>, sau đó chọn chứng chỉ của ứng dụng và nhấn <strong>Tin cậy</strong>.</p><p>Điều này giúp iPhone cho phép chạy ứng dụng ESign vừa cài đặt.</p><h2>Bước 6: Sử dụng ESign để ký IPA</h2><p>Sau khi cài đặt thành công, bạn có thể mở ESign để ký các file IPA khác. Chỉ cần nhập file IPA, chọn chứng chỉ và tiến hành ký là có thể cài đặt ứng dụng lên thiết bị.</p><h2>Lưu ý quan trọng</h2><ul><li>Chứng chỉ có thể bị thu hồi sau một thời gian sử dụng.</li><li>Nên sử dụng file IPA từ nguồn đáng tin cậy.</li><li>Nếu ứng dụng không mở được, hãy thử cài lại hoặc đổi chứng chỉ khác.</li><li>Không ngắt kết nối thiết bị trong khi đang cài đặt.</li></ul><h2>Kết luận</h2><p>Việc cài đặt ESign bằng 3uTools giúp bạn dễ dàng ký và cài đặt ứng dụng IPA mà không cần jailbreak. Đây là một công cụ cực kỳ hữu ích cho những ai thường xuyên sử dụng ứng dụng ngoài App Store.</p>"
+  },
+  {
     "id": "install-3utools-windows",
     "title": "Hướng Dẫn Cài Đặt 3uTools Trên Máy Tính Windows Chi Tiết",
     "excerpt": "Hướng dẫn tải và cài đặt 3uTools trên máy tính Windows để quản lý iPhone, cài ứng dụng IPA và sao lưu dữ liệu một cách dễ dàng.",
@@ -32,6 +50,23 @@
       "shadowrocket-3utools-guide"
     ],
     "content": "\n<p>Ngoài phiên bản dành cho Windows, 3uTools còn cung cấp ứng dụng dành cho iPhone giúp người dùng tải và cài đặt các ứng dụng phổ biến mà không cần sử dụng App Store. Để cài đặt ứng dụng này, bạn cần sử dụng phần mềm 3uTools trên máy tính và kết nối iPhone qua cáp USB.</p>\n\n<h2>Bước 1: Cài đặt 3uTools trên máy tính</h2>\n<p>Nếu máy tính của bạn chưa có phần mềm 3uTools, hãy tải phiên bản mới nhất từ trang chủ và tiến hành cài đặt. Sau khi hoàn tất, mở phần mềm để chuẩn bị kết nối thiết bị.</p>\n\n<h2>Bước 2: Kết nối iPhone với máy tính</h2>\n<p>Sử dụng cáp Lightning hoặc USB-C để kết nối iPhone với máy tính. Khi trên điện thoại xuất hiện thông báo <strong>Tin cậy máy tính này</strong>, hãy chọn <strong>Tin cậy</strong> và nhập mật khẩu để cấp quyền kết nối.</p>\n\n<h2>Bước 3: Cài đặt ứng dụng 3uTools lên iPhone</h2>\n<p>Sau khi thiết bị được nhận diện thành công, tại giao diện chính của 3uTools trên máy tính sẽ xuất hiện tùy chọn cài đặt ứng dụng 3uTools dành cho iPhone. Nhấn <strong>Install</strong> và chờ quá trình cài đặt hoàn tất.</p>\n\n<p>Thời gian cài đặt thường chỉ mất từ 1 đến 3 phút tùy theo tốc độ kết nối. Sau khi hoàn tất, biểu tượng 3uTools sẽ xuất hiện trên màn hình chính của iPhone.</p>\n\n<h2>Bước 4: Mở ứng dụng 3uTools trên iPhone</h2>\n<p>Ngắt kết nối với máy tính và mở ứng dụng 3uTools vừa được cài đặt. Tại đây bạn có thể tìm kiếm nhiều ứng dụng phổ biến, tải về thiết bị hoặc cài đặt các công cụ hỗ trợ khác tùy theo nhu cầu.</p>\n\n<h2>Sử dụng 3uTools để cài Shadowrocket</h2>\n<p>Một trong những cách được nhiều người sử dụng là mở ứng dụng 3uTools trên iPhone, tìm kiếm <strong>Shadowrocket</strong>, sau đó nhấn cài đặt. Sau khi hoàn tất, biểu tượng Shadowrocket sẽ xuất hiện trên màn hình chính và sẵn sàng sử dụng.</p>\n\n<h2>Một số lưu ý</h2>\n<ul>\n<li>Đảm bảo iPhone có kết nối Internet ổn định.</li>\n<li>Sử dụng cáp USB chất lượng tốt để tránh mất kết nối.</li>\n<li>Nếu phần mềm không nhận thiết bị, hãy cập nhật Apple Driver hoặc khởi động lại cả máy tính và iPhone.</li>\n<li>Không rút cáp trong khi ứng dụng đang được cài đặt.</li>\n</ul>\n\n<h2>Kết luận</h2>\n<p>Chỉ với vài bước đơn giản, bạn đã có thể cài đặt ứng dụng 3uTools lên iPhone thông qua máy tính. Sau đó, việc tải các ứng dụng như Shadowrocket hoặc cài đặt file IPA sẽ trở nên nhanh chóng và thuận tiện hơn rất nhiều.</p>\n"
+  },
+  {
+    "id": "shadowrocket-3utools-guide",
+    "title": "Hướng Dẫn Cài Đặt Shadowrocket Bằng 3uTools Trên iPhone Chi Tiết",
+    "excerpt": "Hướng dẫn cài đặt Shadowrocket trên iPhone bằng 3uTools từ máy tính, giúp bạn cài IPA nhanh chóng mà không cần App Store.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-shadowrocket-3utools.png",
+    "cover": "assets/img/blog-shadowrocket-3utools.png",
+    "author": "TRAE Studio",
+    "readTime": "7 phút đọc",
+    "category": "Hướng dẫn",
+    "related": [
+      "install-3utools-windows",
+      "install-3utools-ios"
+    ],
+    "content": "<p>Shadowrocket là một ứng dụng phổ biến trên iOS dùng để cấu hình proxy và quản lý kết nối mạng nâng cao. Tuy nhiên, ứng dụng này không phải lúc nào cũng có sẵn trên App Store tại một số khu vực, vì vậy nhiều người dùng lựa chọn cài đặt file IPA thông qua 3uTools.</p><p>Trong bài viết này, bạn sẽ được hướng dẫn cách cài Shadowrocket bằng 3uTools trên máy tính một cách đơn giản và an toàn.</p><h2>Chuẩn bị trước khi cài đặt</h2><ul><li>Một máy tính Windows đã cài 3uTools.</li><li>iPhone hoặc iPad có cáp kết nối.</li><li>File IPA của Shadowrocket.</li><li>Kết nối Internet ổn định.</li></ul><h2>Bước 1: Kết nối iPhone với 3uTools</h2><p>Trước tiên, hãy mở phần mềm 3uTools trên máy tính và kết nối iPhone bằng cáp USB hoặc Lightning. Khi điện thoại hiển thị thông báo “Tin cậy máy tính này”, hãy chọn <strong>Tin cậy</strong> để cho phép kết nối.</p><p>Sau khi kết nối thành công, 3uTools sẽ hiển thị thông tin thiết bị như phiên bản iOS, dung lượng pin và bộ nhớ.</p><h2>Bước 2: Mở chức năng cài IPA</h2><p>Trên giao diện chính của 3uTools, chọn mục <strong>Apps</strong> hoặc <strong>Toolbox</strong>, sau đó tìm đến tính năng <strong>Install IPA</strong>.</p><p>Đây là công cụ giúp bạn cài đặt ứng dụng bên ngoài App Store vào iPhone thông qua file IPA.</p><h2>Bước 3: Chọn file Shadowrocket IPA</h2><p>Nhấn vào nút <strong>Import & Install IPA</strong> và chọn file Shadowrocket IPA đã tải sẵn về máy tính. Sau đó nhấn Open để bắt đầu quá trình cài đặt.</p><h2>Bước 4: Chờ quá trình cài đặt hoàn tất</h2><p>3uTools sẽ tiến hành ký và cài đặt ứng dụng vào iPhone. Quá trình này có thể mất từ 1 đến 5 phút tùy vào thiết bị và phiên bản iOS.</p><p>Không được ngắt kết nối iPhone trong khi đang cài đặt để tránh lỗi ứng dụng.</p><h2>Bước 5: Mở Shadowrocket trên iPhone</h2><p>Sau khi cài đặt thành công, biểu tượng Shadowrocket sẽ xuất hiện trên màn hình chính. Bạn có thể mở ứng dụng và bắt đầu cấu hình proxy hoặc VPN theo nhu cầu.</p><h2>Lưu ý quan trọng</h2><ul><li>File IPA phải được tải từ nguồn đáng tin cậy.</li><li>Chứng chỉ dùng để ký ứng dụng có thể bị thu hồi sau một thời gian.</li><li>Nếu ứng dụng không mở được, hãy xóa và cài đặt lại IPA mới.</li><li>Nên sử dụng phiên bản Shadowrocket tương thích với iOS của bạn.</li></ul><h2>Kết luận</h2><p>Việc cài Shadowrocket bằng 3uTools giúp bạn dễ dàng cài đặt ứng dụng không có trên App Store mà không cần jailbreak. Chỉ với vài bước đơn giản, bạn đã có thể sử dụng Shadowrocket trên iPhone một cách nhanh chóng và tiện lợi.</p>"
   },
   {
     "id": "seo-github-pages",
