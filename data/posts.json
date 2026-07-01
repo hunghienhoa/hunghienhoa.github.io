@@ -1,5 +1,59 @@
 [
   {
+    "id": "jailbreak-repo-sileo-zebra-cydia",
+    "title": "Tổng Hợp Các Nguồn Jailbreak (Repos) Cho Sileo, Zebra và Cydia",
+    "excerpt": "Danh sách các nguồn repo phổ biến cho Cydia, Sileo và Zebra giúp cài tweak, theme và công cụ tùy biến iOS sau jailbreak.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-repos-jailbreak.png",
+    "cover": "assets/img/blog-repos-jailbreak.png",
+    "author": "Tôi Share Mod",
+    "readTime": "9 phút đọc",
+    "category": "Jailbreak",
+    "related": [
+      "jailbreak-ios-unc0ver-guide",
+      "chimera-jailbreak-ios12-guide",
+      "odyssey-jailbreak-ios13-guide"
+    ],
+    "content": "<p>Sau khi jailbreak iPhone hoặc iPad, bạn sẽ cần thêm các nguồn (repositories / repos) vào trình quản lý gói như Cydia, Sileo hoặc Zebra để cài đặt tweak, theme và công cụ mở rộng hệ thống. Các repo này hoạt động giống như kho ứng dụng, nơi nhà phát triển đăng tải các gói phần mềm dành riêng cho thiết bị đã jailbreak.</p><h2>Repo là gì?</h2><p>Repo (repository) là một đường dẫn URL chứa dữ liệu tweak, ứng dụng và thư viện. Khi bạn thêm repo vào Sileo, Zebra hoặc Cydia, ứng dụng sẽ tải danh sách gói từ server đó và hiển thị để bạn cài đặt.</p><p>Hiện nay, Sileo và Zebra là hai trình quản lý phổ biến nhất, trong khi Cydia chủ yếu chỉ còn được dùng trên các thiết bị rất cũ.</p><h2>Những repo phổ biến và ổn định</h2><ul><li><strong>Havoc</strong> – Kho tweak hiện đại, cập nhật thường xuyên.</li><li><strong>Chariz</strong> – Nhiều tweak trả phí và miễn phí chất lượng cao.</li><li><strong>BigBoss</strong> – Repo lâu đời với nhiều tweak hệ thống.</li><li><strong>Dynastic</strong> – Giao diện hiện đại, nhiều tweak tối ưu iOS mới.</li><li><strong>Twickd</strong> – Kho tweak và theme cho người dùng cá nhân hóa.</li><li><strong>Packix</strong> – Nhiều tweak phổ biến (một số đã chuyển sang hệ mới).</li></ul><h2>Repo công cụ hệ thống</h2><ul><li><strong>Procursus</strong> – Hệ thống gói nền tảng cho jailbreak hiện đại.</li><li><strong>Ellekit</strong> – Framework hỗ trợ inject tweak trên rootless jailbreak.</li><li><strong>Zebra Repo</strong> – Nguồn chính thức cho trình quản lý Zebra.</li><li><strong>Sileo Repo</strong> – Nguồn hệ thống của Sileo.</li></ul><h2>Repo tweak hệ thống và tiện ích</h2><ul><li>iCleaner Pro (dọn rác hệ thống)</li><li>AppSync Unified (cài IPA không ký)</li><li>Filza File Manager (quản lý file hệ thống)</li><li>PreferenceLoader (hỗ trợ hiển thị tweak trong Settings)</li></ul><h2>Cách thêm repo vào Sileo / Zebra</h2><ol><li>Mở Sileo hoặc Zebra trên iPhone.</li><li>Chọn tab <strong>Sources</strong>.</li><li>Nhấn <strong>Add Source</strong>.</li><li>Dán URL repo.</li><li>Nhấn xác nhận để hệ thống tải dữ liệu.</li></ol><h2>Lưu ý quan trọng</h2><ul><li>Chỉ nên thêm repo từ nguồn uy tín để tránh malware.</li><li>Một số repo có thể không còn hoạt động theo thời gian.</li><li>Không nên cài quá nhiều tweak cùng lúc để tránh xung đột hệ thống.</li><li>Nên ưu tiên Sileo hoặc Zebra thay vì Cydia trên iOS mới.</li></ul><h2>Kết luận</h2><p>Repo là thành phần quan trọng trong hệ sinh thái jailbreak, giúp bạn mở rộng khả năng tùy biến iOS với hàng ngàn tweak và công cụ khác nhau. Việc chọn đúng nguồn repo ổn định sẽ giúp thiết bị hoạt động mượt và an toàn hơn.</p>"
+  },
+  {
+    "id": "odyssey-jailbreak-ios13-guide",
+    "title": "Hướng Dẫn Jailbreak iPhone Bằng Odyssey (iOS 13.0 – 13.7)",
+    "excerpt": "Hướng dẫn jailbreak iPhone bằng Odyssey dành cho các thiết bị chạy iOS 13.0 đến iOS 13.7, bao gồm các bước chuẩn bị, cài đặt và những lưu ý quan trọng.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-odyssey.png",
+    "cover": "assets/img/blog-odyssey.png",
+    "author": "Tôi Share Mod",
+    "readTime": "10 phút đọc",
+    "category": "Jailbreak",
+    "related": [
+      "chimera-jailbreak-ios12-guide",
+      "jailbreak-ios-unc0ver-guide",
+      "ky-file-ipa-bang-esign"
+    ],
+    "content": "<p>Odyssey là công cụ jailbreak bán không ràng buộc (semi-untethered) dành cho các thiết bị chạy iOS 13.0 đến iOS 13.7. Công cụ sử dụng môi trường Procursus và cài đặt trình quản lý gói <strong>Sileo</strong> mặc định, mang đến hiệu năng ổn định và khả năng tương thích cao với nhiều tweak hiện nay.</p><p>Odyssey hỗ trợ toàn bộ các phiên bản từ iOS 13.0 đến iOS 13.7 trên các thiết bị tương thích. Sau mỗi lần khởi động lại thiết bị, bạn chỉ cần mở lại ứng dụng Odyssey và nhấn <strong>Jailbreak</strong> để kích hoạt lại trạng thái jailbreak. :contentReference[oaicite:0]{index=0}</p><h2>Thiết bị và phiên bản được hỗ trợ</h2><ul><li>iPhone và iPad tương thích chạy iOS 13.0 đến iOS 13.7.</li><li>Hỗ trợ nhiều dòng chip từ A8 đến A13, tuy nhiên khả năng tương thích có thể khác nhau tùy từng phiên bản Odyssey.</li><li>Nên sử dụng phiên bản Odyssey mới nhất để có độ ổn định tốt hơn.</li></ul><h2>Chuẩn bị trước khi jailbreak</h2><ul><li>Sao lưu toàn bộ dữ liệu bằng iCloud hoặc máy tính.</li><li>Đảm bảo pin còn trên 50%.</li><li>Tắt Chế độ nguồn điện thấp.</li><li>Tắt VPN nếu đang sử dụng.</li><li>Cài đặt ứng dụng Odyssey bằng phương pháp ký IPA phù hợp.</li></ul><h2>Bước 1: Cài đặt Odyssey</h2><p>Sau khi ký và cài đặt file IPA thành công, mở ứng dụng Odyssey trên iPhone. Nếu iOS yêu cầu tin cậy chứng chỉ, hãy vào <strong>Cài đặt &gt; Cài đặt chung &gt; VPN &amp; Quản lý thiết bị</strong> để tin cậy chứng chỉ trước khi mở ứng dụng.</p><h2>Bước 2: Khởi động jailbreak</h2><p>Nhấn nút <strong>Jailbreak</strong> trên giao diện chính. Odyssey sẽ bắt đầu khai thác lỗ hổng và chuẩn bị môi trường jailbreak. Trong quá trình này thiết bị có thể tự khởi động lại hoặc thực hiện respring nhiều lần.</p><h2>Bước 3: Hoàn tất</h2><p>Sau khi thành công, biểu tượng <strong>Sileo</strong> sẽ xuất hiện trên màn hình chính. Nếu jailbreak chưa thành công ở lần đầu, hãy mở lại Odyssey và thử lại. Điều này là bình thường đối với các công cụ jailbreak bán không ràng buộc.</p><h2>Cài đặt tweak</h2><p>Mở Sileo và cập nhật các gói cơ bản nếu được yêu cầu. Sau đó bạn có thể cài đặt các tweak tương thích từ những kho phần mềm uy tín.</p><h2>Khởi động lại thiết bị</h2><p>Khi iPhone khởi động lại hoặc hết pin, jailbreak sẽ bị vô hiệu hóa tạm thời. Chỉ cần mở lại Odyssey và nhấn <strong>Jailbreak</strong> để kích hoạt lại mà không cần cài đặt lại từ đầu. Do là jailbreak bán không ràng buộc, ứng dụng Odyssey cũng cần được ký lại định kỳ nếu sử dụng chứng chỉ miễn phí. :contentReference[oaicite:1]{index=1}</p><h2>Khắc phục lỗi thường gặp</h2><ul><li>Odyssey không mở được: kiểm tra chứng chỉ hoặc ký lại IPA.</li><li>Jailbreak thất bại: khởi động lại thiết bị và thử lại.</li><li>Sileo không xuất hiện: chạy lại Odyssey.</li><li>Thiết bị vào Safe Mode: gỡ tweak vừa cài hoặc cập nhật tweak tương thích.</li></ul><h2>Lưu ý quan trọng</h2><ul><li>Luôn sao lưu dữ liệu trước khi jailbreak.</li><li>Không cập nhật iOS nếu muốn duy trì jailbreak.</li><li>Chỉ cài tweak từ các nguồn đáng tin cậy.</li><li>Kiểm tra khả năng tương thích giữa thiết bị, phiên bản iOS và Odyssey trước khi thực hiện.</li></ul><h2>Kết luận</h2><p>Odyssey là một trong những công cụ jailbreak ổn định nhất dành cho iOS 13.0–13.7, sử dụng Procursus và Sileo để mang lại trải nghiệm hiện đại cùng khả năng tương thích tốt với nhiều tweak. Trước khi thực hiện, hãy xác nhận thiết bị của bạn nằm trong danh sách được hỗ trợ và luôn sao lưu dữ liệu để đảm bảo an toàn. :contentReference[oaicite:2]{index=2}</p>"
+  },
+  {
+    "id": "chimera-jailbreak-ios12-guide",
+    "title": "Hướng Dẫn Jailbreak iPhone Bằng Chimera (iOS 12.0 – 12.4)",
+    "excerpt": "Hướng dẫn jailbreak iPhone bằng Chimera dành cho các thiết bị tương thích chạy iOS 12.0 đến iOS 12.4, bao gồm cách cài đặt, thực hiện jailbreak và những lưu ý quan trọng.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-chimera.png",
+    "cover": "assets/img/blog-chimera.png",
+    "author": "Tôi Share Mod",
+    "readTime": "10 phút đọc",
+    "category": "Jailbreak",
+    "related": [
+      "jailbreak-ios-unc0ver-guide",
+      "delay-ota-ios-guide",
+      "ky-file-ipa-bang-esign"
+    ],
+    "content": "<p>Chimera là một công cụ jailbreak bán không ràng buộc (semi-untethered) dành cho một số thiết bị chạy iOS 12. Sau khi jailbreak thành công, bạn có thể cài đặt trình quản lý gói <strong>Sileo</strong> và sử dụng các tinh chỉnh (tweaks) tương thích. Sau mỗi lần khởi động lại thiết bị, bạn chỉ cần mở lại ứng dụng Chimera và thực hiện jailbreak lại để kích hoạt môi trường jailbreak.</p><h2>Thiết bị và phiên bản iOS được hỗ trợ</h2><p>Khả năng tương thích của Chimera phụ thuộc vào cả thiết bị và phiên bản iOS. Nhìn chung, Chimera hỗ trợ các thiết bị A7–A11 trên nhiều phiên bản iOS 12, trong khi các thiết bị A12 chỉ được hỗ trợ trên một số phiên bản iOS 12 đầu tiên. Trước khi bắt đầu, hãy kiểm tra thiết bị và phiên bản iOS của bạn để đảm bảo tương thích với phiên bản Chimera hiện tại.</p><h2>Chuẩn bị trước khi jailbreak</h2><ul><li>Sao lưu toàn bộ dữ liệu bằng iCloud hoặc máy tính.</li><li>Đảm bảo pin còn trên 50% hoặc cắm sạc.</li><li>Tắt Chế độ nguồn điện thấp.</li><li>Đóng các ứng dụng đang chạy nền.</li><li>Cài đặt ứng dụng Chimera bằng phương pháp ký IPA phù hợp.</li></ul><h2>Bước 1: Mở ứng dụng Chimera</h2><p>Sau khi cài đặt thành công, mở ứng dụng Chimera trên iPhone. Nếu hệ thống yêu cầu tin cậy chứng chỉ, hãy vào <strong>Cài đặt &gt; Cài đặt chung &gt; VPN &amp; Quản lý thiết bị</strong> để tin cậy chứng chỉ trước khi mở ứng dụng.</p><h2>Bước 2: Khởi động jailbreak</h2><p>Trong giao diện Chimera, nhấn nút <strong>Jailbreak</strong>. Công cụ sẽ khai thác lỗ hổng và chuẩn bị môi trường jailbreak. Thiết bị có thể tự khởi động lại hoặc yêu cầu tiếp tục thêm một lần nữa, tùy từng trường hợp.</p><h2>Bước 3: Hoàn tất quá trình</h2><p>Khi jailbreak thành công, thiết bị sẽ khởi động lại giao diện (respring) và biểu tượng <strong>Sileo</strong> sẽ xuất hiện trên màn hình chính. Nếu lần đầu chưa thành công, hãy mở lại Chimera và thử lại.</p><h2>Cài đặt các tinh chỉnh</h2><p>Sau khi mở Sileo, hãy cập nhật các gói cơ bản nếu được yêu cầu. Chỉ cài đặt tweak từ các nguồn uy tín và kiểm tra khả năng tương thích với phiên bản iOS của bạn để tránh xung đột.</p><h2>Khởi động lại thiết bị</h2><p>Vì Chimera là jailbreak bán không ràng buộc, mỗi khi iPhone khởi động lại hoặc hết pin, trạng thái jailbreak sẽ bị vô hiệu hóa. Bạn chỉ cần mở lại ứng dụng Chimera và nhấn <strong>Jailbreak</strong> để kích hoạt lại mà không cần cài đặt từ đầu.</p><h2>Khắc phục lỗi thường gặp</h2><ul><li>Nếu ứng dụng Chimera không mở được, hãy kiểm tra lại chứng chỉ hoặc ký lại ứng dụng.</li><li>Nếu jailbreak thất bại, khởi động lại thiết bị và thử lại.</li><li>Nếu Sileo không xuất hiện, thực hiện lại quy trình jailbreak.</li><li>Hạn chế cài quá nhiều tweak cùng lúc để tránh Safe Mode hoặc xung đột.</li></ul><h2>Những lưu ý quan trọng</h2><ul><li>Luôn sao lưu dữ liệu trước khi jailbreak.</li><li>Không cập nhật iOS nếu muốn duy trì jailbreak.</li><li>Chỉ cài tweak từ các nguồn đáng tin cậy.</li><li>Kiểm tra kỹ khả năng tương thích giữa thiết bị, phiên bản iOS và Chimera trước khi thực hiện.</li></ul><h2>Kết luận</h2><p>Chimera là một lựa chọn phổ biến cho các thiết bị tương thích chạy iOS 12, cung cấp trải nghiệm jailbreak với Sileo và nhiều tinh chỉnh hữu ích. Việc chuẩn bị kỹ lưỡng, sao lưu dữ liệu và xác nhận khả năng tương thích sẽ giúp quá trình jailbreak diễn ra ổn định và an toàn hơn.</p>"
+  },
+  {
     "id": "jailbreak-ios-unc0ver-guide",
     "title": "Hướng Dẫn Jailbreak iPhone Bằng unc0ver Chi Tiết",
     "excerpt": "Hướng dẫn cài đặt và sử dụng unc0ver để jailbreak các phiên bản iOS được hỗ trợ, cùng những lưu ý quan trọng trước khi thực hiện.",
