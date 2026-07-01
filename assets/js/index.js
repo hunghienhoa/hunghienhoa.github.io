@@ -6,8 +6,8 @@ async function initHome() {
   const homeLimit = 10;
 
   setMeta({
-    title: "Tôi Share Mod | Kho ứng dụng tĩnh phong cách iOS 18",
-    description: "Website static HTML, CSS, JS và JSON mô phỏng App Store/iOSGods với dark mode, blog, download page và thiết kế responsive.",
+    title: "Tôi Share Mod | Website chia sẻ ứng dụng, game, file IPA và các bài viết hướng dẫn, thủ thuật công nghệ mới nhất dành cho mọi người dùng.",
+    description: "Website chia sẻ ứng dụng, game, file IPA và các bài viết hướng dẫn, thủ thuật công nghệ mới nhất dành cho mọi người dùng.",
     image: featured.icon
   });
 
