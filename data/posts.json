@@ -1,5 +1,23 @@
 [
   {
+    "id": "iphone-battery-optimization",
+    "title": "10 Thủ Thuật Tối Ưu Pin Cho iPhone Giúp Sử Dụng Lâu Hơn",
+    "excerpt": "Tổng hợp những mẹo tối ưu pin trên iPhone giúp kéo dài thời lượng sử dụng, giảm hao pin và duy trì tuổi thọ pin hiệu quả.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-battery.svg",
+    "cover": "assets/img/blog-battery.svg",
+    "author": "Tôi Share Mod",
+    "readTime": "8 phút đọc",
+    "category": "Thủ thuật",
+    "related": [
+      "delay-ota-ios-guide",
+      "shadowrocket-user-guide",
+      "install-3utools-windows"
+    ],
+    "content": "<p>Pin là một trong những yếu tố được người dùng iPhone quan tâm nhất trong quá trình sử dụng. Sau một thời gian, nhiều người nhận thấy thiết bị hao pin nhanh hơn hoặc thời lượng sử dụng không còn như trước. Thực tế, chỉ cần thay đổi một vài cài đặt đơn giản, bạn có thể cải thiện đáng kể thời lượng pin mà không cần thay pin mới.</p><h2>1. Bật Chế độ nguồn điện thấp</h2><p>Chế độ nguồn điện thấp (Low Power Mode) giúp giảm hoạt động nền, hiệu ứng chuyển động và một số tác vụ không cần thiết để tiết kiệm pin. Bạn có thể bật tại <strong>Cài đặt → Pin → Chế độ nguồn điện thấp</strong>.</p><h2>2. Giảm độ sáng màn hình</h2><p>Màn hình là thành phần tiêu thụ nhiều năng lượng nhất trên iPhone. Hãy giảm độ sáng xuống mức phù hợp hoặc bật <strong>Độ sáng tự động</strong> để hệ thống tự điều chỉnh theo môi trường.</p><h2>3. Tắt Làm mới ứng dụng trong nền</h2><p>Nhiều ứng dụng vẫn hoạt động khi bạn không mở chúng. Hãy vào <strong>Cài đặt → Cài đặt chung → Làm mới ứng dụng trong nền</strong> và tắt đối với các ứng dụng không cần thiết.</p><h2>4. Chỉ bật Dịch vụ định vị khi cần</h2><p>GPS tiêu tốn khá nhiều pin. Vào <strong>Cài đặt → Quyền riêng tư → Dịch vụ định vị</strong> và đặt các ứng dụng ở chế độ <strong>Khi dùng ứng dụng</strong> thay vì <strong>Luôn luôn</strong>.</p><h2>5. Sử dụng Wi-Fi thay cho dữ liệu di động</h2><p>Khi có mạng Wi-Fi ổn định, iPhone sẽ tiêu thụ ít năng lượng hơn so với việc sử dụng 4G hoặc 5G liên tục.</p><h2>6. Tắt Bluetooth và AirDrop khi không sử dụng</h2><p>Nếu không kết nối tai nghe, đồng hồ hoặc truyền tệp, bạn nên tắt Bluetooth và AirDrop để giảm tiêu hao pin.</p><h2>7. Tắt thông báo không cần thiết</h2><p>Mỗi thông báo đều làm sáng màn hình và kích hoạt hệ thống. Chỉ giữ lại thông báo từ các ứng dụng quan trọng để tiết kiệm pin và tránh bị làm phiền.</p><h2>8. Cập nhật ứng dụng thường xuyên</h2><p>Các bản cập nhật mới thường khắc phục lỗi gây hao pin và cải thiện hiệu suất. Hãy cập nhật ứng dụng từ App Store để có trải nghiệm tốt hơn.</p><h2>9. Theo dõi ứng dụng tiêu thụ nhiều pin</h2><p>Vào <strong>Cài đặt → Pin</strong> để xem ứng dụng nào đang sử dụng nhiều năng lượng nhất. Nếu một ứng dụng tiêu thụ pin bất thường, hãy cập nhật hoặc hạn chế sử dụng.</p><h2>10. Giữ pin ở mức sạc hợp lý</h2><p>Để kéo dài tuổi thọ pin, bạn nên duy trì mức pin trong khoảng 20% đến 80% khi có thể và tránh để pin cạn kiệt thường xuyên. Ngoài ra, hãy bật tính năng <strong>Sạc pin được tối ưu hóa</strong> để giảm tốc độ lão hóa pin.</p><h2>Một số mẹo bổ sung</h2><ul><li>Khởi động lại iPhone định kỳ.</li><li>Gỡ bỏ các ứng dụng không còn sử dụng.</li><li>Hạn chế sử dụng hình nền động nếu không cần thiết.</li><li>Tắt rung bàn phím nếu bạn không sử dụng tính năng này.</li><li>Tránh để iPhone hoạt động trong môi trường quá nóng.</li></ul><h2>Kết luận</h2><p>Việc tối ưu pin không chỉ giúp kéo dài thời gian sử dụng mỗi ngày mà còn góp phần duy trì tuổi thọ pin trong thời gian dài. Chỉ với một vài thay đổi trong cài đặt và thói quen sử dụng, bạn có thể giúp chiếc iPhone hoạt động ổn định và tiết kiệm năng lượng hơn.</p>"
+  },
+  {
     "id": "shadowrocket-import-config",
     "title": "Cách Import Cấu Hình Vào Shadowrocket Trên iPhone",
     "excerpt": "Hướng dẫn nhập cấu hình vào Shadowrocket bằng Subscription URL, mã QR, tệp cấu hình hoặc nhập thủ công.",
