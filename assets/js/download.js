@@ -122,12 +122,7 @@ async function initDownloadPage() {
   const text = document.getElementById("progress-text");
 
   button.addEventListener("click", () => {
-    let reservedWindow = null;
-    try {
-      reservedWindow = window.open("", "_blank", "noopener");
-    } catch (error) {
-      reservedWindow = null;
-    }
+    // popup removed
 
     let progress = 0;
     button.disabled = true;
