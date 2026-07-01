@@ -374,5 +374,50 @@
         "a": "Có. Bạn có thể cài đặt file IPA của Zalo bằng AltStore, Sideloadly hoặc TrollStore tùy theo thiết bị và phiên bản iOS."
       }
     ]
+  },
+  {
+    "id": "lcsign",
+    "name": "LCSign",
+    "subtitle": "Ứng dụng ký và cài đặt file IPA trực tiếp trên iPhone, hỗ trợ chứng chỉ và quản lý ứng dụng.",
+    "version": "1.4.2",
+    "size": "18.7 MB",
+    "updated": "01/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-01",
+    "views": "524.8K",
+    "category": "app",
+    "badge": "Utility",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "Certificate / TrollStore",
+    "developer": "LC Team",
+    "icon": "assets/img/lcsign.png",
+    "screenshots": [
+      "assets/img/lcsign-1.png",
+      "assets/img/lcsign-2.png",
+      "assets/img/lcsign-3.png"
+    ],
+    "heroTag": "Ký IPA",
+    "description": "LCSign là công cụ hỗ trợ ký (sign) và cài đặt file IPA trực tiếp trên iPhone bằng chứng chỉ cá nhân hoặc chứng chỉ doanh nghiệp. Ứng dụng giúp quản lý IPA, ký lại ứng dụng và cài đặt nhanh mà không cần sử dụng máy tính trong nhiều trường hợp.",
+    "features": [
+      "Ký và cài đặt file IPA trực tiếp trên thiết bị.",
+      "Hỗ trợ chứng chỉ P12, MobileProvision và chứng chỉ doanh nghiệp.",
+      "Quản lý danh sách ứng dụng đã ký và cài đặt.",
+      "Giao diện đơn giản, thao tác nhanh và dễ sử dụng."
+    ],
+    "downloadUrl": "https://example.com/files/lcsign.ipa",
+    "faq": [
+      {
+        "q": "LCSign có cần máy tính để sử dụng không?",
+        "a": "Không. Sau khi cài đặt ứng dụng và thêm chứng chỉ hợp lệ, bạn có thể ký và cài đặt IPA trực tiếp trên iPhone."
+      },
+      {
+        "q": "LCSign hỗ trợ những loại chứng chỉ nào?",
+        "a": "Ứng dụng hỗ trợ chứng chỉ cá nhân (P12 + MobileProvision) và một số chứng chỉ doanh nghiệp hợp lệ để ký và cài đặt ứng dụng."
+      }
+    ]
   }
 ]
