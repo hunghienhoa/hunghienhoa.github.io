@@ -1,5 +1,23 @@
 [
   {
+    "id": "delay-ota-ios-guide",
+    "title": "Hướng Dẫn Delay OTA iOS Cho Các Phiên Bản Được Hỗ Trợ",
+    "excerpt": "Tìm hiểu Delay OTA là gì, các phiên bản iOS được hỗ trợ và cách cập nhật iPhone lên phiên bản mong muốn bằng phương pháp Delay OTA.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-delay-ota.png",
+    "cover": "assets/img/blog-delay-ota.png",
+    "author": "Tôi Share Mod",
+    "readTime": "9 phút đọc",
+    "category": "Thủ thuật",
+    "related": [
+      "install-3utools-windows",
+      "esign-3utools-guide",
+      "ky-file-ipa-bang-esign"
+    ],
+    "content": "<p>Delay OTA là phương pháp cập nhật iPhone hoặc iPad lên một phiên bản iOS cụ thể ngay cả khi Apple đã phát hành phiên bản mới hơn. Phương pháp này thường được người dùng sử dụng để giữ khả năng cài TrollStore, jailbreak hoặc duy trì khả năng sử dụng các công cụ ký IPA.</p><p>Khác với cập nhật OTA thông thường, Delay OTA sử dụng hồ sơ cấu hình (Configuration Profile) để cho phép thiết bị nhận bản cập nhật vẫn còn nằm trong thời gian trì hoãn của Apple.</p><h2>Delay OTA là gì?</h2><p>Apple cung cấp cơ chế trì hoãn cập nhật phần mềm dành cho doanh nghiệp và trường học thông qua MDM (Mobile Device Management). Nhờ đó, người dùng có thể cập nhật lên một số phiên bản iOS cũ hơn trong khoảng thời gian Apple vẫn còn ký OTA cho phiên bản đó.</p><p>Nhiều người dùng iPhone tận dụng cơ chế này để cập nhật lên đúng phiên bản mong muốn thay vì phiên bản mới nhất.</p><h2>Điều kiện để sử dụng Delay OTA</h2><ul><li>Thiết bị phải hỗ trợ phiên bản iOS muốn cập nhật.</li><li>Phiên bản mục tiêu vẫn còn trong thời gian Delay OTA của Apple.</li><li>Dung lượng pin trên 50% hoặc cắm sạc.</li><li>Kết nối Wi-Fi ổn định.</li><li>Có hồ sơ Delay OTA phù hợp.</li></ul><h2>Cách kiểm tra thiết bị có hỗ trợ hay không</h2><ol><li>Vào <strong>Cài đặt → Cài đặt chung → Giới thiệu</strong>.</li><li>Kiểm tra phiên bản iOS hiện tại.</li><li>Kiểm tra model iPhone hoặc iPad.</li><li>Đối chiếu với danh sách các phiên bản Delay OTA còn được Apple hỗ trợ.</li></ol><h2>Hướng dẫn cập nhật bằng Delay OTA</h2><ol><li>Sao lưu toàn bộ dữ liệu trước khi cập nhật.</li><li>Cài đặt hồ sơ Delay OTA tương ứng với phiên bản muốn nâng cấp.</li><li>Khởi động lại thiết bị.</li><li>Vào <strong>Cài đặt → Cài đặt chung → Cập nhật phần mềm</strong>.</li><li>Nếu đủ điều kiện, phiên bản Delay OTA sẽ xuất hiện.</li><li>Nhấn <strong>Tải về và cài đặt</strong>.</li><li>Chờ quá trình cập nhật hoàn tất.</li></ol><h2>Khi nào không thể sử dụng Delay OTA?</h2><ul><li>Apple đã ngừng ký OTA cho phiên bản đó.</li><li>Thiết bị không tương thích.</li><li>Đang sử dụng iOS cao hơn phiên bản Delay OTA.</li><li>Thiếu hồ sơ cấu hình phù hợp.</li></ul><h2>Lưu ý trước khi cập nhật</h2><ul><li>Luôn sao lưu dữ liệu bằng iCloud hoặc máy tính.</li><li>Không tắt nguồn trong khi cập nhật.</li><li>Không xóa hồ sơ Delay OTA cho đến khi cập nhật hoàn tất.</li><li>Kiểm tra kỹ phiên bản mục tiêu trước khi nâng cấp.</li></ul><h2>Những ai nên sử dụng Delay OTA?</h2><ul><li>Người muốn cài TrollStore.</li><li>Người muốn chờ jailbreak.</li><li>Người muốn giữ chứng chỉ ký IPA hoạt động ổn định.</li><li>Người muốn tránh cập nhật lên phiên bản iOS mới nhất.</li></ul><h2>Kết luận</h2><p>Delay OTA là giải pháp hữu ích giúp người dùng cập nhật lên đúng phiên bản iOS mong muốn trong thời gian Apple còn cho phép. Trước khi thực hiện, hãy kiểm tra kỹ khả năng hỗ trợ của thiết bị và luôn sao lưu dữ liệu để tránh mất thông tin quan trọng.</p>"
+  },
+  {
     "id": "ky-file-ipa-bang-esign",
     "title": "Cách Ký File IPA Bằng ESign Trên iPhone Không Cần Máy Tính",
     "excerpt": "Hướng dẫn ký file IPA bằng ESign trên iPhone giúp cài đặt ứng dụng ngoài App Store nhanh chóng, không cần jailbreak hay máy tính.",
