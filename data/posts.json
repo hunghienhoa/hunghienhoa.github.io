@@ -85,39 +85,5 @@
       "install-3utools-ios"
     ],
     "content": "<p>Shadowrocket là một ứng dụng phổ biến trên iOS dùng để cấu hình proxy và quản lý kết nối mạng nâng cao. Tuy nhiên, ứng dụng này không phải lúc nào cũng có sẵn trên App Store tại một số khu vực, vì vậy nhiều người dùng lựa chọn cài đặt file IPA thông qua 3uTools.</p><p>Trong bài viết này, bạn sẽ được hướng dẫn cách cài Shadowrocket bằng 3uTools trên máy tính một cách đơn giản và an toàn.</p><h2>Chuẩn bị trước khi cài đặt</h2><ul><li>Một máy tính Windows đã cài 3uTools.</li><li>iPhone hoặc iPad có cáp kết nối.</li><li>File IPA của Shadowrocket.</li><li>Kết nối Internet ổn định.</li></ul><h2>Bước 1: Kết nối iPhone với 3uTools</h2><p>Trước tiên, hãy mở phần mềm 3uTools trên máy tính và kết nối iPhone bằng cáp USB hoặc Lightning. Khi điện thoại hiển thị thông báo “Tin cậy máy tính này”, hãy chọn <strong>Tin cậy</strong> để cho phép kết nối.</p><p>Sau khi kết nối thành công, 3uTools sẽ hiển thị thông tin thiết bị như phiên bản iOS, dung lượng pin và bộ nhớ.</p><h2>Bước 2: Mở chức năng cài IPA</h2><p>Trên giao diện chính của 3uTools, chọn mục <strong>Apps</strong> hoặc <strong>Toolbox</strong>, sau đó tìm đến tính năng <strong>Install IPA</strong>.</p><p>Đây là công cụ giúp bạn cài đặt ứng dụng bên ngoài App Store vào iPhone thông qua file IPA.</p><h2>Bước 3: Chọn file Shadowrocket IPA</h2><p>Nhấn vào nút <strong>Import & Install IPA</strong> và chọn file Shadowrocket IPA đã tải sẵn về máy tính. Sau đó nhấn Open để bắt đầu quá trình cài đặt.</p><h2>Bước 4: Chờ quá trình cài đặt hoàn tất</h2><p>3uTools sẽ tiến hành ký và cài đặt ứng dụng vào iPhone. Quá trình này có thể mất từ 1 đến 5 phút tùy vào thiết bị và phiên bản iOS.</p><p>Không được ngắt kết nối iPhone trong khi đang cài đặt để tránh lỗi ứng dụng.</p><h2>Bước 5: Mở Shadowrocket trên iPhone</h2><p>Sau khi cài đặt thành công, biểu tượng Shadowrocket sẽ xuất hiện trên màn hình chính. Bạn có thể mở ứng dụng và bắt đầu cấu hình proxy hoặc VPN theo nhu cầu.</p><h2>Lưu ý quan trọng</h2><ul><li>File IPA phải được tải từ nguồn đáng tin cậy.</li><li>Chứng chỉ dùng để ký ứng dụng có thể bị thu hồi sau một thời gian.</li><li>Nếu ứng dụng không mở được, hãy xóa và cài đặt lại IPA mới.</li><li>Nên sử dụng phiên bản Shadowrocket tương thích với iOS của bạn.</li></ul><h2>Kết luận</h2><p>Việc cài Shadowrocket bằng 3uTools giúp bạn dễ dàng cài đặt ứng dụng không có trên App Store mà không cần jailbreak. Chỉ với vài bước đơn giản, bạn đã có thể sử dụng Shadowrocket trên iPhone một cách nhanh chóng và tiện lợi.</p>"
-  },
-  {
-    "id": "seo-github-pages",
-    "title": "Tối ưu SEO cho website static trên GitHub Pages",
-    "excerpt": "Meta title, description, Open Graph, sitemap.xml và robots.txt là bộ tối thiểu để website tĩnh có nền tảng SEO sạch.",
-    "date": "22/06/2026",
-    "dateIso": "2026-06-22",
-    "thumbnail": "assets/img/blog-seo.png",
-    "cover": "assets/img/blog-seo.png",
-    "author": "Tôi Share Mod",
-    "readTime": "5 phút đọc",
-    "category": "SEO",
-    "related": [
-      "ios-18-design-trends",
-      "json-content-structure"
-    ],
-    "content": "<p>Với website static, SEO tốt bắt đầu từ HTML semantic rõ ràng. Mỗi trang cần có title riêng, meta description cô đọng, heading hợp lý và liên kết nội bộ được tổ chức sạch.</p>\n<p>Open Graph hỗ trợ hiển thị đẹp hơn khi chia sẻ lên mạng xã hội. Dù nội dung được render bằng JavaScript, bạn vẫn nên đặt OG mặc định cho từng trang và cập nhật thêm bằng script khi cần.</p>\n<h2>Danh sách cần có</h2>\n<p>Sitemap.xml, robots.txt, ảnh đại diện cho social, URL thân thiện, lazy load ảnh không ảnh hưởng nội dung chính và tốc độ tải tốt trên di động. Đó là nền tảng phù hợp để triển khai kho ứng dụng tĩnh.</p>"
-  },
-  {
-    "id": "json-content-structure",
-    "title": "Cách tổ chức dữ liệu JSON để render app và blog",
-    "excerpt": "Chia dữ liệu thành apps.json và posts.json giúp dễ mở rộng, bảo trì và triển khai trên GitHub Pages.",
-    "date": "18/06/2026",
-    "dateIso": "2026-06-18",
-    "thumbnail": "assets/img/blog-json.png",
-    "cover": "assets/img/blog-json.png",
-    "author": "Tôi Share Mod",
-    "readTime": "7 phút đọc",
-    "category": "Dữ liệu",
-    "related": [
-      "seo-github-pages",
-      "ios-18-design-trends"
-    ],
-    "content": "<p>Dữ liệu JSON tĩnh đặc biệt phù hợp cho các website giới thiệu ứng dụng. Mỗi app có thể bao gồm icon, tên, phiên bản, kích thước, mô tả, tính năng, ảnh chụp màn hình, liên kết tải và FAQ.</p>\n<p>Với blog, bạn chỉ cần title, excerpt, thumbnail, ngày đăng, nội dung HTML và mảng bài viết liên quan. Từ đó, JavaScript thuần có thể render danh sách và trang chi tiết mà không cần framework.</p>\n<h2>Mẹo thực tế</h2>\n<p>Giữ slug ngắn, nhất quán và dùng query string như <code>app.html?id=dragon-ball-legends</code> hoặc <code>article.html?id=seo-github-pages</code>. Cách này dễ deploy, không cần cấu hình rewrite đặc biệt.</p>"
   }
 ]
