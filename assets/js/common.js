@@ -1,7 +1,7 @@
 const SITE = {
   name: "Tôi Share Mod",
   url: "https://toisharemod.com",
-  description: "Kho ứng dụng tĩnh phong cách iOS 18 chạy hoàn toàn bằng HTML, CSS, JavaScript và JSON.",
+  description: "Chia sẻ ứng dụng, game, file IPA và bài viết hướng dẫn cài đặt dành cho người dùng iPhone, iPad trên giao diện tối ưu cho điện thoại.",
   pages: {
     home: "index.html",
     games: "games.html",
