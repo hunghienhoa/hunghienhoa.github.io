@@ -1,5 +1,50 @@
 [
   {
+    "id": "inshot-ai-video-editor-mod",
+    "name": "InShot - AI Video Editor Mod",
+    "subtitle": "Trình chỉnh sửa video và ảnh với công cụ AI, xuất video chất lượng cao trên iPhone/iPad.",
+    "version": "2.95.1",
+    "size": "186.3 MB",
+    "updated": "01/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-01",
+    "views": "3.8M",
+    "category": "app",
+    "badge": "Mod",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "InShot Inc.",
+    "icon": "assets/img/inshot-ai-video-editor-mod.png",
+    "screenshots": [
+      "assets/img/inshot-ai-video-editor-mod-1.png",
+      "assets/img/inshot-ai-video-editor-mod-2.png",
+      "assets/img/inshot-ai-video-editor-mod-3.png"
+    ],
+    "heroTag": "Chỉnh sửa video",
+    "description": "InShot - AI Video Editor là ứng dụng chỉnh sửa video và ảnh mạnh mẽ dành cho iPhone và iPad. Ứng dụng cung cấp các công cụ AI hỗ trợ cắt ghép video, thêm hiệu ứng, bộ lọc, văn bản, nhạc nền và xuất video với chất lượng cao, phù hợp để sáng tạo nội dung trên TikTok, YouTube, Instagram và các nền tảng mạng xã hội khác.",
+    "features": [
+      "Cắt, ghép và chỉnh sửa video chuyên nghiệp.",
+      "Sử dụng công cụ AI để tạo hiệu ứng và chỉnh sửa nhanh.",
+      "Thêm nhạc, văn bản, sticker, bộ lọc và hiệu ứng chuyển cảnh.",
+      "Xuất video chất lượng lên đến 4K và nhiều tỷ lệ khung hình."
+    ],
+    "downloadUrl": "https://example.com/files/inshot-ai-video-editor-mod.ipa",
+    "faq": [
+      {
+        "q": "Ứng dụng có hỗ trợ xuất video 4K không?",
+        "a": "Có. Tùy thuộc vào thiết bị và cài đặt xuất video, ứng dụng hỗ trợ xuất video với độ phân giải lên đến 4K."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
     "id": "nulls-clash",
     "name": "Null’s Clash",
     "subtitle": "Private Server, Unlimited Gems, trải nghiệm Clash of Clans mở rộng trên iPhone/iPad.",
