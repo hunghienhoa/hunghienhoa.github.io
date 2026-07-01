@@ -21,7 +21,6 @@ async function initDownloadPage() {
         <div class="download-head">
           <img src="${app.icon}" alt="${escapeHTML(app.name)}" width="96" height="96" />
           <div>
-            <span class="chip">Tải xuống & cài đặt IPA</span>
             <h1 class="detail-title" style="font-size:clamp(2rem,4vw,3.3rem);margin-top:10px;">${escapeHTML(app.name)}</h1>
             <p class="detail-subtitle">${escapeHTML(app.subtitle)}</p>
           </div>
@@ -123,6 +122,13 @@ async function initDownloadPage() {
   const text = document.getElementById("progress-text");
 
   button.addEventListener("click", () => {
+    let reservedWindow = null;
+    try {
+      reservedWindow = window.open("", "_blank", "noopener");
+    } catch (error) {
+      reservedWindow = null;
+    }
+
     let progress = 0;
     button.disabled = true;
     text.textContent = "Đang chuẩn bị gói IPA...";
@@ -136,7 +142,13 @@ async function initDownloadPage() {
         if (window.RtdbCounters && window.RtdbCounters.isEnabled && window.RtdbCounters.isEnabled()) {
           window.RtdbCounters.incrementDownload(app.id);
         }
-        window.open(app.downloadUrl, "_blank", "noopener");
+
+        if (reservedWindow && !reservedWindow.closed) {
+          reservedWindow.location.href = app.downloadUrl;
+        } else {
+          window.location.href = app.downloadUrl;
+        }
+
         button.disabled = false;
         setTimeout(() => {
           bar.style.width = "0%";

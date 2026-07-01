@@ -190,11 +190,6 @@ function renderShell(page) {
             <span>Tôi Share Mod</span>
           </a>
           <p>Chia sẻ ứng dụng, game, file IPA và bài viết hướng dẫn cài đặt dành cho người dùng iPhone, iPad trên giao diện tối ưu cho điện thoại.</p>
-          <div class="footer-pills">
-            <span class="pill footer-pill">Giao diện mobile-first</span>
-            <span class="pill footer-pill">Cập nhật bài viết thường xuyên</span>
-            <span class="pill footer-pill">Tối ưu trải nghiệm iPhone</span>
-          </div>
           <div class="footer-stats">
             <div class="footer-stat">
               <strong>App & Game</strong>
