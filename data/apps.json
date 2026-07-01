@@ -50,6 +50,102 @@
     ]
   },
   {
+    "id": "subway-surfers-mod",
+    "name": "Subway Surfers Mod",
+    "subtitle": "Unlimited Coins & Keys, mở khóa nhân vật, tối ưu cho iPhone/iPad.",
+    "version": "3.51.1",
+    "size": "258.4 MB",
+    "updated": "01/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-01",
+    "views": "2.1M",
+    "category": "game",
+    "badge": "Miễn phí",
+    "featuredGame": true,
+    "featuredApp": false,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 14.0+",
+    "support": "Không cần jailbreak",
+    "developer": "AlyssaX64",
+    "icon": "assets/img/subway-surfers.png",
+    "screenshots": [
+      "assets/img/subway-surfers-1.png",
+      "assets/img/subway-surfers-2.png",
+      "assets/img/subway-surfers-3.png"
+    ],
+    "heroTag": "Game nổi bật",
+    "description": "Subway Surfers Mod IPA mang đến trải nghiệm chạy vô tận hấp dẫn với nhiều tính năng mở rộng như Coins và Keys không giới hạn, mở khóa nhân vật và ván trượt. Phiên bản được tối ưu cho iPhone và iPad, cài đặt nhanh, không cần jailbreak và hoạt động ổn định trên iOS.",
+    "features": [
+      "Unlimited Coins để mua mọi vật phẩm.",
+      "Unlimited Keys giúp hồi sinh không giới hạn.",
+      "Mở khóa toàn bộ Characters.",
+      "Mở khóa tất cả Hoverboards.",
+      "Unlimited Score Boosters và Headstarts.",
+      "Hiệu năng tối ưu, tương thích iPhone và iPad."
+    ],
+    "downloadUrl": "https://example.com/files/subway-surfers-mod.ipa",
+    "faq": [
+      {
+        "q": "Có cần jailbreak để cài đặt không?",
+        "a": "Không. Bạn có thể cài đặt bằng AltStore, SideStore, Sideloadly hoặc các công cụ ký IPA khác."
+      },
+      {
+        "q": "Ứng dụng có hỗ trợ iPhone và iPad không?",
+        "a": "Có. Phiên bản này tương thích với hầu hết các thiết bị chạy iOS 14.0 trở lên."
+      },
+      {
+        "q": "Nếu IPA không cài đặt được thì phải làm sao?",
+        "a": "Hãy kiểm tra chứng chỉ ký IPA còn hiệu lực hoặc ký lại ứng dụng bằng công cụ phù hợp trước khi cài đặt."
+      }
+    ]
+  },
+  {
+    "id": "minecraft-mod",
+    "name": "Minecraft Mod IPA",
+    "subtitle": "Phiên bản Minecraft dành cho iPhone/iPad với nhiều tính năng bổ sung và hỗ trợ cài đặt IPA.",
+    "version": "1.21.100",
+    "size": "935.8 MB",
+    "updated": "01/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-01",
+    "views": "4.2M",
+    "category": "game",
+    "badge": "Mod",
+    "featuredGame": true,
+    "featuredApp": false,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Mojang Studios",
+    "icon": "assets/img/minecraft-mod.png",
+    "screenshots": [
+      "assets/img/minecraft-mod-1.png",
+      "assets/img/minecraft-mod-2.png",
+      "assets/img/minecraft-mod-3.png"
+    ],
+    "heroTag": "Sandbox",
+    "description": "Minecraft Mod IPA là phiên bản dành cho iPhone và iPad, cho phép người chơi khám phá thế giới sandbox rộng lớn, xây dựng công trình, sinh tồn và trải nghiệm nhiều tính năng bổ sung từ các bản mod. Bạn có thể chơi một mình hoặc tham gia máy chủ trực tuyến cùng bạn bè.",
+    "features": [
+      "Khám phá thế giới mở vô tận với chế độ Sinh tồn và Sáng tạo.",
+      "Hỗ trợ cài đặt Add-on, Texture Pack và Skin.",
+      "Chơi LAN hoặc tham gia máy chủ trực tuyến.",
+      "Tương thích với AltStore, Sideloadly và TrollStore."
+    ],
+    "downloadUrl": "https://example.com/files/minecraft-mod.ipa",
+    "faq": [
+      {
+        "q": "Minecraft Mod IPA có thể chơi online không?",
+        "a": "Có. Tùy vào phiên bản và máy chủ hỗ trợ, bạn có thể chơi cùng bạn bè qua LAN hoặc tham gia các máy chủ trực tuyến."
+      },
+      {
+        "q": "Có cần jailbreak để cài đặt không?",
+        "a": "Không. Bạn có thể cài đặt bằng AltStore, Sideloadly hoặc TrollStore trên các thiết bị tương thích mà không cần jailbreak."
+      }
+    ]
+  },
+  {
     "id": "nulls-royale",
     "name": "Null's Royale",
     "subtitle": "Private Server, Unlimited Gems, trải nghiệm chiến đấu thẻ bài nâng cao trên iPhone/iPad.",
