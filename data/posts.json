@@ -1,20 +1,37 @@
 [
   {
-    "id": "ios-18-design-trends",
-    "title": "Xu hướng giao diện iOS 18 cho kho ứng dụng tĩnh",
-    "excerpt": "Glassmorphism, bo góc lớn và khoảng trắng rộng là 3 yếu tố giúp giao diện giống App Store hiện đại hơn.",
-    "date": "25/06/2026",
-    "dateIso": "2026-06-25",
-    "thumbnail": "assets/img/blog-design.svg",
-    "cover": "assets/img/blog-design.svg",
+    "id": "install-3utools-windows",
+    "title": "Hướng Dẫn Cài Đặt 3uTools Trên Máy Tính Windows Chi Tiết",
+    "excerpt": "Hướng dẫn tải và cài đặt 3uTools trên máy tính Windows để quản lý iPhone, cài ứng dụng IPA và sao lưu dữ liệu một cách dễ dàng.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-3utools.png",
+    "cover": "assets/img/blog-3utools.png",
+    "author": "TRAE Studio",
+    "readTime": "5 phút đọc",
+    "category": "Hướng dẫn",
+    "related": [
+      "shadowrocket-3utools-guide",
+      "install-ipa-ios-guide"
+    ],
+    "content": "\n<p>3uTools là một trong những phần mềm quản lý thiết bị iPhone, iPad và iPod phổ biến nhất hiện nay. Phần mềm cho phép người dùng cài đặt ứng dụng, sao lưu dữ liệu, kiểm tra thông tin thiết bị, nâng cấp hoặc hạ cấp iOS và nhiều tính năng hữu ích khác.</p>\n\n<h2>Bước 1: Tải phần mềm 3uTools</h2>\n<p>Truy cập trang chủ của 3uTools và tải phiên bản mới nhất dành cho Windows. Sau khi tải hoàn tất, mở tệp cài đặt để bắt đầu quá trình cài đặt.</p>\n\n<h2>Bước 2: Tiến hành cài đặt</h2>\n<p>Nhấp đúp vào file cài đặt vừa tải về. Chọn ngôn ngữ nếu được yêu cầu, sau đó nhấn <strong>Install</strong>. Chờ vài phút để phần mềm tự động cài đặt các thành phần cần thiết, bao gồm cả Apple Driver nếu máy tính chưa có.</p>\n\n<h2>Bước 3: Hoàn tất cài đặt</h2>\n<p>Sau khi quá trình cài đặt kết thúc, nhấn <strong>Launch</strong> hoặc <strong>Finish</strong> để mở 3uTools. Giao diện chính của phần mềm sẽ xuất hiện và sẵn sàng để sử dụng.</p>\n\n<h2>Bước 4: Kết nối iPhone với máy tính</h2>\n<p>Sử dụng cáp Lightning hoặc USB-C chính hãng để kết nối iPhone với máy tính. Nếu lần đầu kết nối, trên iPhone sẽ xuất hiện thông báo <strong>Tin cậy máy tính này (Trust This Computer)</strong>. Hãy chọn <strong>Tin cậy</strong> và nhập mật khẩu thiết bị nếu được yêu cầu.</p>\n\n<p>Khi kết nối thành công, 3uTools sẽ hiển thị đầy đủ thông tin về thiết bị như model, phiên bản iOS, dung lượng pin, dung lượng bộ nhớ và trạng thái kích hoạt.</p>\n\n<h2>Những tính năng nổi bật của 3uTools</h2>\n<ul>\n<li>Quản lý ảnh, video, nhạc và tệp trên iPhone.</li>\n<li>Cài đặt và quản lý ứng dụng IPA.</li>\n<li>Sao lưu và khôi phục dữ liệu.</li>\n<li>Kiểm tra tình trạng pin và phần cứng.</li>\n<li>Nâng cấp hoặc hạ cấp phiên bản iOS.</li>\n<li>Quản lý chứng chỉ và các công cụ hỗ trợ iOS.</li>\n</ul>\n\n<h2>Một số lưu ý</h2>\n<p>Nên sử dụng cáp chính hãng hoặc cáp chất lượng tốt để tránh mất kết nối trong quá trình sử dụng. Nếu máy tính không nhận iPhone, hãy thử đổi cổng USB, khởi động lại thiết bị hoặc cài đặt lại Apple Driver từ chính 3uTools.</p>\n\n<h2>Kết luận</h2>\n<p>Sau khi cài đặt thành công 3uTools, bạn có thể dễ dàng quản lý thiết bị iOS, cài đặt ứng dụng IPA và thực hiện nhiều thao tác nâng cao khác. Đây là công cụ gần như không thể thiếu đối với những người thường xuyên sử dụng ứng dụng ngoài App Store.</p>\n"
+  },
+  {
+    "id": "install-3utools-ios",
+    "title": "Hướng Dẫn Cài Đặt Ứng Dụng 3uTools Trên iPhone Bằng Máy Tính",
+    "excerpt": "Hướng dẫn từng bước cài đặt ứng dụng 3uTools lên iPhone thông qua phần mềm 3uTools trên máy tính để tiếp tục cài đặt IPA và các ứng dụng khác.",
+    "date": "01/07/2026",
+    "dateIso": "2026-07-01",
+    "thumbnail": "assets/img/blog-3utools-ios.png",
+    "cover": "assets/img/blog-3utools-ios.png",
     "author": "TRAE Studio",
     "readTime": "6 phút đọc",
-    "category": "Thiết kế",
+    "category": "Hướng dẫn",
     "related": [
-      "seo-github-pages",
-      "json-content-structure"
+      "install-3utools-windows",
+      "shadowrocket-3utools-guide"
     ],
-    "content": "\n<p>Thiết kế kho ứng dụng tĩnh hiện nay không còn chỉ là danh sách card đơn giản. Người dùng kỳ vọng trải nghiệm gần với App Store: chuyển động mềm, nền sáng tối tự nhiên, block thông tin rõ ràng và cảm giác chạm thoải mái trên điện thoại.</p>\n<p>Phong cách iOS 18 thường nổi bật ở lớp nền dịu, kính mờ, độ bo lớn và typography rõ ràng. Khi áp dụng cho website tĩnh, bạn nên ưu tiên các section lớn, chiều cao nút đủ rộng và card có nhịp thở tốt để không bị dày đặc như layout Android cũ.</p>\n<h2>Những điểm nên giữ</h2>\n<p>Sử dụng hero block lớn ở đầu trang, shelf ngang cho nội dung nổi bật, danh sách card gọn ở phần nội dung chính và bottom navigation trên mobile. Cách này giúp người dùng nhận ra ngay cảm hứng App Store mà vẫn giữ được khả năng mở rộng cho blog, bài viết và trang tải IPA.</p>\n<h2>Tối ưu cho GitHub Pages</h2>\n<p>Không có backend không phải là hạn chế lớn. Bạn có thể lưu dữ liệu bằng JSON, dùng JavaScript thuần để render và vẫn đạt hiệu ứng cao cấp nếu xây dựng tốt hệ thống biến màu, animation và thành phần tái sử dụng.</p>\n"
+    "content": "\n<p>Ngoài phiên bản dành cho Windows, 3uTools còn cung cấp ứng dụng dành cho iPhone giúp người dùng tải và cài đặt các ứng dụng phổ biến mà không cần sử dụng App Store. Để cài đặt ứng dụng này, bạn cần sử dụng phần mềm 3uTools trên máy tính và kết nối iPhone qua cáp USB.</p>\n\n<h2>Bước 1: Cài đặt 3uTools trên máy tính</h2>\n<p>Nếu máy tính của bạn chưa có phần mềm 3uTools, hãy tải phiên bản mới nhất từ trang chủ và tiến hành cài đặt. Sau khi hoàn tất, mở phần mềm để chuẩn bị kết nối thiết bị.</p>\n\n<h2>Bước 2: Kết nối iPhone với máy tính</h2>\n<p>Sử dụng cáp Lightning hoặc USB-C để kết nối iPhone với máy tính. Khi trên điện thoại xuất hiện thông báo <strong>Tin cậy máy tính này</strong>, hãy chọn <strong>Tin cậy</strong> và nhập mật khẩu để cấp quyền kết nối.</p>\n\n<h2>Bước 3: Cài đặt ứng dụng 3uTools lên iPhone</h2>\n<p>Sau khi thiết bị được nhận diện thành công, tại giao diện chính của 3uTools trên máy tính sẽ xuất hiện tùy chọn cài đặt ứng dụng 3uTools dành cho iPhone. Nhấn <strong>Install</strong> và chờ quá trình cài đặt hoàn tất.</p>\n\n<p>Thời gian cài đặt thường chỉ mất từ 1 đến 3 phút tùy theo tốc độ kết nối. Sau khi hoàn tất, biểu tượng 3uTools sẽ xuất hiện trên màn hình chính của iPhone.</p>\n\n<h2>Bước 4: Mở ứng dụng 3uTools trên iPhone</h2>\n<p>Ngắt kết nối với máy tính và mở ứng dụng 3uTools vừa được cài đặt. Tại đây bạn có thể tìm kiếm nhiều ứng dụng phổ biến, tải về thiết bị hoặc cài đặt các công cụ hỗ trợ khác tùy theo nhu cầu.</p>\n\n<h2>Sử dụng 3uTools để cài Shadowrocket</h2>\n<p>Một trong những cách được nhiều người sử dụng là mở ứng dụng 3uTools trên iPhone, tìm kiếm <strong>Shadowrocket</strong>, sau đó nhấn cài đặt. Sau khi hoàn tất, biểu tượng Shadowrocket sẽ xuất hiện trên màn hình chính và sẵn sàng sử dụng.</p>\n\n<h2>Một số lưu ý</h2>\n<ul>\n<li>Đảm bảo iPhone có kết nối Internet ổn định.</li>\n<li>Sử dụng cáp USB chất lượng tốt để tránh mất kết nối.</li>\n<li>Nếu phần mềm không nhận thiết bị, hãy cập nhật Apple Driver hoặc khởi động lại cả máy tính và iPhone.</li>\n<li>Không rút cáp trong khi ứng dụng đang được cài đặt.</li>\n</ul>\n\n<h2>Kết luận</h2>\n<p>Chỉ với vài bước đơn giản, bạn đã có thể cài đặt ứng dụng 3uTools lên iPhone thông qua máy tính. Sau đó, việc tải các ứng dụng như Shadowrocket hoặc cài đặt file IPA sẽ trở nên nhanh chóng và thuận tiện hơn rất nhiều.</p>\n"
   },
   {
     "id": "seo-github-pages",
@@ -22,8 +39,8 @@
     "excerpt": "Meta title, description, Open Graph, sitemap.xml và robots.txt là bộ tối thiểu để website tĩnh có nền tảng SEO sạch.",
     "date": "22/06/2026",
     "dateIso": "2026-06-22",
-    "thumbnail": "assets/img/blog-seo.svg",
-    "cover": "assets/img/blog-seo.svg",
+    "thumbnail": "assets/img/blog-seo.png",
+    "cover": "assets/img/blog-seo.png",
     "author": "TRAE Studio",
     "readTime": "5 phút đọc",
     "category": "SEO",
@@ -39,8 +56,8 @@
     "excerpt": "Chia dữ liệu thành apps.json và posts.json giúp dễ mở rộng, bảo trì và triển khai trên GitHub Pages.",
     "date": "18/06/2026",
     "dateIso": "2026-06-18",
-    "thumbnail": "assets/img/blog-json.svg",
-    "cover": "assets/img/blog-json.svg",
+    "thumbnail": "assets/img/blog-json.png",
+    "cover": "assets/img/blog-json.png",
     "author": "TRAE Studio",
     "readTime": "7 phút đọc",
     "category": "Dữ liệu",
