@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  
+<meta name="google-adsense-account" content="ca-pub-1643127618182542">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1643127618182542"
+     crossorigin="anonymous"></script><meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hướng dẫn đăng bài viết | Tôi Share Mod</title>
+  <meta name="description"
+    content="Hướng dẫn thêm bài viết mới vào website Tôi Share Mod bằng cách chỉnh file data/posts.json và thêm ảnh vào assets/img." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .guide {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .guide .card {
+      padding: 24px;
+      border-radius: 32px;
+      margin-bottom: 18px;
+    }
+
+    .guide pre {
+      margin: 16px 0 0;
+      padding: 18px;
+      overflow: auto;
+      border-radius: 24px;
+      background: rgba(15, 23, 42, 0.92);
+      color: #e2e8f0;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      line-height: 1.65;
+      font-size: 0.95rem;
+    }
+
+    .guide code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .guide p,
+    .guide li {
+      line-height: 1.8;
+    }
+
+    .guide h1,
+    .guide h2,
+    .guide h3 {
+      letter-spacing: -0.04em;
+    }
+
+    .guide ol,
+    .guide ul {
+      padding-left: 20px;
+      margin: 14px 0 0;
+    }
+
+    .guide table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      overflow: hidden;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+    }
+
+    .guide th,
+    .guide td {
+      text-align: left;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    .guide th {
+      background: var(--surface-strong);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-shell guide">
+    <header class="topbar glass">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo-mark.svg" alt="Tôi Share Mod" width="38" height="38" />
+        <span>Tôi Share Mod</span>
+      </a>
+      <div class="topbar-actions">
+        <a class="icon-link" href="blog.html">Mở Blog</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-card fade-up" style="min-height: unset;">
+        <span class="hero-tag">Tài liệu sử dụng</span>
+        <h1 class="hero-title" style="max-width: 860px;">Hướng dẫn đăng bài viết lên website</h1>
+        <p class="hero-text">
+          Phần blog của website này đang đọc dữ liệu trực tiếp từ file <code>data/posts.json</code>. Bạn không cần dùng
+          database hay trang quản trị.
+          Chỉ cần thêm ảnh, thêm một object mới vào JSON và đẩy source lên GitHub Pages.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Luồng đăng bài</h2>
+          <p>
+            Website đang hoạt động theo cách rất đơn giản: trang <code>blog.html</code> đọc toàn bộ danh sách bài viết
+            từ
+            <code>data/posts.json</code>, còn trang <code>article.html?id=slug-bai-viet</code> sẽ lấy đúng bài theo
+            trường <code>id</code> để hiển thị.
+          </p>
+          <ol>
+            <li>Chuẩn bị ảnh thumbnail hoặc cover cho bài viết.</li>
+            <li>Chép ảnh vào thư mục <code>assets/img/</code>.</li>
+            <li>Mở file <code>data/posts.json</code>.</li>
+            <li>Thêm một object bài viết mới.</li>
+            <li>Lưu file, kiểm tra lại dấu phẩy và dấu ngoặc JSON.</li>
+            <li>Mở thử <code>blog.html</code> và <code>article.html?id=slug</code>.</li>
+            <li>Nếu muốn SEO sạch hơn, thêm URL bài viết mới vào <code>sitemap.xml</code>.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>File cần sửa</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>File</th>
+                <th>Mục đích</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>data/posts.json</code></td>
+                <td>Chứa toàn bộ dữ liệu bài viết để trang blog và trang chi tiết tự render.</td>
+              </tr>
+              <tr>
+                <td><code>assets/img/</code></td>
+                <td>Lưu ảnh thumbnail và cover cho bài viết.</td>
+              </tr>
+              <tr>
+                <td><code>sitemap.xml</code></td>
+                <td>Thêm URL bài mới nếu bạn muốn máy tìm kiếm thấy nội dung nhanh hơn.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Mẫu bài viết mới</h2>
+          <p>
+            Bạn hãy mở <code>data/posts.json</code>, sau đó chèn thêm một object mới theo mẫu dưới đây.
+            Trường <code>content</code> đang dùng HTML chuỗi, vì vậy bạn có thể viết bằng các thẻ như
+            <code>&lt;p&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;ul&gt;</code> và <code>&lt;li&gt;</code>.
+          </p>
+          <pre><code>{
+  "id": "huong-dan-cai-ipa-tren-iphone",
+  "title": "Hướng dẫn cài IPA trên iPhone không cần jailbreak",
+  "excerpt": "Bài viết giải thích cách sideload file IPA bằng máy tính và những lưu ý quan trọng trước khi cài.",
+  "date": "27/06/2026",
+  "dateIso": "2026-06-27",
+  "thumbnail": "assets/img/huong-dan-cai-ipa-thumb.jpg",
+  "cover": "assets/img/huong-dan-cai-ipa-cover.jpg",
+  "author": "Tên của bạn",
+  "readTime": "6 phút đọc",
+  "category": "Hướng dẫn",
+  "related": [
+    "seo-github-pages",
+    "json-content-structure"
+  ],
+  "content": "\n&lt;p&gt;Đây là đoạn mở đầu của bài viết.&lt;/p&gt;\n&lt;p&gt;Bạn có thể viết nhiều đoạn văn liên tiếp để giải thích vấn đề.&lt;/p&gt;\n&lt;h2&gt;Chuẩn bị trước khi cài&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Có file IPA cần cài.&lt;/li&gt;\n&lt;li&gt;Có máy tính và cáp kết nối.&lt;/li&gt;\n&lt;li&gt;Có công cụ sideload phù hợp.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Các bước thực hiện&lt;/h2&gt;\n&lt;p&gt;Bạn tiếp tục viết nội dung ở đây.&lt;/p&gt;\n"
+}</code></pre>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Ý nghĩa từng trường</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Trường</th>
+                <th>Cách dùng</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>id</code></td>
+                <td>Slug của bài viết. Không nên có dấu cách. Ví dụ: <code>huong-dan-cai-ipa-tren-iphone</code>.</td>
+              </tr>
+              <tr>
+                <td><code>title</code></td>
+                <td>Tiêu đề chính của bài. Trường này cũng được dùng làm tiêu đề trang chi tiết.</td>
+              </tr>
+              <tr>
+                <td><code>excerpt</code></td>
+                <td>Mô tả ngắn hiển thị ở danh sách blog và phần meta description.</td>
+              </tr>
+              <tr>
+                <td><code>date</code></td>
+                <td>Ngày hiển thị ra ngoài, ví dụ <code>27/06/2026</code>.</td>
+              </tr>
+              <tr>
+                <td><code>dateIso</code></td>
+                <td>Ngày ở dạng chuẩn, ví dụ <code>2026-06-27</code>. Nên giữ để dễ mở rộng về sau.</td>
+              </tr>
+              <tr>
+                <td><code>thumbnail</code></td>
+                <td>Ảnh hiển thị ở trang danh sách bài viết.</td>
+              </tr>
+              <tr>
+                <td><code>cover</code></td>
+                <td>Ảnh lớn ở đầu trang chi tiết bài viết.</td>
+              </tr>
+              <tr>
+                <td><code>author</code></td>
+                <td>Tên tác giả hiển thị bên dưới tiêu đề.</td>
+              </tr>
+              <tr>
+                <td><code>readTime</code></td>
+                <td>Ví dụ <code>4 phút đọc</code>, <code>8 phút đọc</code>.</td>
+              </tr>
+              <tr>
+                <td><code>category</code></td>
+                <td>Nhãn danh mục hiển thị đầu bài viết, ví dụ <code>SEO</code>, <code>Hướng dẫn</code>,
+                  <code>Tin tức</code>.</td>
+              </tr>
+              <tr>
+                <td><code>related</code></td>
+                <td>Mảng chứa <code>id</code> của các bài liên quan đã có sẵn trong <code>posts.json</code>.</td>
+              </tr>
+              <tr>
+                <td><code>content</code></td>
+                <td>Nội dung HTML của bài viết. Đây là phần quan trọng nhất.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Cách viết nội dung trong trường content</h2>
+          <p>
+            Trường <code>content</code> không phải Markdown mà là HTML nằm trong chuỗi JSON. Vì vậy khi bạn xuống dòng
+            và dùng dấu ngoặc kép,
+            hãy giữ nguyên cú pháp giống các bài đang có sẵn trong <code>data/posts.json</code>.
+          </p>
+          <p>Bạn nên dùng các thẻ sau:</p>
+          <ul>
+            <li><code>&lt;p&gt;</code> cho đoạn văn</li>
+            <li><code>&lt;h2&gt;</code> cho tiêu đề phụ</li>
+            <li><code>&lt;ul&gt;</code> và <code>&lt;li&gt;</code> cho danh sách</li>
+            <li><code>&lt;code&gt;</code> cho tên file, đường dẫn hoặc lệnh</li>
+          </ul>
+          <pre><code>"content": "\n&lt;p&gt;Đây là đoạn mở đầu.&lt;/p&gt;\n&lt;h2&gt;Mục lớn&lt;/h2&gt;\n&lt;p&gt;Nội dung tiếp theo ở đây.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ý thứ nhất&lt;/li&gt;\n&lt;li&gt;Ý thứ hai&lt;/li&gt;\n&lt;/ul&gt;\n"</code></pre>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Đặt ảnh cho bài viết</h2>
+          <p>
+            Bạn chỉ cần chép ảnh vào thư mục <code>assets/img/</code>, rồi điền đúng đường dẫn vào các trường
+            <code>thumbnail</code> và <code>cover</code>.
+            Nếu muốn dùng chung một ảnh cho cả danh sách và trang chi tiết, bạn có thể đặt cùng một đường dẫn cho hai
+            trường này.
+          </p>
+          <pre><code>"thumbnail": "assets/img/ten-bai-viet-thumb.jpg",
+"cover": "assets/img/ten-bai-viet-cover.jpg"</code></pre>
+          <p>
+            Tên file nên viết không dấu, dùng dấu gạch ngang để sau này dễ quản lý hơn.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Mở bài vừa đăng</h2>
+          <p>
+            Sau khi thêm bài vào <code>data/posts.json</code>, bài sẽ tự xuất hiện ở trang <code>blog.html</code>.
+            Trang chi tiết sẽ chạy theo cấu trúc:
+          </p>
+          <pre><code>article.html?id=huong-dan-cai-ipa-tren-iphone</code></pre>
+          <p>
+            Phần <code>id</code> trong URL phải giống hệt trường <code>id</code> bạn đã khai báo trong JSON.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Thêm bài liên quan</h2>
+          <p>
+            Nếu bạn muốn cuối bài có mục bài viết liên quan, hãy điền các <code>id</code> bài đã tồn tại vào trường
+            <code>related</code>.
+            Ví dụ:
+          </p>
+          <pre><code>"related": [
+  "seo-github-pages",
+  "json-content-structure"
+]</code></pre>
+          <p>
+            Nếu bạn điền sai <code>id</code>, bài liên quan sẽ không hiện ra.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Cập nhật sitemap</h2>
+          <p>
+            Website vẫn chạy bình thường nếu bạn chưa sửa <code>sitemap.xml</code>, nhưng nếu muốn SEO tốt hơn thì nên
+            thêm URL bài mới vào file này.
+          </p>
+          <pre><code>&lt;url&gt;
+  &lt;loc&gt;https://toisharemod.com/article.html?id=huong-dan-cai-ipa-tren-iphone&lt;/loc&gt;
+&lt;/url&gt;</code></pre>
+          <p>
+            Nhớ thay domain mẫu bằng domain GitHub Pages thật của bạn.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Lỗi thường gặp</h2>
+          <ul>
+            <li>Bài không hiện ở blog: kiểm tra lại dấu phẩy hoặc dấu ngoặc trong <code>data/posts.json</code>.</li>
+            <li>Trang bài viết trắng hoặc lỗi: thường do trường <code>id</code> trên URL không khớp với <code>id</code>
+              trong JSON.</li>
+            <li>Ảnh không hiện: kiểm tra tên file ảnh và đường dẫn trong <code>thumbnail</code>, <code>cover</code>.
+            </li>
+            <li>Bài liên quan không hiện: kiểm tra lại các <code>id</code> trong trường <code>related</code>.</li>
+            <li>Nội dung bị vỡ: kiểm tra xem HTML trong trường <code>content</code> có thiếu thẻ đóng hay không.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card glass">
+          <h2>Một ví dụ hoàn chỉnh</h2>
+          <pre><code>{
+  "id": "meo-toi-uu-seo-cho-bai-viet-app",
+  "title": "Mẹo tối ưu SEO cho bài viết giới thiệu ứng dụng",
+  "excerpt": "Một vài cách đơn giản để bài blog dễ đọc hơn, rõ cấu trúc hơn và thân thiện hơn với máy tìm kiếm.",
+  "date": "27/06/2026",
+  "dateIso": "2026-06-27",
+  "thumbnail": "assets/img/meo-seo-thumb.jpg",
+  "cover": "assets/img/meo-seo-cover.jpg",
+  "author": "Admin",
+  "readTime": "5 phút đọc",
+  "category": "SEO",
+  "related": [
+    "seo-github-pages",
+    "ios-18-design-trends"
+  ],
+  "content": "\n&lt;p&gt;Bài viết về ứng dụng không chỉ cần đẹp mà còn cần rõ ràng, dễ quét và có cấu trúc heading hợp lý.&lt;/p&gt;\n&lt;h2&gt;Tiêu đề và mô tả&lt;/h2&gt;\n&lt;p&gt;Hãy viết tiêu đề sát chủ đề và mô tả ngắn đủ rõ để người đọc biết ngay bài này nói về điều gì.&lt;/p&gt;\n&lt;h2&gt;Bố cục nội dung&lt;/h2&gt;\n&lt;p&gt;Nên chia bài thành nhiều đoạn ngắn, thêm tiêu đề phụ và hạn chế khối chữ quá dài.&lt;/p&gt;\n"
+}</code></pre>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

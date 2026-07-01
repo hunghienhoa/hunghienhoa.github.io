@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Công cụ tạo bài viết | Tôi Share Mod</title>
+<meta name="google-adsense-account" content="ca-pub-1643127618182542">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1643127618182542"
+     crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tạo nhanh file JSON đúng cấu trúc posts.json của website." />
+  <meta name="theme-color" content="#0a84ff" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="post-generator">
+  <div class="page-shell">
+    <header id="site-header"></header>
+    <main>
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Công cụ tạo bài viết</h2>
+            <p>Điền thông tin, bấm tạo để tải file JSON và dán vào <code>data/posts.json</code>.</p>
+          </div>
+        </div>
+        <div class="content-block glass" style="padding:18px;border-radius:32px;">
+          <form id="post-form" style="display:grid;gap:12px;">
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Tiêu đề</span>
+              <input class="glass" id="title" required placeholder="Ví dụ: Hướng dẫn cài IPA trên iPhone" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+            </label>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">ID (slug)</span>
+              <input class="glass" id="id" placeholder="Tự tạo nếu để trống" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+            </label>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Mô tả ngắn (excerpt)</span>
+              <textarea class="glass" id="excerpt" required rows="3" placeholder="Tóm tắt 1-2 câu để hiện ở danh sách blog" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;"></textarea>
+            </label>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Chuyên mục (category)</span>
+                <input class="glass" id="category" value="Blog" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Tác giả (author)</span>
+                <input class="glass" id="author" value="Tôi Share Mod" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Ngày hiển thị (dd/mm/yyyy)</span>
+                <input class="glass" id="date" placeholder="30/06/2026" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Ngày ISO (yyyy-mm-dd)</span>
+                <input class="glass" id="dateIso" placeholder="2026-06-30" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Thumbnail (đường dẫn ảnh)</span>
+                <input class="glass" id="thumbnail" value="assets/img/blog-design.svg" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Cover (đường dẫn ảnh)</span>
+                <input class="glass" id="cover" placeholder="Nếu trống sẽ dùng thumbnail" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Thời gian đọc (readTime)</span>
+                <input class="glass" id="readTime" value="5 phút đọc" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Bài liên quan (ID, ngăn bởi dấu phẩy)</span>
+                <input class="glass" id="related" placeholder="seo-github-pages,json-content-structure" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Nội dung (HTML)</span>
+              <textarea class="glass" id="content" rows="10" required placeholder="<p>Nội dung...</p>&#10;<h2>Tiêu đề</h2>&#10;<p>...</p>" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;"></textarea>
+            </label>
+
+            <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:6px;">
+              <button class="btn btn-primary" type="submit">Tạo JSON</button>
+              <button class="btn btn-secondary" type="button" id="download-object">Tải file 1 bài (object)</button>
+              <button class="btn btn-secondary" type="button" id="download-array">Tải file posts (array)</button>
+              <span class="muted" id="status" style="font-size:0.92rem;"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Kết quả JSON</h2>
+            <p>Copy đoạn này và thêm vào <code>data/posts.json</code> (nhớ có dấu phẩy giữa các bài).</p>
+          </div>
+        </div>
+        <div class="content-block glass" style="padding:18px;border-radius:32px;">
+          <textarea id="output" rows="12" class="glass" readonly style="width:100%;padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"></textarea>
+        </div>
+      </section>
+    </main>
+    <footer id="site-footer"></footer>
+  </div>
+  <div id="mobile-nav"></div>
+
+  <script src="assets/js/common.js"></script>
+  <script>
+    function slugify(input) {
+      return String(input || "")
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .slice(0, 80);
+    }
+
+    function makeJson(mode) {
+      const title = document.getElementById("title").value.trim();
+      const idInput = document.getElementById("id").value.trim();
+      const id = idInput || slugify(title) || ("post-" + Date.now());
+      const excerpt = document.getElementById("excerpt").value.trim();
+      const category = document.getElementById("category").value.trim() || "Blog";
+      const author = document.getElementById("author").value.trim() || "Tôi Share Mod";
+      const date = document.getElementById("date").value.trim();
+      const dateIso = document.getElementById("dateIso").value.trim();
+      const thumbnail = document.getElementById("thumbnail").value.trim();
+      const cover = document.getElementById("cover").value.trim() || thumbnail;
+      const readTime = document.getElementById("readTime").value.trim() || "5 phút đọc";
+      const relatedRaw = document.getElementById("related").value.trim();
+      const content = document.getElementById("content").value;
+
+      const related = relatedRaw
+        ? relatedRaw.split(",").map(s => s.trim()).filter(Boolean)
+        : [];
+
+      const post = {
+        id,
+        title,
+        excerpt,
+        date,
+        dateIso,
+        thumbnail,
+        cover,
+        author,
+        readTime,
+        category,
+        related,
+        content: "\\n" + content.replace(/\\r\\n/g, "\\n") + "\\n"
+      };
+
+      if (mode === "array") return JSON.stringify([post], null, 2);
+      return JSON.stringify(post, null, 2);
+    }
+
+    function downloadText(filename, text) {
+      const blob = new Blob([text], { type: "application/json;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      renderShell("blog");
+      const form = document.getElementById("post-form");
+      const out = document.getElementById("output");
+      const status = document.getElementById("status");
+      const btnObj = document.getElementById("download-object");
+      const btnArr = document.getElementById("download-array");
+
+      const refresh = () => {
+        try {
+          out.value = makeJson("object");
+          status.textContent = "";
+        } catch (err) {
+          status.textContent = "Lỗi tạo JSON: " + (err && err.message ? err.message : String(err));
+        }
+      };
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        refresh();
+        status.textContent = "Đã tạo JSON. Bạn có thể tải file hoặc copy.";
+      });
+
+      btnObj.addEventListener("click", () => {
+        const json = makeJson("object");
+        const id = JSON.parse(json).id;
+        downloadText(`post-${id}.json`, json);
+      });
+
+      btnArr.addEventListener("click", () => {
+        const json = makeJson("array");
+        const id = JSON.parse(makeJson("object")).id;
+        downloadText(`posts-${id}.json`, json);
+      });
+
+      ["title","id","excerpt","category","author","date","dateIso","thumbnail","cover","readTime","related","content"].forEach((key) => {
+        const el = document.getElementById(key);
+        if (el) el.addEventListener("input", refresh);
+      });
+
+      refresh();
+    });
+  </script>
+</body>
+</html>

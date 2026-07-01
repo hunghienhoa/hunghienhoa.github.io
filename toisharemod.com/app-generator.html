@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Công cụ tạo ứng dụng/game | Tôi Share Mod</title>
+<meta name="google-adsense-account" content="ca-pub-1643127618182542">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1643127618182542"
+     crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tạo nhanh mục Ứng dụng/Trò chơi xuất JSON đúng cấu trúc data/apps.json." />
+  <meta name="theme-color" content="#0a84ff" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="app-generator">
+  <div class="page-shell">
+    <header id="site-header"></header>
+    <main>
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Công cụ tạo Ứng dụng/Trò chơi</h2>
+            <p>Điền thông tin, bấm tạo để tải file JSON và dán vào <code>data/apps.json</code>.</p>
+          </div>
+        </div>
+        <div class="content-block glass" style="padding:18px;border-radius:32px;">
+          <form id="app-form" style="display:grid;gap:12px;">
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Loại</span>
+                <select id="category" class="glass" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;">
+                  <option value="app">Ứng dụng</option>
+                  <option value="game">Trò chơi</option>
+                </select>
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">ID (slug)</span>
+                <input id="id" placeholder="Tự tạo nếu để trống" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Tên hiển thị</span>
+              <input id="name" required placeholder="Ví dụ: Notes Air" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+            </label>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Mô tả ngắn (subtitle)</span>
+              <input id="subtitle" required placeholder="1 câu mô tả ngắn" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+            </label>
+
+            <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Version</span>
+                <input id="version" required placeholder="1.0.0" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Dung lượng</span>
+                <input id="size" required placeholder="28.6 MB" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">iOS hỗ trợ</span>
+                <input id="os" required placeholder="iOS 15.0+" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Ngày cập nhật (dd/mm/yyyy)</span>
+                <input id="updated" required placeholder="30/06/2026" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Ngày ISO (yyyy-mm-dd)</span>
+                <input id="updatedIso" placeholder="2026-06-30" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Badge</span>
+                <input id="badge" placeholder="Miễn phí / Hot / New..." style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Rating</span>
+                <input id="rating" placeholder="4.8" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Developer</span>
+                <input id="developer" placeholder="Tên dev" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Icon (đường dẫn)</span>
+                <input id="icon" required placeholder="assets/img/icon.svg" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Link tải IPA (downloadUrl)</span>
+                <input id="downloadUrl" required placeholder="https://..." style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Mô tả chi tiết (description)</span>
+              <textarea id="description" rows="4" required placeholder="Mô tả dài hiển thị ở trang chi tiết" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;"></textarea>
+            </label>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Features (mỗi dòng 1 ý)</span>
+              <textarea id="features" rows="5" placeholder="Tính năng 1&#10;Tính năng 2" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;"></textarea>
+            </label>
+
+            <label style="display:grid;gap:6px;">
+              <span class="muted">Screenshots (mỗi dòng 1 ảnh)</span>
+              <textarea id="screenshots" rows="4" placeholder="assets/img/shot-1.jpg&#10;assets/img/shot-2.jpg" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;"></textarea>
+            </label>
+
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Support</span>
+                <input id="support" placeholder="AltStore / Sideloadly..." style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Hero tag</span>
+                <input id="heroTag" placeholder="Game nổi bật / Tiện ích..." style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;" />
+              </label>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;">
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Featured game</span>
+                <select id="featuredGame" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;">
+                  <option value="false">Không</option>
+                  <option value="true">Có</option>
+                </select>
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Featured app</span>
+                <select id="featuredApp" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;">
+                  <option value="false">Không</option>
+                  <option value="true">Có</option>
+                </select>
+              </label>
+              <label style="display:grid;gap:6px;">
+                <span class="muted">Is new</span>
+                <select id="isNew" style="padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;">
+                  <option value="false">Không</option>
+                  <option value="true">Có</option>
+                </select>
+              </label>
+            </div>
+
+            <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:6px;">
+              <button class="btn btn-primary" type="submit">Tạo JSON</button>
+              <button class="btn btn-secondary" type="button" id="download-object">Tải file 1 mục (object)</button>
+              <button class="btn btn-secondary" type="button" id="download-array">Tải file apps (array)</button>
+              <span class="muted" id="status" style="font-size:0.92rem;"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Kết quả JSON</h2>
+            <p>Copy đoạn này và thêm vào <code>data/apps.json</code> (nhớ có dấu phẩy giữa các mục).</p>
+          </div>
+        </div>
+        <div class="content-block glass" style="padding:18px;border-radius:32px;">
+          <textarea id="output" rows="12" readonly style="width:100%;padding:12px 14px;border-radius:16px;border:1px solid rgba(255,255,255,0.12);color:inherit;background:transparent;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;"></textarea>
+        </div>
+      </section>
+    </main>
+    <footer id="site-footer"></footer>
+  </div>
+  <div id="mobile-nav"></div>
+
+  <script src="assets/js/common.js"></script>
+  <script>
+    function slugify(input) {
+      return String(input || "")
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .slice(0, 80);
+    }
+
+    function boolVal(v) {
+      return String(v) === "true";
+    }
+
+    function listFromLines(text) {
+      return String(text || "")
+        .split(/\r?\n/)
+        .map((s) => s.trim())
+        .filter(Boolean);
+    }
+
+    function makeJson(mode) {
+      const category = document.getElementById("category").value;
+      const name = document.getElementById("name").value.trim();
+      const idInput = document.getElementById("id").value.trim();
+      const id = idInput || slugify(name) || ("item-" + Date.now());
+
+      const item = {
+        id,
+        name,
+        subtitle: document.getElementById("subtitle").value.trim(),
+        version: document.getElementById("version").value.trim(),
+        size: document.getElementById("size").value.trim(),
+        updated: document.getElementById("updated").value.trim(),
+        updatedRelative: "",
+        updatedIso: document.getElementById("updatedIso").value.trim(),
+        views: "0",
+        category,
+        badge: document.getElementById("badge").value.trim(),
+        featuredGame: boolVal(document.getElementById("featuredGame").value),
+        featuredApp: boolVal(document.getElementById("featuredApp").value),
+        isNew: boolVal(document.getElementById("isNew").value),
+        rating: document.getElementById("rating").value.trim(),
+        os: document.getElementById("os").value.trim(),
+        support: document.getElementById("support").value.trim(),
+        developer: document.getElementById("developer").value.trim(),
+        icon: document.getElementById("icon").value.trim(),
+        screenshots: listFromLines(document.getElementById("screenshots").value),
+        heroTag: document.getElementById("heroTag").value.trim(),
+        description: document.getElementById("description").value.trim(),
+        features: listFromLines(document.getElementById("features").value),
+        downloadUrl: document.getElementById("downloadUrl").value.trim(),
+        faq: []
+      };
+
+      if (mode === "array") return JSON.stringify([item], null, 2);
+      return JSON.stringify(item, null, 2);
+    }
+
+    function downloadText(filename, text) {
+      const blob = new Blob([text], { type: "application/json;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      renderShell("apps");
+      const form = document.getElementById("app-form");
+      const out = document.getElementById("output");
+      const status = document.getElementById("status");
+      const btnObj = document.getElementById("download-object");
+      const btnArr = document.getElementById("download-array");
+
+      const refresh = () => {
+        try {
+          out.value = makeJson("object");
+          status.textContent = "";
+        } catch (err) {
+          status.textContent = "Lỗi tạo JSON: " + (err && err.message ? err.message : String(err));
+        }
+      };
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        refresh();
+        status.textContent = "Đã tạo JSON. Bạn có thể tải file hoặc copy.";
+      });
+
+      btnObj.addEventListener("click", () => {
+        const json = makeJson("object");
+        const id = JSON.parse(json).id;
+        downloadText(`app-${id}.json`, json);
+      });
+
+      btnArr.addEventListener("click", () => {
+        const json = makeJson("array");
+        const id = JSON.parse(makeJson("object")).id;
+        downloadText(`apps-${id}.json`, json);
+      });
+
+      [
+        "category","id","name","subtitle","version","size","os","updated","updatedIso","badge","rating","developer","icon","downloadUrl",
+        "description","features","screenshots","support","heroTag","featuredGame","featuredApp","isNew"
+      ].forEach((key) => {
+        const el = document.getElementById(key);
+        if (el) el.addEventListener("input", refresh);
+        if (el && el.tagName === "SELECT") el.addEventListener("change", refresh);
+      });
+
+      refresh();
+    });
+  </script>
+</body>
+</html>
