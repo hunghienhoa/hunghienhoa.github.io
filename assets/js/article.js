@@ -18,8 +18,8 @@ async function initArticlePage() {
       <div class="page-backbar">
         <a class="back-link" href="blog.html${post.category ? `?category=${encodeURIComponent(post.category)}` : ""}">← ${escapeHTML(post.category || "Blog")}</a>
       </div>
-      <div class="article-cover glass fade-up" style="padding:18px;border-radius:36px;">
-        <img src="${post.cover}" alt="${escapeHTML(post.title)}" width="1200" height="750" />
+      <div class="article-cover glass fade-up">
+        <img src="${post.cover}" alt="${escapeHTML(post.title)}" width="1200" height="675" />
       </div>
       <header class="section">
         <a class="chip article-category-link" href="blog.html${post.category ? `?category=${encodeURIComponent(post.category)}` : ""}">${escapeHTML(post.category)}</a>

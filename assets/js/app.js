@@ -19,7 +19,6 @@ async function initAppPage() {
         <div class="detail-head">
           <img src="${app.icon}" alt="${escapeHTML(app.name)}" width="112" height="112" />
           <div>
-            <span class="chip">${escapeHTML(app.badge)}</span>
             <h1 class="detail-title">${escapeHTML(app.name)}</h1>
             <p class="detail-subtitle">${escapeHTML(app.subtitle)}</p>
             <div class="detail-actions">

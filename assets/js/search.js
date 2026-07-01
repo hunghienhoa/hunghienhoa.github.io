@@ -11,7 +11,6 @@ async function initSearchPage() {
   const root = document.getElementById("search-root");
   root.innerHTML = `
     <section class="search-screen glass fade-up">
-      <span class="chip">Tìm kiếm nhanh</span>
       <h1 class="detail-title">Tìm ứng dụng và trò chơi</h1>
       <p class="article-lead"></p>
       <label class="search-wrap glass search-screen-input" for="full-search-input">

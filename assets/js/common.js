@@ -208,13 +208,6 @@ function renderShell(page) {
         </div>
 
         <div class="footer-nav-block">
-          <h3 class="footer-title">Điều hướng</h3>
-          <div class="footer-links">
-            ${links.map(link => `<a href="${link.href}">${link.label}</a>`).join("")}
-          </div>
-        </div>
-
-        <div class="footer-nav-block">
           <h3 class="footer-title">Truy cập nhanh</h3>
           <div class="footer-links">
             <a href="collection.html?section=featured-games">Trò chơi nổi bật</a>
@@ -304,7 +297,6 @@ function featureCardTemplate(app) {
   return `
     <article class="feature-card glass fade-up">
       <div>
-        <span class="chip">${escapeHTML(app.heroTag || app.badge || "Nổi bật")}</span>
         <h3 style="margin: 16px 0 8px; font-size: 1.4rem;">${escapeHTML(app.name)}</h3>
         <p>${escapeHTML(app.subtitle)}</p>
       </div>
@@ -331,7 +323,7 @@ function blogCardTemplate(post) {
   return `
     <article class="blog-card glass fade-up">
       <a href="article.html?id=${encodeURIComponent(post.id)}">
-        <img src="${post.thumbnail}" alt="${escapeHTML(post.title)}" width="640" height="400" loading="lazy" />
+        <img src="${post.thumbnail}" alt="${escapeHTML(post.title)}" width="640" height="360" loading="lazy" />
       </a>
       <div style="margin-top:16px;">
         <div class="chip">${escapeHTML(post.category)}</div>

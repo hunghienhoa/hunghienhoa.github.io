@@ -15,7 +15,6 @@ async function initCategoryPage() {
   const root = document.getElementById("category-root");
   root.innerHTML = `
     <section class="category-hero glass fade-up">
-      <span class="chip">${escapeHTML(intro.title)}</span>
       <h1 class="detail-title">${escapeHTML(intro.title)}</h1>
       <p class="article-lead">${escapeHTML(intro.lead)}</p>
       <div class="category-summary">
