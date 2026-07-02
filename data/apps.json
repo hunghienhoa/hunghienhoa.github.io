@@ -1,5 +1,47 @@
 [
   {
+    "id": "vivavideo-video-editor-maker",
+    "name": "VivaVideo - Video Editor & Maker",
+    "subtitle": "Ứng dụng chỉnh sửa video đơn giản, tạo vlog, slideshow và video mạng xã hội trên iPhone/iPad.",
+    "version": "9.20.5",
+    "size": "298.6 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "3.2M",
+    "category": "app",
+    "badge": "Video",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.8",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "QuVideo Inc.",
+    "icon": "assets/img/vivavideo-video-editor-maker.png",
+    "screenshots": [
+      "assets/img/vivavideo-video-editor-maker-1.png",
+      "assets/img/vivavideo-video-editor-maker-2.png",
+      "assets/img/vivavideo-video-editor-maker-3.png"
+    ],
+    "heroTag": "Chỉnh sửa video",
+    "description": "VivaVideo là ứng dụng chỉnh sửa video phổ biến, giúp người dùng dễ dàng tạo video, vlog, slideshow và nội dung mạng xã hội với nhiều hiệu ứng, bộ lọc, nhạc nền và công cụ cắt ghép trực quan. Phù hợp cho người mới bắt đầu và người sáng tạo nội dung trên iPhone và iPad.",
+    "features": [
+      "Premium → tất cả các tính năng pro được mở khóa."
+    ],
+    "downloadUrl": "https://example.com/files/vivavideo-video-editor-maker.ipa",
+    "faq": [
+      {
+        "q": "VivaVideo có hỗ trợ xuất video chất lượng cao không?",
+        "a": "Có. Ứng dụng hỗ trợ xuất video với nhiều độ phân giải khác nhau tùy theo thiết bị."
+      },
+      {
+        "q": "Có thể cài bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
     "id": "youtube-music-ultimate",
     "name": "YouTube Music Ultimate",
     "subtitle": "Ứng dụng nghe nhạc trực tuyến với nhiều tính năng mở rộng dành cho iPhone/iPad.",
