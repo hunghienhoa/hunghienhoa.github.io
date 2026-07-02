@@ -1,5 +1,22 @@
 [
   {
+    "id": "huong-dan-cai-dat-locket-gold-shadowrocket",
+    "title": "Hướng dẫn cài đặt Locket Gold miễn phí bằng Shadowrocket trên iPhone",
+    "excerpt": "Cách mở khóa toàn bộ tính năng cao cấp của Locket Gold thông qua Shadowrocket chỉ với vài bước cấu hình chứng chỉ CA đơn giản.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/locket-gold-shadowrocket.png",
+    "cover": "assets/img/locket-gold-cover.png",
+    "author": "Tôi Share Mod",
+    "readTime": "4 phút đọc",
+    "category": "Thủ thuật iOS",
+    "related": [
+      "ios-18-design-trends",
+      "json-content-structure"
+    ],
+    "content": "<p>Locket là ứng dụng chia sẻ khoảnh khắc tuyệt vời với bạn bè, nhưng nhiều tính năng hấp dẫn lại bị giới hạn ở phiên bản Gold trả phí. Sử dụng công cụ Shadowrocket kết hợp với Module bẻ khóa là giải pháp tối ưu giúp bạn trải nghiệm trọn vẹn Locket Gold hoàn toàn miễn phí.</p>\n\n<h2>Bước 1: Nhập cấu hình (Module) Locket Gold</h2>\n<p>Đầu tiên, bạn mở ứng dụng <strong>Shadowrocket</strong> trên iPhone. Nhấn vào biểu tượng <strong>dấu cộng (+)</strong> ở góc trên cùng bên trái màn hình. Tại ô <strong>URL</strong>, hãy dán đường dẫn chứa cấu hình/module Locket Gold (lấy từ các nguồn chia sẻ uy tín) rồi nhấn <strong>Download/Import</strong>. Sau đó, chọn cấu hình vừa tải về và bấm <strong>Use Config</strong> để kích hoạt.</p>\n\n<h2>Bước 2: Cài đặt chứng chỉ hệ thống (CA Certificate)</h2>\n<p>Quay lại màn hình chính của Shadowrocket, bạn truy cập vào tab <strong>Settings</strong> (biểu tượng chữ i) và bật mục <strong>HTTPS Decryption</strong> (Giải mã HTTPS). Kích hoạt công tắc giải mã, chọn <strong>Tạo chứng chỉ CA mới</strong> (Create New CA Certificate). Tiếp tục nhấn <strong>Cài đặt chứng chỉ hệ thống</strong> (Install CA Certificate to System) và xác nhận cho phép tải hồ sơ cấu hình về máy.</p>\n\n<h2>Bước 3: Tin cậy chứng chỉ trên cài đặt iPhone</h2>\n<p>Thoát ứng dụng và vào <strong>Cài đặt (Settings) trên iPhone &gt; Cài đặt chung (General) &gt; VPN &amp; Quản lý thiết bị</strong>. Tại mục <em>Hồ sơ đã tải về</em>, chọn cấu hình Shadowrocket và nhấn <strong>Cài đặt (Install)</strong> ở góc trên bên phải, nhập mật khẩu máy để xác minh.</p>\n<p>Sau khi cài đặt xong, bạn quay lại <strong>Cài đặt chung &gt; Giới thiệu (About)</strong>. Cuộn xuống dưới cùng chọn <strong>Cài đặt tin cậy và chứng nhận (Certificate Trust Settings)</strong> và bật công tắc màu xanh để tin cậy hoàn toàn chứng chỉ vừa cài.</p>\n\n<h2>Bước 4: Kích hoạt và tận hưởng Locket Gold</h2>\n<p>Mở lại <strong>Shadowrocket</strong>, chọn tab <strong>Home</strong> và gạt công tắc kết nối VPN sang màu xanh. Khi thanh trạng thái iPhone hiển thị biểu tượng VPN, cấu hình đã chạy ngầm thành công. Bây giờ, bạn chỉ cần mở ứng dụng Locket lên để tận hưởng tài khoản đã nâng cấp Gold.</p>\n<p><em>Lưu ý: Sau khi kích hoạt Gold thành công, bạn có thể tắt kết nối VPN trong Shadowrocket nếu muốn, các tính năng VIP của Locket vẫn sẽ được giữ lại bình thường.</em></p>"
+  },
+  {
     "id": "adobe-premiere-pro-2024",
     "title": "Adobe Premiere Pro 2024 - Phần Mềm Chỉnh Sửa Video Chuyên Nghiệp",
     "excerpt": "Giới thiệu Adobe Premiere Pro 2024 với các tính năng nổi bật, yêu cầu hệ thống và hướng dẫn cài đặt dành cho biên tập video, YouTuber và nhà sáng tạo nội dung.",
