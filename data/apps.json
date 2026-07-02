@@ -1,5 +1,104 @@
 [
   {
+    "id": "taurine-ios14-jailbreak",
+    "name": "Taurine iOS 14.0 - 14.3 Jailbreak",
+    "subtitle": "Công cụ jailbreak bán untethered cho iOS 14 với hỗ trợ Sileo và tweak nâng cao.",
+    "version": "1.1.7",
+    "size": "12.4 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "3.6M",
+    "category": "tool",
+    "badge": "Jailbreak",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": false,
+    "rating": "4.9",
+    "os": "iOS 14.0 - 14.3",
+    "support": "AltStore / TrollStore",
+    "developer": "Odyssey Team (CoolStar)",
+    "icon": "assets/img/taurine.png",
+    "screenshots": [
+      "assets/img/taurine-1.png",
+      "assets/img/taurine-2.png"
+    ],
+    "heroTag": "Jailbreak",
+    "description": "Taurine là công cụ jailbreak bán untethered dành cho iOS 14.0 đến 14.3, giúp người dùng truy cập hệ thống nâng cao, cài đặt tweak và tùy chỉnh thiết bị thông qua Sileo và Procursus bootstrap.",
+    "features": [
+      "Jailbreak bán untethered cho iOS 14.0 - 14.3.",
+      "Hỗ trợ trình quản lý tweak Sileo.",
+      "Sử dụng libhooker để tối ưu hiệu năng tweak.",
+      "Cài đặt Procursus bootstrap để quản lý package.",
+      "Cho phép re-jailbreak sau khi khởi động lại thiết bị.",
+      "Hiệu năng ổn định và tối ưu hệ thống."
+    ],
+    "downloadUrl": "https://example.com/files/taurine.ipa",
+    "faq": [
+      {
+        "q": "Taurine có cần máy tính để cài không?",
+        "a": "Không bắt buộc. Bạn có thể cài qua AltStore hoặc TrollStore tùy thiết bị."
+      },
+      {
+        "q": "Taurine có phải jailbreak vĩnh viễn không?",
+        "a": "Không. Đây là jailbreak bán untethered, cần mở lại ứng dụng sau khi khởi động lại thiết bị."
+      }
+    ]
+  },
+  {
+    "id": "flow-for-messenger",
+    "name": "Flow for Messenger",
+    "subtitle": "Phiên bản Messenger với giao diện tối ưu và một số tính năng mở rộng cho iPhone/iPad.",
+    "version": "523.0.0",
+    "size": "410.2 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "2.1M",
+    "category": "app",
+    "badge": "Mod",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Meta Platforms, Inc.",
+    "icon": "assets/img/flow-for-messenger.png",
+    "screenshots": [
+      "assets/img/flow-for-messenger-1.png",
+      "assets/img/flow-for-messenger-2.png",
+      "assets/img/flow-for-messenger-3.png"
+    ],
+    "heroTag": "Nhắn tin",
+    "description": "Flow for Messenger là phiên bản Messenger được tối ưu giao diện và bổ sung một số tính năng mở rộng nhằm cải thiện trải nghiệm nhắn tin trên iPhone và iPad. Người dùng có thể trò chuyện, gọi thoại, gọi video và quản lý tin nhắn dễ dàng hơn.",
+    "features": [
+      "Loại bỏ quảng cáo banner và quảng cáo trong feed.",
+      "Ẩn toàn bộ Story khỏi giao diện chính.",
+      "Loại bỏ mục 'Những người bạn có thể biết' (gợi ý kết bạn).",
+      "Tắt trạng thái đang nhập (typing indicator).",
+      "Xem tin nhắn ẩn danh mà không gửi thông báo đã đọc.",
+      "Xem Story ẩn danh mà không thông báo cho người đăng.",
+      "Hỗ trợ phát lại Story liên tục (loop).",
+      "Tải xuống Story về thiết bị.",
+      "Ẩn tab Story khỏi thanh điều hướng.",
+      "Ẩn tab Bạn bè khỏi giao diện chính.",
+      "Loại bỏ nút/vòng tròn Meta AI khỏi ứng dụng.",
+      "Thêm xác nhận trước khi thực hiện cuộc gọi."
+    ],
+    "downloadUrl": "https://example.com/files/flow-for-messenger.ipa",
+    "faq": [
+      {
+        "q": "Flow for Messenger khác gì Messenger gốc?",
+        "a": "Phiên bản này tập trung tối ưu giao diện và trải nghiệm sử dụng, đồng thời bổ sung một số tùy chỉnh nâng cao so với bản Messenger gốc."
+      },
+      {
+        "q": "Có cần jailbreak để cài đặt không?",
+        "a": "Không. Bạn có thể cài đặt bằng AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
     "id": "vivavideo-video-editor-maker",
     "name": "VivaVideo - Video Editor & Maker",
     "subtitle": "Ứng dụng chỉnh sửa video đơn giản, tạo vlog, slideshow và video mạng xã hội trên iPhone/iPad.",
