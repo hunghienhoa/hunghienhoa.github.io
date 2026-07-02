@@ -1,5 +1,22 @@
 [
   {
+    "id": "huong-dan-cai-dat-youtube-premium-shadowrocket",
+    "title": "Hướng dẫn cài đặt Youtube Premium miễn phí bằng Shadowrocket trên iPhone",
+    "excerpt": "Cách mở khóa toàn bộ tính năng cao cấp của Youtube Premium thông qua Shadowrocket chỉ với vài bước cấu hình chứng chỉ CA đơn giản.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/youtube-premium-shadowrocket.png",
+    "cover": "assets/img/youtube-premium-shadowrocket.png",
+    "author": "Tôi Share Mod",
+    "readTime": "4 phút đọc",
+    "category": "Thủ thuật iOS",
+    "related": [
+      "ios-18-design-trends",
+      "json-content-structure"
+    ],
+    "content": "<p>Youtube là nền tảng xem video phổ biến nhất hiện nay, nhưng trải nghiệm của người dùng thường bị gián đoạn bởi quảng cáo và việc không thể nghe nhạc trong nền. Sử dụng công cụ Shadowrocket kết hợp với Module bẻ khóa là giải pháp tối ưu giúp bạn trải nghiệm trọn vẹn các tính năng cao cấp của Youtube Premium hoàn toàn miễn phí.</p>\n\n<h2>Bước 1: Nhập cấu hình (Module) Youtube Premium</h2>\n<p>Đầu tiên, bạn mở ứng dụng <strong>Shadowrocket</strong> trên iPhone. Nhấn vào biểu tượng <strong>dấu cộng (+)</strong> ở góc trên cùng bên trái màn hình. Tại ô <strong>URL</strong>, hãy dán đường dẫn chứa cấu hình/module Youtube Premium (lấy từ các nguồn chia sẻ uy tín) rồi nhấn <strong>Download/Import</strong>. Sau đó, chọn cấu hình vừa tải về và bấm <strong>Use Config</strong> để kích hoạt.</p>\n\n<h2>Bước 2: Cài đặt chứng chỉ hệ thống (CA Certificate)</h2>\n<p>Quay lại màn hình chính của Shadowrocket, bạn truy cập vào tab <strong>Settings</strong> (biểu tượng chữ i) và bật mục <strong>HTTPS Decryption</strong> (Giải mã HTTPS). Kích hoạt công tắc giải mã, chọn <strong>Tạo chứng chỉ CA mới</strong> (Create New CA Certificate). Tiếp tục nhấn <strong>Cài đặt chứng chỉ hệ thống</strong> (Install CA Certificate to System) và xác nhận cho phép tải hồ sơ cấu hình về máy.</p>\n\n<h2>Bước 3: Tin cậy chứng chỉ trên cài đặt iPhone</h2>\n<p>Thoát ứng dụng và vào <strong>Cài đặt (Settings) trên iPhone &gt; Cài đặt chung (General) &gt; VPN &amp; Quản lý thiết bị</strong>. Tại mục <em>Hồ sơ đã tải về</em>, chọn cấu hình Shadowrocket và nhấn <strong>Cài đặt (Install)</strong> ở góc trên bên phải, nhập mật khẩu máy để xác minh.</p>\n<p>Sau khi cài đặt xong, bạn quay lại <strong>Cài đặt chung &gt; Giới thiệu (About)</strong>. Cuộn xuống dưới cùng chọn <strong>Cài đặt tin cậy và chứng nhận (Certificate Trust Settings)</strong> và bật công tắc màu xanh để tin cậy hoàn toàn chứng chỉ vừa cài.</p>\n\n<h2>Bước 4: Kích hoạt và tận hưởng Youtube Premium</h2>\n<p>Mở lại <strong>Shadowrocket</strong>, chọn tab <strong>Home</strong> và gạt công tắc kết nối VPN sang màu xanh. Khi thanh trạng thái iPhone hiển thị biểu tượng VPN, cấu hình đã chạy ngầm thành công. Bây giờ, bạn chỉ cần mở ứng dụng Youtube lên để tận hưởng các tính năng như chặn quảng cáo, phát nhạc trong nền và PIP.</p>\n<p><em>Lưu ý: Sau khi kích hoạt Premium thành công, bạn có thể tắt kết nối VPN trong Shadowrocket nếu muốn, các tính năng VIP của Youtube vẫn sẽ được giữ lại bình thường.</em></p>"
+  },
+  {
     "id": "huong-dan-cai-dat-locket-gold-shadowrocket",
     "title": "Hướng dẫn cài đặt Locket Gold miễn phí bằng Shadowrocket trên iPhone",
     "excerpt": "Cách mở khóa toàn bộ tính năng cao cấp của Locket Gold thông qua Shadowrocket chỉ với vài bước cấu hình chứng chỉ CA đơn giản.",
