@@ -1,5 +1,153 @@
 [
   {
+    "id": "douyin",
+    "name": "抖音",
+    "subtitle": "Nền tảng video ngắn hàng đầu tại Trung Quốc với livestream, mua sắm và nội dung giải trí.",
+    "version": "34.8.0",
+    "size": "512.6 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "7.9M",
+    "category": "app",
+    "badge": "Social",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Beijing Douyin Technology Co., Ltd.",
+    "icon": "assets/img/douyin.png",
+    "screenshots": [
+      "assets/img/douyin-1.png",
+      "assets/img/douyin-2.png",
+      "assets/img/douyin-3.png"
+    ],
+    "heroTag": "Video ngắn",
+    "description": "Douyin (抖音) là nền tảng video ngắn chính thức dành cho thị trường Trung Quốc. Ứng dụng cung cấp hàng triệu video chất lượng cao, livestream, mua sắm trực tuyến, hiệu ứng AR, chỉnh sửa video và hệ thống đề xuất nội dung thông minh.",
+    "features": [
+      "DYYY 2.2-9: Nhấn giữ bằng hai ngón tay để mở menu plugin.",
+      "Yuki 0.1-0: Chống thu hồi tin nhắn Douyin (phát triển bởi Vita).",
+      "Mục Động Tin Nhắn (目动消息) 1.1-1.",
+      "Xem video ngắn với thuật toán đề xuất thông minh.",
+      "Đăng tải và chỉnh sửa video bằng nhiều hiệu ứng AI và bộ lọc.",
+      "Xem và phát livestream chất lượng cao.",
+      "Theo dõi nhà sáng tạo nội dung và tương tác với cộng đồng."
+    ],
+    "downloadUrl": "https://example.com/files/douyin.ipa",
+    "faq": [
+      {
+        "q": "Douyin khác TikTok như thế nào?",
+        "a": "Douyin là phiên bản dành riêng cho thị trường Trung Quốc, sử dụng hệ thống máy chủ và tài khoản riêng, không đồng bộ với TikTok quốc tế."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
+    "id": "kuaishou",
+    "name": "快手",
+    "subtitle": "Ứng dụng video ngắn phổ biến tại Trung Quốc, xem livestream và khám phá nội dung hấp dẫn.",
+    "version": "13.6.20",
+    "size": "438.7 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "2.8M",
+    "category": "app",
+    "badge": "Social",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.8",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Beijing Kuaishou Technology Co., Ltd.",
+    "icon": "assets/img/kuaishou.png",
+    "screenshots": [
+      "assets/img/kuaishou-1.png",
+      "assets/img/kuaishou-2.png",
+      "assets/img/kuaishou-3.png"
+    ],
+    "heroTag": "Video ngắn",
+    "description": "Kuaishou (快手) là nền tảng video ngắn và livestream nổi tiếng tại Trung Quốc. Ứng dụng cho phép người dùng khám phá hàng triệu video, phát trực tiếp, theo dõi nhà sáng tạo nội dung, tương tác với cộng đồng và chia sẻ những khoảnh khắc trong cuộc sống.",
+    "features": [
+      "Xem video ngắn được đề xuất theo sở thích.",
+      "Xem và phát livestream chất lượng cao.",
+      "Đăng tải video với nhiều bộ lọc và hiệu ứng.",
+      "Theo dõi, bình luận và tương tác với nhà sáng tạo nội dung.",
+      "Khám phá các xu hướng và thử thách mới mỗi ngày."
+    ],
+    "downloadUrl": "https://example.com/files/kuaishou.ipa",
+    "faq": [
+      {
+        "q": "Có cần đăng nhập để sử dụng 快手 không?",
+        "a": "Bạn có thể xem một số nội dung mà không cần đăng nhập, nhưng cần đăng nhập để đăng video, bình luận, theo dõi và sử dụng đầy đủ các tính năng."
+      },
+      {
+        "q": "Có thể cài file IPA bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
+    "id": "wechat",
+    "name": "WeChat",
+    "subtitle": "Ứng dụng nhắn tin, gọi điện, thanh toán và mạng xã hội đa nền tảng dành cho iPhone/iPad.",
+    "version": "8.0.62",
+    "size": "712.4 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "5.3M",
+    "category": "app",
+    "badge": "Messaging",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.8",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Tencent Technology (Shenzhen) Company Limited",
+    "icon": "assets/img/wechat.png",
+    "screenshots": [
+      "assets/img/wechat-1.png",
+      "assets/img/wechat-2.png",
+      "assets/img/wechat-3.png"
+    ],
+    "heroTag": "Nhắn tin",
+    "description": "WeChat là ứng dụng nhắn tin và mạng xã hội đa năng, cho phép người dùng gửi tin nhắn, gọi thoại, gọi video, chia sẻ ảnh, video, vị trí và tài liệu. Ngoài ra, WeChat còn tích hợp Moments, Mini Programs và nhiều tiện ích giúp kết nối bạn bè, gia đình và đồng nghiệp trên toàn thế giới.",
+    "features": [
+      "Tích hợp HuangBai Assistant 2.1-2.",
+      "Hỗ trợ WCPulse 1.6-3.",
+      "Wechat Enhancement (微信增强) 2.0-6 với nhiều tính năng mở rộng.",
+      "Khắc phục lỗi đăng nhập bằng cách quét mã QR trên iPad.",
+      "Tích hợp PKC (皮卡车) 0.9-8.",
+      "Hỗ trợ WCCC 1.0-8.",
+      "Tích hợp WeChat Assistant 3.9-5.",
+      "JiDe: Thêm bạn bè với tính năng hạn chế chống khóa tài khoản.",
+      "DouTu Assistant 3.1-8 hỗ trợ gửi và quản lý sticker.",
+      "HBB 9.1-2 hỗ trợ nhận thông báo đẩy ngay cả khi ứng dụng không chạy nền.",
+      "Quản lý và sắp xếp các plugin tích hợp.",
+      "Loại bỏ quảng cáo trong WeChat.",
+      "Hỗ trợ gộp và gửi nhiều hình ảnh, video trong một lần."
+    ],
+    "downloadUrl": "https://example.com/files/wechat.ipa",
+    "faq": [
+      {
+        "q": "WeChat có hỗ trợ đăng nhập bằng số điện thoại không?",
+        "a": "Có. Người dùng có thể đăng ký và đăng nhập bằng số điện thoại được hỗ trợ tại quốc gia hoặc khu vực của mình."
+      },
+      {
+        "q": "Có thể cài đặt file IPA bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
     "id": "inshot-ai-video-editor-mod",
     "name": "InShot - AI Video Editor Mod",
     "subtitle": "Trình chỉnh sửa video và ảnh với công cụ AI, xuất video chất lượng cao trên iPhone/iPad.",
