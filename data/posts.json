@@ -1,5 +1,95 @@
 [
   {
+    "id": "adobe-premiere-pro-2024",
+    "title": "Adobe Premiere Pro 2024 - Phần Mềm Chỉnh Sửa Video Chuyên Nghiệp",
+    "excerpt": "Giới thiệu Adobe Premiere Pro 2024 với các tính năng nổi bật, yêu cầu hệ thống và hướng dẫn cài đặt dành cho biên tập video, YouTuber và nhà sáng tạo nội dung.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/blog-premiere-pro-2024.png",
+    "cover": "assets/img/blog-premiere-pro-2024.png",
+    "author": "Tôi Share Mod",
+    "readTime": "9 phút đọc",
+    "category": "Phần mềm",
+    "related": [
+      "adobe-after-effects-2024",
+      "adobe-media-encoder-2024",
+      "adobe-audition-2024"
+    ],
+    "content": "<p><strong>Adobe Premiere Pro 2024</strong> là phần mềm chỉnh sửa video chuyên nghiệp được phát triển bởi Adobe, phù hợp cho dựng phim, sản xuất nội dung YouTube, TikTok, TVC quảng cáo và phim điện ảnh. Phiên bản 2024 mang đến nhiều cải tiến về hiệu suất, công cụ AI hỗ trợ biên tập, chỉnh sửa âm thanh và quy trình làm việc, giúp người dùng hoàn thành dự án nhanh chóng và hiệu quả hơn.</p><h2>Tính năng nổi bật</h2><ul><li>Chỉnh sửa video với Timeline mạnh mẽ và trực quan.</li><li>Text-Based Editing giúp chỉnh sửa video thông qua bản ghi lời nói.</li><li>Enhance Speech sử dụng AI để cải thiện chất lượng giọng nói.</li><li>Tự động nhận diện và phân loại âm thanh bằng AI.</li><li>Hỗ trợ chỉnh sửa video 4K, 8K và HDR.</li><li>Tích hợp Lumetri Color để cân chỉnh màu sắc chuyên nghiệp.</li><li>Hỗ trợ Dynamic Link với After Effects và Media Encoder.</li><li>Tăng tốc phát lại, xuất video và tối ưu hiệu suất GPU.</li></ul><h2>Yêu cầu hệ thống</h2><ul><li>Windows 10/11 64-bit hoặc macOS tương thích.</li><li>CPU Intel thế hệ mới hoặc AMD Ryzen hỗ trợ AVX2.</li><li>RAM tối thiểu 16 GB (khuyến nghị 32 GB).</li><li>GPU hỗ trợ DirectX 12 hoặc Metal với tối thiểu 4 GB VRAM.</li><li>Ổ SSD và tối thiểu 10 GB dung lượng trống.</li></ul><h2>Hướng dẫn cài đặt</h2><ol><li>Tải bộ cài Adobe Premiere Pro 2024.</li><li>Giải nén nếu tệp ở định dạng nén.</li><li>Chạy file Setup và thực hiện theo hướng dẫn.</li><li>Hoàn tất cài đặt và khởi động phần mềm.</li></ol><h2>Ứng dụng</h2><ul><li>Dựng video YouTube, TikTok và Facebook.</li><li>Biên tập phim ngắn, TVC và video quảng cáo.</li><li>Chỉnh sửa video sự kiện, cưới hỏi và du lịch.</li><li>Sản xuất nội dung truyền hình và điện ảnh.</li><li>Xuất video cho nhiều nền tảng với nhiều định dạng khác nhau.</li></ul><h2>Ưu điểm</h2><ul><li>Giao diện chuyên nghiệp, dễ tùy chỉnh.</li><li>Hỗ trợ hầu hết các định dạng video phổ biến.</li><li>Khả năng làm việc mượt mà với dự án lớn.</li><li>Tích hợp hoàn hảo với hệ sinh thái Adobe Creative Cloud.</li><li>Nhiều công cụ AI giúp tiết kiệm thời gian chỉnh sửa.</li></ul><h2>Lưu ý</h2><ul><li>Nên sử dụng phiên bản được cấp phép chính thức để nhận đầy đủ bản cập nhật và hỗ trợ.</li><li>Thường xuyên lưu dự án và sao lưu dữ liệu quan trọng.</li><li>Cập nhật driver GPU để đạt hiệu suất xử lý và render tốt nhất.</li></ul><h2>Kết luận</h2><p>Adobe Premiere Pro 2024 là một trong những phần mềm dựng phim và chỉnh sửa video hàng đầu hiện nay. Với nhiều cải tiến về hiệu suất, công cụ AI, khả năng xử lý âm thanh và màu sắc chuyên nghiệp, đây là lựa chọn phù hợp cho cả người mới bắt đầu lẫn các nhà sáng tạo nội dung và biên tập viên chuyên nghiệp.</p>"
+  },
+  {
+    "id": "adobe-lightroom-classic-2024",
+    "title": "Adobe Lightroom Classic 2024 - Phần Mềm Chỉnh Sửa & Quản Lý Ảnh Chuyên Nghiệp",
+    "excerpt": "Giới thiệu Adobe Lightroom Classic 2024 với các tính năng nổi bật, yêu cầu hệ thống và hướng dẫn cài đặt dành cho nhiếp ảnh gia và người chỉnh sửa ảnh.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/blog-lightroom-classic-2024.png",
+    "cover": "assets/img/blog-lightroom-classic-2024.png",
+    "author": "Tôi Share Mod",
+    "readTime": "8 phút đọc",
+    "category": "Phần mềm",
+    "related": [
+      "adobe-photoshop-2024",
+      "adobe-camera-raw-2024",
+      "adobe-bridge-2024"
+    ],
+    "content": "<p><strong>Adobe Lightroom Classic 2024</strong> là phần mềm chỉnh sửa và quản lý ảnh chuyên nghiệp được phát triển dành cho nhiếp ảnh gia và người sáng tạo nội dung. Phần mềm cung cấp đầy đủ các công cụ xử lý ảnh RAW, quản lý thư viện ảnh, đồng bộ preset và tối ưu quy trình hậu kỳ. Phiên bản 2024 được cải thiện đáng kể về hiệu suất, đồng thời bổ sung nhiều tính năng AI giúp việc chỉnh sửa ảnh nhanh chóng và chính xác hơn.</p><h2>Tính năng nổi bật</h2><ul><li>Chỉnh sửa ảnh RAW với chất lượng cao.</li><li>Quản lý thư viện ảnh bằng Catalog thông minh.</li><li>Generative Remove sử dụng AI để xóa vật thể và chi tiết không mong muốn.</li><li>Lens Blur tạo hiệu ứng xóa phông và bokeh tự nhiên bằng AI.</li><li>Masking thông minh giúp chọn chủ thể, bầu trời và đối tượng nhanh chóng.</li><li>Đồng bộ Preset và Metadata.</li><li>Hỗ trợ nhiều máy ảnh và ống kính mới.</li></ul><h2>Yêu cầu hệ thống</h2><ul><li>Windows 10/11 64-bit hoặc macOS tương thích.</li><li>CPU Intel hoặc AMD 64-bit.</li><li>RAM tối thiểu 8 GB (khuyến nghị 16 GB trở lên).</li><li>GPU hỗ trợ DirectX 12 hoặc Metal.</li><li>Ổ SSD và tối thiểu 10 GB dung lượng trống.</li></ul><h2>Hướng dẫn cài đặt</h2><ol><li>Tải bộ cài Adobe Lightroom Classic 2024.</li><li>Giải nén nếu tệp ở định dạng nén.</li><li>Chạy file Setup và thực hiện theo hướng dẫn.</li><li>Hoàn tất cài đặt và khởi động phần mềm.</li></ol><h2>Ứng dụng</h2><ul><li>Chỉnh sửa ảnh chân dung.</li><li>Hậu kỳ ảnh cưới và sự kiện.</li><li>Chỉnh màu ảnh phong cảnh.</li><li>Quản lý hàng nghìn ảnh bằng Catalog.</li><li>Xuất ảnh với nhiều định dạng phục vụ in ấn và mạng xã hội.</li></ul><h2>Ưu điểm</h2><ul><li>Quản lý ảnh chuyên nghiệp với Catalog.</li><li>Hiệu suất xử lý nhanh trên máy tính hiện đại.</li><li>Hỗ trợ chỉnh sửa không phá hủy (Non-destructive Editing).</li><li>Tích hợp tốt với Photoshop và Adobe Camera Raw.</li><li>Nhiều công cụ AI hỗ trợ chỉnh sửa ảnh.</li></ul><h2>Lưu ý</h2><ul><li>Nên sử dụng phiên bản được cấp phép chính thức để nhận đầy đủ bản cập nhật và hỗ trợ.</li><li>Sao lưu Catalog thường xuyên để tránh mất dữ liệu.</li><li>Sử dụng ổ SSD để tăng tốc độ import và preview ảnh.</li></ul><h2>Kết luận</h2><p>Adobe Lightroom Classic 2024 là lựa chọn hàng đầu dành cho nhiếp ảnh gia và người làm hậu kỳ ảnh chuyên nghiệp. Với khả năng quản lý thư viện ảnh mạnh mẽ, công cụ chỉnh sửa RAW toàn diện cùng các tính năng AI hiện đại, Lightroom Classic 2024 giúp tối ưu hóa quy trình làm việc và nâng cao chất lượng hình ảnh một cách hiệu quả.</p>"
+  },
+  {
+    "id": "adobe-illustrator-2024",
+    "title": "Adobe Illustrator 2024 - Phần Mềm Thiết Kế Đồ Họa Vector Chuyên Nghiệp",
+    "excerpt": "Giới thiệu Adobe Illustrator 2024 với các tính năng nổi bật, yêu cầu hệ thống và hướng dẫn cài đặt dành cho nhà thiết kế đồ họa và illustrator.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/blog-illustrator-2024.png",
+    "cover": "assets/img/blog-illustrator-2024.png",
+    "author": "Tôi Share Mod",
+    "readTime": "8 phút đọc",
+    "category": "Phần mềm",
+    "related": [
+      "adobe-photoshop-2024",
+      "adobe-after-effects-2024",
+      "adobe-indesign-2024"
+    ],
+    "content": "<p><strong>Adobe Illustrator 2024</strong> là phần mềm thiết kế đồ họa vector hàng đầu của Adobe, được sử dụng rộng rãi để tạo logo, biểu tượng, banner, infographic, bản vẽ kỹ thuật và các sản phẩm in ấn chuyên nghiệp. Phiên bản 2024 được cải thiện về hiệu suất, bổ sung nhiều công cụ hỗ trợ AI và tối ưu quy trình làm việc cho cả người mới lẫn nhà thiết kế chuyên nghiệp.</p><h2>Tính năng nổi bật</h2><ul><li>Tạo và chỉnh sửa đồ họa vector với độ chính xác cao.</li><li>Hỗ trợ công cụ AI Firefly giúp tạo và chỉnh sửa đồ họa nhanh hơn.</li><li>Dimension Tool hỗ trợ đo kích thước và khoảng cách trực tiếp trên bản thiết kế.</li><li>Mockup giúp xem trước thiết kế trên sản phẩm như áo, hộp và bao bì.</li><li>Text to Vector Graphic hỗ trợ tạo đồ họa vector từ mô tả văn bản.</li><li>Tối ưu hiệu suất khi làm việc với tệp lớn và nhiều Artboard.</li><li>Tích hợp liền mạch với Photoshop, After Effects và InDesign.</li></ul><h2>Yêu cầu hệ thống</h2><ul><li>Windows 10/11 64-bit hoặc macOS tương thích.</li><li>Bộ xử lý Intel hoặc AMD 64-bit.</li><li>RAM tối thiểu 8 GB (khuyến nghị 16 GB).</li><li>GPU hỗ trợ DirectX 12 hoặc Metal.</li><li>Ổ SSD và tối thiểu 5 GB dung lượng trống.</li></ul><h2>Hướng dẫn cài đặt</h2><ol><li>Tải bộ cài Adobe Illustrator 2024.</li><li>Giải nén nếu tệp ở định dạng nén.</li><li>Chạy file Setup và làm theo hướng dẫn.</li><li>Hoàn tất cài đặt và khởi động phần mềm.</li></ol><h2>Ứng dụng</h2><ul><li>Thiết kế logo và bộ nhận diện thương hiệu.</li><li>Vẽ minh họa kỹ thuật số.</li><li>Thiết kế banner, poster và ấn phẩm quảng cáo.</li><li>Thiết kế bao bì sản phẩm.</li><li>Tạo icon, infographic và giao diện UI.</li></ul><h2>Ưu điểm</h2><ul><li>Đồ họa vector không bị vỡ khi phóng to.</li><li>Kho công cụ thiết kế phong phú.</li><li>Hiệu suất được cải thiện trên phiên bản 2024.</li><li>Khả năng tương thích tốt với hệ sinh thái Adobe Creative Cloud.</li></ul><h2>Lưu ý</h2><ul><li>Nên sử dụng phiên bản được cấp phép chính thức để nhận đầy đủ các bản cập nhật và hỗ trợ.</li><li>Thường xuyên lưu dự án để tránh mất dữ liệu.</li><li>Cập nhật driver GPU để đạt hiệu suất tốt nhất.</li></ul><h2>Kết luận</h2><p>Adobe Illustrator 2024 là lựa chọn hàng đầu cho thiết kế đồ họa vector với nhiều công cụ hiện đại, khả năng tích hợp AI và hiệu suất được cải thiện đáng kể. Đây là phần mềm phù hợp cho designer, illustrator, marketer và bất kỳ ai cần tạo ra các sản phẩm đồ họa chất lượng cao.</p>"
+  },
+  {
+    "id": "adobe-after-effects-2024",
+    "title": "Adobe After Effects 2024 - Phần Mềm Tạo Hiệu Ứng & Motion Graphics Chuyên Nghiệp",
+    "excerpt": "Giới thiệu Adobe After Effects 2024 với những tính năng nổi bật, yêu cầu hệ thống và hướng dẫn cài đặt dành cho người làm đồ họa, VFX và Motion Graphics.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/blog-after-effects-2024.png",
+    "cover": "assets/img/blog-after-effects-2024.png",
+    "author": "Tôi Share Mod",
+    "readTime": "8 phút đọc",
+    "category": "Phần mềm",
+    "related": [
+      "adobe-premiere-pro-2024",
+      "adobe-photoshop-2024",
+      "adobe-media-encoder-2024"
+    ],
+    "content": "<p><strong>Adobe After Effects 2024</strong> là phần mềm tạo hiệu ứng hình ảnh (Visual Effects), Motion Graphics và Compositing chuyên nghiệp được sử dụng rộng rãi trong lĩnh vực làm phim, quảng cáo, YouTube và thiết kế đồ họa chuyển động. Phiên bản 2024 mang đến nhiều cải tiến về hiệu suất, quy trình làm việc và các công cụ AI hỗ trợ xử lý nhanh hơn.</p><h2>Tính năng nổi bật</h2><ul><li>Thiết kế Motion Graphics chuyên nghiệp.</li><li>Tạo hiệu ứng điện ảnh, VFX và Compositing.</li><li>Hỗ trợ làm việc với môi trường 3D.</li><li>Cải thiện Roto Brush giúp tách đối tượng nhanh và chính xác hơn.</li><li>Tăng tốc Render và Preview.</li><li>Tích hợp chặt chẽ với Adobe Premiere Pro, Photoshop và Illustrator.</li></ul><h2>Yêu cầu hệ thống</h2><ul><li>Windows 10/11 64-bit hoặc macOS tương thích.</li><li>CPU Intel hoặc AMD hỗ trợ AVX2.</li><li>RAM tối thiểu 16 GB (khuyến nghị 32 GB).</li><li>GPU hỗ trợ DirectX 12 hoặc Metal.</li><li>Ổ cứng SSD và tối thiểu 15 GB dung lượng trống.</li></ul><h2>Hướng dẫn cài đặt</h2><ol><li>Tải bộ cài Adobe After Effects 2024.</li><li>Giải nén tệp cài đặt.</li><li>Chạy file Setup và làm theo hướng dẫn.</li><li>Hoàn tất quá trình cài đặt và khởi động phần mềm.</li></ol><h2>Ứng dụng</h2><ul><li>Tạo Intro, Outro cho video.</li><li>Làm hiệu ứng YouTube, TikTok và Facebook.</li><li>Thiết kế Logo Animation.</li><li>Tạo hiệu ứng VFX cho phim và quảng cáo.</li><li>Sản xuất Motion Graphics chuyên nghiệp.</li></ul><h2>Ưu điểm</h2><ul><li>Giao diện chuyên nghiệp, dễ tùy chỉnh.</li><li>Hiệu ứng phong phú.</li><li>Khả năng mở rộng với Plugin.</li><li>Tối ưu hiệu suất trên phần cứng hiện đại.</li></ul><h2>Lưu ý</h2><ul><li>Nên sử dụng phiên bản được cấp phép chính thức để nhận các bản cập nhật và hỗ trợ từ Adobe.</li><li>Thường xuyên lưu dự án và sao lưu dữ liệu quan trọng.</li><li>Cập nhật driver GPU để đạt hiệu suất tốt nhất.</li></ul><h2>Kết luận</h2><p>Adobe After Effects 2024 là một trong những phần mềm Motion Graphics và Visual Effects hàng đầu hiện nay. Với nhiều cải tiến về hiệu suất, công cụ AI và khả năng làm việc với 3D, đây là lựa chọn phù hợp cho cả người mới bắt đầu lẫn các nhà thiết kế, biên tập video và chuyên gia VFX.</p>"
+  },
+  {
+    "id": "wallpaper-engine-auto-update-mod-manager",
+    "title": "Wallpaper Engine - Auto Update + Mod Manager",
+    "excerpt": "Chia sẻ Wallpaper Engine tích hợp Auto Update và Mod Manager, giúp tự động cập nhật Workshop và quản lý wallpaper dễ dàng.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/blog-wallpaper-engine.png",
+    "cover": "assets/img/blog-wallpaper-engine.png",
+    "author": "Tôi Share Mod",
+    "readTime": "6 phút đọc",
+    "category": "Phần mềm",
+    "related": [
+      "wallpaper-engine-guide",
+      "steam-workshop-guide",
+      "desktop-customization-tools"
+    ],
+    "content": "<p><strong>Wallpaper Engine - Auto Update + Mod Manager</strong> là bộ công cụ hỗ trợ người dùng quản lý và cập nhật wallpaper từ Steam Workshop một cách nhanh chóng và thuận tiện. Với khả năng tự động cập nhật cùng trình quản lý wallpaper tích hợp, bạn sẽ không còn phải thao tác thủ công mỗi khi có phiên bản mới.</p><h2>Tính năng nổi bật</h2><ul><li>Tự động cập nhật wallpaper từ Steam Workshop.</li><li>Quản lý wallpaper bằng Mod Manager trực quan.</li><li>Hỗ trợ tải và đồng bộ wallpaper nhanh chóng.</li><li>Dễ dàng thêm, xóa và sắp xếp wallpaper.</li><li>Giao diện thân thiện, dễ sử dụng.</li></ul><h2>Yêu cầu hệ thống</h2><ul><li>Windows 10 hoặc Windows 11.</li><li>Đã cài đặt Wallpaper Engine.</li><li>Kết nối Internet để cập nhật Workshop.</li><li>Dung lượng trống tối thiểu 500 MB.</li></ul><h2>Hướng dẫn cài đặt</h2><ol><li>Giải nén bộ cài vào thư mục mong muốn.</li><li>Chạy chương trình với quyền Administrator.</li><li>Chọn đường dẫn đến thư mục Wallpaper Engine.</li><li>Hoàn tất quá trình cài đặt và khởi động lại chương trình.</li></ol><h2>Hướng dẫn sử dụng</h2><p>Sau khi mở chương trình, Mod Manager sẽ tự động quét danh sách wallpaper hiện có. Bạn có thể thêm wallpaper mới, xóa wallpaper không còn sử dụng hoặc đồng bộ với Steam Workshop chỉ bằng vài thao tác.</p><p>Khi có wallpaper hoặc nội dung mới trên Workshop, tính năng <strong>Auto Update</strong> sẽ tự động kiểm tra và tải về phiên bản mới nhất, giúp bộ sưu tập của bạn luôn được cập nhật.</p><h2>Ưu điểm</h2><ul><li>Tiết kiệm thời gian cập nhật.</li><li>Quản lý wallpaper khoa học.</li><li>Hạn chế lỗi khi cập nhật thủ công.</li><li>Phù hợp với người dùng có nhiều wallpaper Workshop.</li></ul><h2>Lưu ý</h2><ul><li>Nên sử dụng Wallpaper Engine bản quyền để đảm bảo khả năng đồng bộ Workshop đầy đủ.</li><li>Sao lưu dữ liệu trước khi thay đổi hoặc cập nhật số lượng lớn wallpaper.</li><li>Không nên xóa các thư mục hệ thống của Wallpaper Engine.</li></ul><h2>Kết luận</h2><p>Wallpaper Engine - Auto Update + Mod Manager là công cụ hữu ích dành cho những người thường xuyên sử dụng Wallpaper Engine và Steam Workshop. Với khả năng tự động cập nhật cùng trình quản lý wallpaper mạnh mẽ, việc quản lý bộ sưu tập wallpaper trở nên đơn giản, nhanh chóng và thuận tiện hơn rất nhiều.</p>"
+  },
+  {
     "id": "taurine-jailbreak-ios14-0-14-3",
     "title": "Hướng Dẫn Jailbreak Bằng Taurine (iOS 14.0 – 14.3) Chi Tiết",
     "excerpt": "Hướng dẫn jailbreak iPhone bằng Taurine cho iOS 14.0 đến 14.3, bao gồm cách cài đặt, chạy jailbreak và khắc phục lỗi thường gặp.",
