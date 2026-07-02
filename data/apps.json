@@ -1,5 +1,235 @@
 [
   {
+    "id": "youtube-music-ultimate",
+    "name": "YouTube Music Ultimate",
+    "subtitle": "Ứng dụng nghe nhạc trực tuyến với nhiều tính năng mở rộng dành cho iPhone/iPad.",
+    "version": "9.26.2",
+    "size": "201.5 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "4.6M",
+    "category": "app",
+    "badge": "Mod",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Google LLC",
+    "icon": "assets/img/youtube-music-ultimate.png",
+    "screenshots": [
+      "assets/img/youtube-music-ultimate-1.png",
+      "assets/img/youtube-music-ultimate-2.png",
+      "assets/img/youtube-music-ultimate-3.png"
+    ],
+    "heroTag": "Âm nhạc",
+    "description": "YouTube Music Ultimate là phiên bản YouTube Music được tích hợp nhiều tính năng mở rộng, giúp nâng cao trải nghiệm nghe nhạc trên iPhone và iPad. Ứng dụng hỗ trợ khám phá hàng triệu bài hát, album, playlist và MV với giao diện quen thuộc cùng nhiều tiện ích bổ sung.",
+    "features": [
+      "Tính năng cao cấp: loại bỏ quảng cáo và hỗ trợ phát nhạc nền khi ứng dụng đóng.",
+      "Chủ đề tối OLED: giao diện tối ưu cho màn hình OLED, tiết kiệm pin và giảm chói.",
+      "Bàn phím tối OLED đồng bộ với giao diện tổng thể.",
+      "Hiển thị nút điều chỉnh tốc độ phát lại trực tiếp trong trình phát.",
+      "Cho phép chọn và sao chép lời bài hát để chia sẻ nhanh.",
+      "Ẩn nút nâng cấp Premium và các thông báo quảng cáo.",
+      "Chế độ độ tương phản thấp giúp giảm mỏi mắt khi sử dụng ban đêm.",
+      "Thanh âm lượng tích hợp trong trình phát để điều chỉnh nhanh khi nghe nhạc."
+    ],
+    "downloadUrl": "https://example.com/files/youtube-music-ultimate.ipa",
+    "faq": [
+      {
+        "q": "YouTube Music Ultimate khác gì so với YouTube Music thông thường?",
+        "a": "Phiên bản Ultimate được tích hợp thêm nhiều tính năng mở rộng nhằm nâng cao trải nghiệm sử dụng, trong khi vẫn giữ giao diện và các chức năng chính của YouTube Music."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
+    "id": "shadowrocket",
+    "name": "Shadowrocket",
+    "subtitle": "Ứng dụng cấu hình proxy và VPN mạnh mẽ, hỗ trợ nhiều giao thức mạng trên iPhone/iPad.",
+    "version": "2.2.44",
+    "size": "28.6 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "18.6M",
+    "category": "app",
+    "badge": "Network",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Shadow Launch Technology Limited",
+    "icon": "assets/img/shadowrocket.png",
+    "screenshots": [
+      "assets/img/shadowrocket-1.png",
+      "assets/img/shadowrocket-2.png",
+      "assets/img/shadowrocket-3.png"
+    ],
+    "heroTag": "Mạng",
+    "description": "Shadowrocket là ứng dụng cấu hình proxy và VPN phổ biến trên iPhone và iPad, cho phép quản lý nhiều cấu hình kết nối mạng, nhập cấu hình bằng URL hoặc mã QR, kiểm tra độ trễ máy chủ và sử dụng các quy tắc định tuyến linh hoạt. Ứng dụng phù hợp cho người dùng cần quản lý kết nối mạng theo nhiều cấu hình khác nhau.",
+    "features": [
+      "Hỗ trợ nhiều giao thức proxy và VPN phổ biến.",
+      "Nhập cấu hình thông qua URL, tệp hoặc mã QR.",
+      "Kiểm tra độ trễ (Ping) và tốc độ máy chủ.",
+      "Quản lý nhiều cấu hình và chuyển đổi nhanh.",
+      "Hỗ trợ quy tắc định tuyến (Routing Rules) linh hoạt.",
+      "Theo dõi lưu lượng sử dụng theo thời gian thực."
+    ],
+    "downloadUrl": "https://example.com/files/shadowrocket.ipa",
+    "faq": [
+      {
+        "q": "Shadowrocket có hỗ trợ nhập cấu hình bằng mã QR không?",
+        "a": "Có. Bạn có thể nhập cấu hình thông qua mã QR, liên kết (URL) hoặc tệp cấu hình được cung cấp bởi nhà cung cấp dịch vụ."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
+    "id": "dazz-cam-vintage-camera-mod",
+    "name": "Dazz Cam - Vintage Camera Mod IPA",
+    "subtitle": "Ứng dụng chụp ảnh và quay video phong cách retro với hiệu ứng máy ảnh film dành cho iPhone/iPad.",
+    "version": "3.8.2",
+    "size": "186.9 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "2.7M",
+    "category": "app",
+    "badge": "Mod",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "DAZZ PTE. LTD.",
+    "icon": "assets/img/dazz-cam-vintage-camera-mod.png",
+    "screenshots": [
+      "assets/img/dazz-cam-vintage-camera-mod-1.png",
+      "assets/img/dazz-cam-vintage-camera-mod-2.png",
+      "assets/img/dazz-cam-vintage-camera-mod-3.png"
+    ],
+    "heroTag": "Chụp ảnh",
+    "description": "Dazz Cam - Vintage Camera là ứng dụng chụp ảnh và quay video mang phong cách máy ảnh film cổ điển. Ứng dụng cung cấp nhiều bộ lọc retro, hiệu ứng VHS, Polaroid, Super 8, Disposable Camera cùng các công cụ chỉnh sửa giúp tạo nên những bức ảnh và video mang đậm chất hoài niệm.",
+    "features": [
+      "Mở Khóa Cao Cấp → truy cập tất cả các tính năng cao cấp."
+    ],
+    "downloadUrl": "https://example.com/files/dazz-cam-vintage-camera-mod.ipa",
+    "faq": [
+      {
+        "q": "Dazz Cam có hỗ trợ quay video không?",
+        "a": "Có. Ứng dụng hỗ trợ cả chụp ảnh và quay video với nhiều hiệu ứng film và máy quay cổ điển."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
+    "id": "lightroom-photo-video-editor-modded",
+    "name": "Lightroom Photo & Video Editor Modded",
+    "subtitle": "Chỉnh sửa ảnh và video chuyên nghiệp với nhiều công cụ nâng cao dành cho iPhone/iPad.",
+    "version": "11.4.1",
+    "size": "412.8 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "5.1M",
+    "category": "app",
+    "badge": "Mod",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Adobe Inc.",
+    "icon": "assets/img/lightroom-photo-video-editor-modded.png",
+    "screenshots": [
+      "assets/img/lightroom-photo-video-editor-modded-1.png",
+      "assets/img/lightroom-photo-video-editor-modded-2.png",
+      "assets/img/lightroom-photo-video-editor-modded-3.png"
+    ],
+    "heroTag": "Chỉnh sửa ảnh",
+    "description": "Lightroom Photo & Video Editor là ứng dụng chỉnh sửa ảnh và video chuyên nghiệp dành cho iPhone và iPad. Ứng dụng cung cấp nhiều công cụ chỉnh màu, tạo preset, xử lý ảnh RAW, chỉnh sửa video, xóa vật thể bằng AI và nhiều tính năng nâng cao giúp tạo ra nội dung chất lượng cao.",
+    "features": [
+      "Chỉnh sửa ảnh với đầy đủ công cụ chuyên nghiệp.",
+      "Hỗ trợ chỉnh sửa ảnh RAW và tạo Preset.",
+      "Chỉnh sửa video với các công cụ màu sắc nâng cao.",
+      "Công cụ AI hỗ trợ xóa vật thể và cải thiện chất lượng ảnh.",
+      "Xuất ảnh và video với độ phân giải cao."
+    ],
+    "downloadUrl": "https://example.com/files/lightroom-photo-video-editor-modded.ipa",
+    "faq": [
+      {
+        "q": "Ứng dụng có hỗ trợ chỉnh sửa ảnh RAW không?",
+        "a": "Có. Lightroom hỗ trợ nhập và chỉnh sửa ảnh RAW từ nhiều dòng máy ảnh khác nhau, đồng thời cho phép tạo và áp dụng Preset."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA thông qua AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
+    "id": "glow-for-facebook",
+    "name": "Glow for Facebook",
+    "subtitle": "Ứng dụng Facebook với các tính năng mở rộng, tối ưu trải nghiệm sử dụng trên iPhone/iPad.",
+    "version": "523.0.0",
+    "size": "392.8 MB",
+    "updated": "02/07/2026",
+    "updatedRelative": "Hôm nay",
+    "updatedIso": "2026-07-02",
+    "views": "1.4M",
+    "category": "app",
+    "badge": "Mod",
+    "featuredGame": false,
+    "featuredApp": true,
+    "isNew": true,
+    "rating": "4.9",
+    "os": "iOS 15.0+",
+    "support": "AltStore / Sideloadly / TrollStore",
+    "developer": "Meta Platforms, Inc.",
+    "icon": "assets/img/glow-for-facebook.png",
+    "screenshots": [
+      "assets/img/glow-for-facebook-1.png",
+      "assets/img/glow-for-facebook-2.png",
+      "assets/img/glow-for-facebook-3.png"
+    ],
+    "heroTag": "Facebook Mod",
+    "description": "Glow for Facebook là phiên bản Facebook được tích hợp các tính năng mở rộng, giúp cải thiện trải nghiệm sử dụng trên iPhone và iPad. Ứng dụng hỗ trợ nhiều tùy chọn hữu ích như tải nội dung, tinh chỉnh giao diện và tối ưu khả năng sử dụng mà vẫn giữ giao diện Facebook quen thuộc.",
+    "features": [
+      "Tải xuống video và hình ảnh từ Facebook.",
+      "Ẩn quảng cáo và tối ưu giao diện.",
+      "Tùy chỉnh giao diện và trải nghiệm người dùng.",
+      "Hỗ trợ nhiều tính năng mở rộng tích hợp.",
+      "Tương thích với AltStore, Sideloadly và TrollStore."
+    ],
+    "downloadUrl": "https://example.com/files/glow-for-facebook.ipa",
+    "faq": [
+      {
+        "q": "Glow for Facebook có khác gì Facebook thông thường?",
+        "a": "Glow for Facebook bổ sung nhiều tính năng mở rộng như tải nội dung, tùy chỉnh giao diện và một số tiện ích khác trong khi vẫn giữ trải nghiệm sử dụng Facebook quen thuộc."
+      },
+      {
+        "q": "Có thể cài đặt bằng AltStore hoặc TrollStore không?",
+        "a": "Có. Bạn có thể cài đặt file IPA bằng AltStore, Sideloadly hoặc TrollStore trên các thiết bị iOS tương thích."
+      }
+    ]
+  },
+  {
     "id": "douyin",
     "name": "抖音",
     "subtitle": "Nền tảng video ngắn hàng đầu tại Trung Quốc với livestream, mua sắm và nội dung giải trí.",
