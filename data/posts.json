@@ -1,5 +1,23 @@
 [
   {
+    "id": "taurine-jailbreak-ios14-0-14-3",
+    "title": "Hướng Dẫn Jailbreak Bằng Taurine (iOS 14.0 – 14.3) Chi Tiết",
+    "excerpt": "Hướng dẫn jailbreak iPhone bằng Taurine cho iOS 14.0 đến 14.3, bao gồm cách cài đặt, chạy jailbreak và khắc phục lỗi thường gặp.",
+    "date": "02/07/2026",
+    "dateIso": "2026-07-02",
+    "thumbnail": "assets/img/blog-taurine.png",
+    "cover": "assets/img/blog-taurine.png",
+    "author": "Tôi Share Mod",
+    "readTime": "10 phút đọc",
+    "category": "Jailbreak",
+    "related": [
+      "chimera-jailbreak-ios12-guide",
+      "odyssey-jailbreak-ios13-guide",
+      "jailbreak-ios-unc0ver-guide"
+    ],
+    "content": "<p><strong>Taurine</strong> là một công cụ jailbreak bán không ràng buộc (semi-untethered) dành cho các thiết bị chạy iOS 14.0 đến iOS 14.3. Công cụ này được phát triển bởi Odyssey Team và sử dụng Sileo làm trình quản lý gói mặc định, mang lại trải nghiệm hiện đại và ổn định hơn so với một số công cụ jailbreak cũ.</p><p>Taurine hoạt động bằng cách khai thác lỗ hổng hệ thống để cấp quyền truy cập nâng cao, cho phép người dùng cài đặt tweak, theme và các tùy chỉnh sâu trong hệ điều hành iOS.</p><h2>Thiết bị và phiên bản hỗ trợ</h2><ul><li>iOS 14.0 – iOS 14.3 (tùy thiết bị)</li><li>Hỗ trợ nhiều thiết bị từ iPhone 6s đến iPhone 12 series (tùy cấu hình chip)</li><li>Không hỗ trợ các phiên bản iOS mới hơn 14.3</li></ul><p>Theo tài liệu kỹ thuật, Taurine được thiết kế tối ưu cho iOS 14 và mang lại độ ổn định cao trên các thiết bị tương thích. :contentReference[oaicite:0]{index=0}</p><h2>Chuẩn bị trước khi jailbreak</h2><ul><li>Sao lưu dữ liệu bằng iCloud hoặc iTunes/Finder</li><li>Đảm bảo pin trên 50% hoặc đang cắm sạc</li><li>Tắt chế độ nguồn điện thấp</li><li>Gỡ hoặc tắt VPN nếu đang sử dụng</li><li>Cài đặt Taurine bằng phương pháp ký IPA (ESign, AltStore hoặc TrollStore nếu hỗ trợ)</li></ul><h2>Bước 1: Cài đặt Taurine</h2><p>Sau khi cài đặt thành công file IPA, mở ứng dụng Taurine trên màn hình chính. Nếu iPhone yêu cầu tin cậy chứng chỉ, vào <strong>Cài đặt → VPN & Quản lý thiết bị</strong> và tin cậy ứng dụng trước khi chạy.</p><h2>Bước 2: Tiến hành jailbreak</h2><p>Nhấn nút <strong>Jailbreak</strong> trong giao diện chính. Thiết bị có thể tự khởi động lại hoặc respring trong quá trình khai thác. Đây là hành vi bình thường của jailbreak dạng semi-untethered.</p><h2>Bước 3: Hoàn tất</h2><p>Khi jailbreak thành công, biểu tượng <strong>Sileo</strong> sẽ xuất hiện trên màn hình chính. Bạn có thể mở Sileo để cài đặt tweak, theme và công cụ tùy chỉnh hệ thống.</p><h2>Sau khi jailbreak</h2><ul><li>Cập nhật các gói hệ thống trong Sileo nếu được yêu cầu</li><li>Chỉ cài tweak từ repo uy tín</li><li>Tránh cài quá nhiều tweak cùng lúc</li><li>Không cập nhật iOS nếu muốn giữ jailbreak</li></ul><h2>Lỗi thường gặp</h2><ul><li><strong>Jailbreak thất bại:</strong> Khởi động lại thiết bị và thử lại</li><li><strong>App crash:</strong> Kiểm tra lại chứng chỉ ký hoặc ký lại IPA</li><li><strong>Sileo không xuất hiện:</strong> chạy lại quá trình jailbreak</li><li><strong>Thiết bị lag:</strong> gỡ tweak xung đột</li></ul><h2>Lưu ý quan trọng</h2><ul><li>Jailbreak có thể làm giảm tính bảo mật của thiết bị</li><li>Một số ứng dụng ngân hàng có thể không hoạt động</li><li>Chỉ sử dụng công cụ từ nguồn đáng tin cậy</li><li>Luôn sao lưu trước khi thực hiện</li></ul><h2>Kết luận</h2><p>Taurine là một trong những công cụ jailbreak ổn định dành cho iOS 14.0 – 14.3, sử dụng Sileo và libhooker để mang lại hiệu suất tốt và khả năng tùy biến cao. Trước khi thực hiện, hãy đảm bảo thiết bị tương thích và bạn đã sao lưu đầy đủ dữ liệu để tránh rủi ro.</p>"
+  },
+  {
     "id": "jailbreak-repo-sileo-zebra-cydia",
     "title": "Tổng Hợp Các Nguồn Jailbreak (Repos) Cho Sileo, Zebra và Cydia",
     "excerpt": "Danh sách các nguồn repo phổ biến cho Cydia, Sileo và Zebra giúp cài tweak, theme và công cụ tùy biến iOS sau jailbreak.",
